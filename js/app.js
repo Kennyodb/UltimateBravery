@@ -234,25 +234,106 @@ const items = [
   'Infinite Radiance'
 ];
 
+const bootsItems = new Set([
+  'Mercury\'s Treads',
+  'Plated Steelcaps',
+  'Swiftness Boots',
+  'Ionian Boots of Lucidity'
+]);
+
+const itemConstraints = {
+  requiredBootsCount: 1,
+  mutuallyExclusivePairs: [
+    ['Manamune', 'Muramana']
+  ]
+};
+
 // Get random element from array
 function getRandomElement(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
 
-// Generate ability leveling order (18 levels with R at 6, 11, 16)
-function generateAbilityOrder() {
-  const order = [];
-  const nonUltAbilities = ['Q', 'W', 'E'];
+function buildMutualExclusionMap(pairs) {
+  const map = new Map();
+  for (const [first, second] of pairs) {
+    if (!map.has(first)) {
+      map.set(first, new Set());
+    }
+    if (!map.has(second)) {
+      map.set(second, new Set());
+    }
+    map.get(first).add(second);
+    map.get(second).add(first);
+  }
+  return map;
+}
 
-  for (let i = 1; i <= 18; i++) {
-    if (i === 6 || i === 11 || i === 16) {
-      order.push('R');
-    } else {
-      order.push(getRandomElement(nonUltAbilities));
+function isBootsItem(itemName) {
+  return bootsItems.has(itemName);
+}
+
+function canSelectItem(itemName, selected, constraints, exclusionMap) {
+  if (constraints.requiredBootsCount !== undefined) {
+    const bootsCount = selected.filter(isBootsItem).length;
+    if (isBootsItem(itemName) && bootsCount >= constraints.requiredBootsCount) {
+      return false;
     }
   }
 
-  return order;
+  const exclusions = exclusionMap.get(itemName);
+  if (exclusions) {
+    for (const picked of selected) {
+      if (exclusions.has(picked)) {
+        return false;
+      }
+    }
+  }
+
+  return true;
+}
+
+function selectItemsWithConstraints(pool, count, constraints) {
+  const exclusionMap = buildMutualExclusionMap(constraints.mutuallyExclusivePairs || []);
+  const available = [...pool];
+  const selected = [];
+
+  if (constraints.requiredBootsCount) {
+    for (let i = 0; i < constraints.requiredBootsCount; i++) {
+      const bootsCandidates = available.filter(
+        (itemName) => isBootsItem(itemName) && canSelectItem(itemName, selected, constraints, exclusionMap)
+      );
+      if (!bootsCandidates.length) {
+        return null;
+      }
+      const pick = getRandomElement(bootsCandidates);
+      selected.push(pick);
+      available.splice(available.indexOf(pick), 1);
+    }
+  }
+
+  while (selected.length < count) {
+    const candidates = available.filter((itemName) =>
+      canSelectItem(itemName, selected, constraints, exclusionMap)
+    );
+    if (!candidates.length) {
+      return null;
+    }
+    const pick = getRandomElement(candidates);
+    selected.push(pick);
+    available.splice(available.indexOf(pick), 1);
+  }
+
+  return selected;
+}
+
+// Generate ability priority (Q/W/E order)
+function generateAbilityPriorityString() {
+  const abilities = ['Q', 'W', 'E'];
+  for (let i = abilities.length - 1; i > 0; i--) {
+    const swapIndex = Math.floor(Math.random() * (i + 1));
+    [abilities[i], abilities[swapIndex]] = [abilities[swapIndex], abilities[i]];
+  }
+  return abilities.join(' > ');
 }
 
 // Roll function
@@ -264,22 +345,25 @@ function roll() {
     spell2 = getRandomElement(summonerSpells);
   }
 
-  const selectedItems = [];
-  const availableItems = [...items];
-  for (let i = 0; i < 6; i++) {
-    const randomIndex = Math.floor(Math.random() * availableItems.length);
-    selectedItems.push(availableItems[randomIndex]);
-    availableItems.splice(randomIndex, 1);
+  let selectedItems = selectItemsWithConstraints(items, 6, itemConstraints);
+  if (!selectedItems) {
+    selectedItems = [];
+    const availableItems = [...items];
+    for (let i = 0; i < 6; i++) {
+      const randomIndex = Math.floor(Math.random() * availableItems.length);
+      selectedItems.push(availableItems[randomIndex]);
+      availableItems.splice(randomIndex, 1);
+    }
   }
 
-  const abilityOrder = generateAbilityOrder();
+  const abilityPriority = generateAbilityPriorityString();
 
   return {
     champion,
     spell1,
     spell2,
     items: selectedItems,
-    abilityOrder
+    abilityPriority
   };
 }
 
@@ -295,9 +379,7 @@ function displayResults(data) {
     document.getElementById(`item${i + 1}`).textContent = data.items[i];
   }
 
-  for (let i = 0; i < 18; i++) {
-    document.getElementById(`level${i + 1}`).textContent = data.abilityOrder[i];
-  }
+  document.getElementById('abilityPriority').textContent = data.abilityPriority;
 
   document.getElementById('results').style.display = 'block';
 }

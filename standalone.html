@@ -194,7 +194,7 @@
 
         .build-items {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(3, minmax(0, 1fr));
             gap: 15px;
         }
 
@@ -208,6 +208,7 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
+            min-width: 0;
         }
 
         .slot-label {
@@ -223,50 +224,27 @@
             color: #e0e1de;
             font-weight: 500;
             line-height: 1.3;
+            overflow-wrap: anywhere;
+            word-break: break-word;
         }
 
-        .level-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 10px;
-        }
-
-        .level-slot {
+        .priority-card {
             background: rgba(91, 142, 198, 0.2);
-            padding: 12px;
+            padding: 15px;
             border-radius: 6px;
             border-left: 4px solid #c89b3c;
-            font-size: 0.9em;
-            color: #e0e1de;
             text-align: center;
-            font-weight: 500;
-            transition: all 0.2s ease;
+            min-height: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
 
-        .level-slot:hover {
-            background: rgba(91, 142, 198, 0.4);
-            border-color: #e0e1de;
-        }
-
-        .level-slot span {
-            display: block;
+        .priority-card p {
             color: #c89b3c;
             font-size: 1.3em;
             font-weight: bold;
             margin-top: 5px;
-        }
-
-        footer {
-            text-align: center;
-            margin-top: 50px;
-            padding-top: 30px;
-            border-top: 2px solid #c89b3c;
-            color: #a8925f;
-            font-size: 0.95em;
-        }
-
-        footer p {
-            margin: 10px 0;
         }
 
         /* Responsive Design */
@@ -284,11 +262,7 @@
             }
 
             .build-items {
-                grid-template-columns: repeat(2, 1fr);
-            }
-
-            .level-grid {
-                grid-template-columns: repeat(2, 1fr);
+                grid-template-columns: repeat(2, minmax(0, 1fr));
             }
 
             .roll-button, .reroll-button {
@@ -307,11 +281,7 @@
             }
 
             .build-items {
-                grid-template-columns: 1fr;
-            }
-
-            .level-grid {
-                grid-template-columns: 1fr;
+                grid-template-columns: minmax(0, 1fr);
             }
 
             .spell-grid {
@@ -387,28 +357,12 @@
                     </div>
                 </div>
 
-                <!-- Ability Leveling Order Section -->
+                <!-- Ability Priority Section -->
                 <div class="section ability-section">
-                    <h2>Ability Leveling Order</h2>
-                    <div class="level-grid">
-                        <div class="level-slot">Level 1: <span id="level1"></span></div>
-                        <div class="level-slot">Level 2: <span id="level2"></span></div>
-                        <div class="level-slot">Level 3: <span id="level3"></span></div>
-                        <div class="level-slot">Level 4: <span id="level4"></span></div>
-                        <div class="level-slot">Level 5: <span id="level5"></span></div>
-                        <div class="level-slot">Level 6: <span id="level6"></span></div>
-                        <div class="level-slot">Level 7: <span id="level7"></span></div>
-                        <div class="level-slot">Level 8: <span id="level8"></span></div>
-                        <div class="level-slot">Level 9: <span id="level9"></span></div>
-                        <div class="level-slot">Level 10: <span id="level10"></span></div>
-                        <div class="level-slot">Level 11: <span id="level11"></span></div>
-                        <div class="level-slot">Level 12: <span id="level12"></span></div>
-                        <div class="level-slot">Level 13: <span id="level13"></span></div>
-                        <div class="level-slot">Level 14: <span id="level14"></span></div>
-                        <div class="level-slot">Level 15: <span id="level15"></span></div>
-                        <div class="level-slot">Level 16: <span id="level16"></span></div>
-                        <div class="level-slot">Level 17: <span id="level17"></span></div>
-                        <div class="level-slot">Level 18: <span id="level18"></span></div>
+                    <h2>Ability Priority</h2>
+                    <div class="priority-card">
+                        <span class="slot-label">Priority</span>
+                        <p id="abilityPriority"></p>
                     </div>
                 </div>
             </div>
@@ -607,17 +561,13 @@
             return arr[Math.floor(Math.random() * arr.length)];
         }
 
-        function generateAbilityOrder() {
-            const order = [];
-            const nonUltAbilities = ['Q', 'W', 'E'];
-            for (let i = 1; i <= 18; i++) {
-                if (i === 6 || i === 11 || i === 16) {
-                    order.push('R');
-                } else {
-                    order.push(getRandomElement(nonUltAbilities));
-                }
+        function generateAbilityPriorityString() {
+            const abilities = ['Q', 'W', 'E'];
+            for (let i = abilities.length - 1; i > 0; i--) {
+                const swapIndex = Math.floor(Math.random() * (i + 1));
+                [abilities[i], abilities[swapIndex]] = [abilities[swapIndex], abilities[i]];
             }
-            return order;
+            return abilities.join(' > ');
         }
 
         function roll() {
@@ -636,8 +586,8 @@
                 availableItems.splice(randomIndex, 1);
             }
 
-            const abilityOrder = generateAbilityOrder();
-            return { champion, spell1, spell2, items: selectedItems, abilityOrder };
+            const abilityPriority = generateAbilityPriorityString();
+            return { champion, spell1, spell2, items: selectedItems, abilityPriority };
         }
 
         function displayResults(data) {
@@ -650,9 +600,7 @@
                 document.getElementById(`item${i + 1}`).textContent = data.items[i];
             }
 
-            for (let i = 0; i < 18; i++) {
-                document.getElementById(`level${i + 1}`).textContent = data.abilityOrder[i];
-            }
+            document.getElementById('abilityPriority').textContent = data.abilityPriority;
 
             document.getElementById('results').style.display = 'grid';
             document.getElementById('rerollBtn').style.display = 'block';
