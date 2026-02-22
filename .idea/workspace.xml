@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="097a2d5b-1c87-4881-8b3c-41632ddb8cce" name="Changes" comment="Filter on game mode">
+    <list default="true" id="097a2d5b-1c87-4881-8b3c-41632ddb8cce" name="Changes" comment="Fixes to item filtering">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/items.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/items.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/update-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/update-data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/standalone.html" beforeDir="false" afterPath="$PROJECT_DIR$/standalone.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771771725041</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fixes to item filtering">
+      <option name="closed" value="true" />
+      <created>1771774143417</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1771774143417</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,7 +151,8 @@
     <MESSAGE value="Show ability priority instead of per-level" />
     <MESSAGE value="Use icons" />
     <MESSAGE value="Filter on game mode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Filter on game mode" />
+    <MESSAGE value="Fixes to item filtering" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixes to item filtering" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
