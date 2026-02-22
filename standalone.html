@@ -56,6 +56,49 @@
             font-style: italic;
         }
 
+        .patch-version {
+            font-size: 0.9em;
+            color: #5b8ec6;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .game-mode-selector {
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .game-mode-selector label {
+            color: #c89b3c;
+            font-size: 1em;
+            font-weight: bold;
+        }
+
+        .game-mode-selector select {
+            padding: 8px 16px;
+            border: 2px solid #c89b3c;
+            border-radius: 6px;
+            background: rgba(30, 40, 70, 0.8);
+            color: #e0e1de;
+            font-size: 1em;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .game-mode-selector select:hover {
+            border-color: #d4af37;
+            background: rgba(30, 40, 70, 1);
+        }
+
+        .game-mode-selector select:focus {
+            outline: none;
+            border-color: #e5c158;
+            box-shadow: 0 0 10px rgba(200, 155, 60, 0.5);
+        }
+
         main {
             display: flex;
             flex-direction: column;
@@ -321,6 +364,14 @@
         <header>
             <h1>⚔️ League of Legends Ultimate Bravery ⚔️</h1>
             <p class="subtitle">Roll for a random champion, build, summoner spells, and ability leveling order</p>
+            <p class="patch-version" id="patchVersion">Loading...</p>
+            <div class="game-mode-selector">
+                <label for="gameMode">Game Mode:</label>
+                <select id="gameMode">
+                    <option value="ARAM">ARAM (Howling Abyss)</option>
+                    <option value="CLASSIC">Summoner's Rift</option>
+                </select>
+            </div>
         </header>
 
         <main>
@@ -413,6 +464,9 @@
         let champions = [];
         let summonerSpells = [];
         let items = [];
+        let allSummonerSpells = [];
+        let allItems = [];
+        let metadata = null;
 
         const itemConstraints = {
             requiredBootsCount: 1,
@@ -422,15 +476,38 @@
         };
 
         async function loadData() {
-            const [championsData, summonerData, itemsData] = await Promise.all([
+            const [championsData, summonerData, itemsData, metadataData] = await Promise.all([
                 fetch('data/champions.json').then((response) => response.json()),
                 fetch('data/summoner-spells.json').then((response) => response.json()),
-                fetch('data/items.json').then((response) => response.json())
+                fetch('data/items.json').then((response) => response.json()),
+                fetch('data/metadata.json').then((response) => response.json()).catch(() => ({ version: 'Unknown' }))
             ]);
 
             champions = championsData;
-            summonerSpells = summonerData;
-            items = itemsData;
+            allSummonerSpells = summonerData;
+            allItems = itemsData;
+            metadata = metadataData;
+
+            // Display patch version
+            if (metadata && metadata.version) {
+                document.getElementById('patchVersion').textContent = `Patch ${metadata.version}`;
+            }
+
+            // Initialize with default game mode
+            updateGameModeData();
+        }
+
+        function updateGameModeData() {
+            const gameMode = document.getElementById('gameMode').value;
+            const mapId = gameMode === 'ARAM' ? '12' : '11';
+
+            // Filter items by map
+            items = allItems.filter(item => item.maps && item.maps[mapId]);
+
+            // Filter summoner spells by mode
+            summonerSpells = allSummonerSpells.filter(spell =>
+                spell.modes && spell.modes.includes(gameMode)
+            );
         }
 
         function getRandomElement(arr) {
@@ -619,6 +696,12 @@
         rerollButton.addEventListener('click', () => {
             const data = roll();
             displayResults(data);
+        });
+
+        document.getElementById('gameMode').addEventListener('change', () => {
+            updateGameModeData();
+            // Clear results when changing game mode
+            document.getElementById('results').style.display = 'none';
         });
 
         initialize();

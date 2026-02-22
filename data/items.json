@@ -9,6 +9,15 @@
       "AbilityHaste"
     ],
     "id": "8020",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/8020.png"
   },
   {
@@ -19,6 +28,15 @@
       "AbilityHaste"
     ],
     "id": "2522",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/2522.png"
   },
   {
@@ -29,6 +47,15 @@
       "AbilityHaste"
     ],
     "id": "3003",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3003.png"
   },
   {
@@ -40,6 +67,15 @@
       "NonbootsMovement"
     ],
     "id": "3504",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3504.png"
   },
   {
@@ -49,17 +85,34 @@
       "Boots"
     ],
     "id": "3174",
+    "maps": {
+      "11": true,
+      "12": false,
+      "21": false,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3174.png"
   },
   {
     "name": "Atma's Reckoning",
     "tags": [
       "Health",
-      "CriticalStrike",
-      "Lane"
+      "CriticalStrike"
     ],
-    "id": "663039",
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/663039.png"
+    "id": "3039",
+    "maps": {
+      "11": false,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3039.png"
   },
   {
     "name": "Axiom Arc",
@@ -69,6 +122,15 @@
       "AbilityHaste"
     ],
     "id": "6696",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/6696.png"
   },
   {
@@ -82,6 +144,15 @@
       "AbilityHaste"
     ],
     "id": "2524",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/2524.png"
   },
   {
@@ -91,6 +162,15 @@
       "SpellDamage"
     ],
     "id": "3102",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3102.png"
   },
   {
@@ -101,6 +181,15 @@
       "AbilityHaste"
     ],
     "id": "2520",
+    "maps": {
+      "11": true,
+      "12": false,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/2520.png"
   },
   {
@@ -115,6 +204,15 @@
       "AbilityHaste"
     ],
     "id": "3071",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3071.png"
   },
   {
@@ -126,6 +224,15 @@
       "AbilityHaste"
     ],
     "id": "2503",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/2503.png"
   },
   {
@@ -138,6 +245,15 @@
       "OnHit"
     ],
     "id": "3153",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3153.png"
   },
   {
@@ -149,6 +265,15 @@
       "MagicPenetration"
     ],
     "id": "8010",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/8010.png"
   },
   {
@@ -162,6 +287,15 @@
       "Lane"
     ],
     "id": "3877",
+    "maps": {
+      "11": true,
+      "12": false,
+      "21": false,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3877.png"
   },
   {
@@ -171,6 +305,15 @@
       "LifeSteal"
     ],
     "id": "3072",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3072.png"
   },
   {
@@ -180,6 +323,15 @@
       "Consumable"
     ],
     "id": "2141",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": false,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/2141.png"
   },
   {
@@ -193,6 +345,15 @@
       "Lane"
     ],
     "id": "3869",
+    "maps": {
+      "11": true,
+      "12": false,
+      "21": false,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3869.png"
   },
   {
@@ -204,6 +365,15 @@
       "MagicResist"
     ],
     "id": "3173",
+    "maps": {
+      "11": true,
+      "12": false,
+      "21": false,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3173.png"
   },
   {
@@ -215,6 +385,15 @@
       "AbilityHaste"
     ],
     "id": "6609",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/6609.png"
   },
   {
@@ -224,6 +403,15 @@
       "SpellBlock"
     ],
     "id": "663059",
+    "maps": {
+      "11": true,
+      "12": false,
+      "21": false,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/663059.png"
   },
   {
@@ -235,6 +423,15 @@
       "Vision"
     ],
     "id": "2055",
+    "maps": {
+      "11": true,
+      "12": false,
+      "21": false,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/2055.png"
   },
   {
@@ -246,6 +443,15 @@
       "AbilityHaste"
     ],
     "id": "4629",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/4629.png"
   },
   {
@@ -255,6 +461,15 @@
       "Boots"
     ],
     "id": "3171",
+    "maps": {
+      "11": true,
+      "12": false,
+      "21": false,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3171.png"
   },
   {
@@ -266,6 +481,15 @@
       "AbilityHaste"
     ],
     "id": "664644",
+    "maps": {
+      "11": true,
+      "12": false,
+      "21": false,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/664644.png"
   },
   {
@@ -276,6 +500,15 @@
       "MagicResist"
     ],
     "id": "667109",
+    "maps": {
+      "11": true,
+      "12": false,
+      "21": false,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/667109.png"
   },
   {
@@ -286,6 +519,15 @@
       "AbilityHaste"
     ],
     "id": "3137",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3137.png"
   },
   {
@@ -296,6 +538,15 @@
       "Lane"
     ],
     "id": "1083",
+    "maps": {
+      "11": true,
+      "12": false,
+      "21": false,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/1083.png"
   },
   {
@@ -305,6 +556,15 @@
       "ManaRegen"
     ],
     "id": "6621",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/6621.png"
   },
   {
@@ -316,6 +576,15 @@
       "NonbootsMovement"
     ],
     "id": "3742",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3742.png"
   },
   {
@@ -326,6 +595,15 @@
       "AbilityHaste"
     ],
     "id": "6333",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/6333.png"
   },
   {
@@ -340,6 +618,15 @@
       "AbilityHaste"
     ],
     "id": "663056",
+    "maps": {
+      "11": true,
+      "12": false,
+      "21": false,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/663056.png"
   },
   {
@@ -352,6 +639,15 @@
       "Lane"
     ],
     "id": "1055",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/1055.png"
   },
   {
@@ -363,6 +659,15 @@
       "SpellDamage"
     ],
     "id": "1056",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/1056.png"
   },
   {
@@ -373,6 +678,15 @@
       "Lane"
     ],
     "id": "1054",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/1054.png"
   },
   {
@@ -386,6 +700,15 @@
       "Lane"
     ],
     "id": "3870",
+    "maps": {
+      "11": true,
+      "12": false,
+      "21": false,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3870.png"
   },
   {
@@ -398,6 +721,15 @@
       "AbilityHaste"
     ],
     "id": "2510",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/2510.png"
   },
   {
@@ -410,6 +742,15 @@
       "AbilityHaste"
     ],
     "id": "6620",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/6620.png"
   },
   {
@@ -420,6 +761,15 @@
       "AbilityHaste"
     ],
     "id": "6692",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/6692.png"
   },
   {
@@ -430,6 +780,15 @@
       "ArmorPenetration"
     ],
     "id": "3814",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3814.png"
   },
   {
@@ -441,6 +800,15 @@
       "Tenacity"
     ],
     "id": "2138",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/2138.png"
   },
   {
@@ -451,6 +819,15 @@
       "SpellDamage"
     ],
     "id": "2139",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/2139.png"
   },
   {
@@ -462,6 +839,15 @@
       "SpellVamp"
     ],
     "id": "2140",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/2140.png"
   },
   {
@@ -474,6 +860,15 @@
       "AbilityHaste"
     ],
     "id": "2517",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/2517.png"
   },
   {
@@ -487,6 +882,15 @@
       "AbilityHaste"
     ],
     "id": "3508",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3508.png"
   },
   {
@@ -500,6 +904,15 @@
       "AbilityHaste"
     ],
     "id": "3073",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3073.png"
   },
   {
@@ -511,6 +924,15 @@
       "AbilityHaste"
     ],
     "id": "2512",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/2512.png"
   },
   {
@@ -522,6 +944,15 @@
       "ArmorPenetration"
     ],
     "id": "667112",
+    "maps": {
+      "11": true,
+      "12": false,
+      "21": false,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/667112.png"
   },
   {
@@ -532,6 +963,15 @@
       "NonbootsMovement"
     ],
     "id": "4401",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/4401.png"
   },
   {
@@ -544,6 +984,15 @@
       "AbilityHaste"
     ],
     "id": "3110",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3110.png"
   },
   {
@@ -556,6 +1005,15 @@
       "AbilityHaste"
     ],
     "id": "667101",
+    "maps": {
+      "11": true,
+      "12": false,
+      "21": false,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/667101.png"
   },
   {
@@ -568,7 +1026,45 @@
       "AbilityHaste"
     ],
     "id": "663193",
+    "maps": {
+      "11": true,
+      "12": false,
+      "21": false,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/663193.png"
+  },
+  {
+    "name": "Golden Spatula",
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "HealthRegen",
+      "Armor",
+      "Damage",
+      "CriticalStrike",
+      "AttackSpeed",
+      "LifeSteal",
+      "SpellDamage",
+      "Mana",
+      "ManaRegen",
+      "CooldownReduction",
+      "NonbootsMovement"
+    ],
+    "id": "994403",
+    "maps": {
+      "11": false,
+      "12": true,
+      "21": false,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/994403.png"
   },
   {
     "name": "Guardian Angel",
@@ -577,6 +1073,15 @@
       "Damage"
     ],
     "id": "3026",
+    "maps": {
+      "11": true,
+      "12": false,
+      "21": false,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3026.png"
   },
   {
@@ -588,6 +1093,15 @@
       "AbilityHaste"
     ],
     "id": "3177",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": false,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3177.png"
   },
   {
@@ -599,6 +1113,15 @@
       "Lane"
     ],
     "id": "3184",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": false,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3184.png"
   },
   {
@@ -609,6 +1132,15 @@
       "Lane"
     ],
     "id": "2051",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": false,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/2051.png"
   },
   {
@@ -620,6 +1152,15 @@
       "Lane"
     ],
     "id": "3112",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": false,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3112.png"
   },
   {
@@ -631,6 +1172,15 @@
       "OnHit"
     ],
     "id": "3124",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3124.png"
   },
   {
@@ -641,6 +1191,15 @@
       "NonbootsMovement"
     ],
     "id": "3172",
+    "maps": {
+      "11": true,
+      "12": false,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3172.png"
   },
   {
@@ -649,6 +1208,15 @@
       "Jungle"
     ],
     "id": "1102",
+    "maps": {
+      "11": true,
+      "12": false,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/1102.png"
   },
   {
@@ -660,6 +1228,15 @@
       "Jungle"
     ],
     "id": "2003",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/2003.png"
   },
   {
@@ -669,6 +1246,15 @@
       "HealthRegen"
     ],
     "id": "3084",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3084.png"
   },
   {
@@ -678,6 +1264,15 @@
       "CriticalStrike"
     ],
     "id": "2523",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/2523.png"
   },
   {
@@ -690,6 +1285,15 @@
       "SpellVamp"
     ],
     "id": "3146",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3146.png"
   },
   {
@@ -703,6 +1307,15 @@
       "AbilityHaste"
     ],
     "id": "3152",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3152.png"
   },
   {
@@ -716,6 +1329,15 @@
       "AbilityHaste"
     ],
     "id": "6664",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/6664.png"
   },
   {
@@ -725,6 +1347,15 @@
       "AbilityHaste"
     ],
     "id": "4628",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/4628.png"
   },
   {
@@ -737,6 +1368,15 @@
       "AbilityHaste"
     ],
     "id": "6697",
+    "maps": {
+      "11": true,
+      "12": false,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/6697.png"
   },
   {
@@ -747,6 +1387,15 @@
       "NonbootsMovement"
     ],
     "id": "3181",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3181.png"
   },
   {
@@ -760,6 +1409,15 @@
       "AbilityHaste"
     ],
     "id": "6662",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/6662.png"
   },
   {
@@ -769,6 +1427,15 @@
       "CriticalStrike"
     ],
     "id": "6673",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/6673.png"
   },
   {
@@ -780,6 +1447,15 @@
       "AbilityHaste"
     ],
     "id": "4005",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/4005.png"
   },
   {
@@ -789,6 +1465,15 @@
       "Damage"
     ],
     "id": "3031",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3031.png"
   },
   {
@@ -800,6 +1485,15 @@
       "MagicResist"
     ],
     "id": "6665",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/6665.png"
   },
   {
@@ -810,6 +1504,15 @@
       "HealthRegen"
     ],
     "id": "2504",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/2504.png"
   },
   {
@@ -818,6 +1521,15 @@
       "Consumable"
     ],
     "id": "3599",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": true,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3599.png"
   },
   {
@@ -832,6 +1544,15 @@
       "AbilityHaste"
     ],
     "id": "3109",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3109.png"
   },
   {
@@ -843,6 +1564,15 @@
       "NonbootsMovement"
     ],
     "id": "6672",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/6672.png"
   },
   {
@@ -852,6 +1582,15 @@
       "SpellDamage"
     ],
     "id": "6653",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/6653.png"
   },
   {
@@ -863,6 +1602,15 @@
       "AbilityHaste"
     ],
     "id": "3100",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3100.png"
   },
   {
@@ -877,6 +1625,15 @@
       "AbilityHaste"
     ],
     "id": "3190",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3190.png"
   },
   {
@@ -887,6 +1644,15 @@
       "ArmorPenetration"
     ],
     "id": "3036",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3036.png"
   },
   {
@@ -898,6 +1664,15 @@
       "AbilityHaste"
     ],
     "id": "6655",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/6655.png"
   },
   {
@@ -908,6 +1683,15 @@
       "AbilityHaste"
     ],
     "id": "3118",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3118.png"
   },
   {
@@ -920,6 +1704,15 @@
       "AbilityHaste"
     ],
     "id": "3004",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3004.png"
   },
   {
@@ -932,6 +1725,15 @@
       "AbilityHaste"
     ],
     "id": "3156",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3156.png"
   },
   {
@@ -942,6 +1744,15 @@
       "NonbootsMovement"
     ],
     "id": "3041",
+    "maps": {
+      "11": true,
+      "12": false,
+      "21": false,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3041.png"
   },
   {
@@ -955,6 +1766,15 @@
       "Tenacity"
     ],
     "id": "3139",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3139.png"
   },
   {
@@ -968,6 +1788,15 @@
       "AbilityHaste"
     ],
     "id": "3222",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3222.png"
   },
   {
@@ -980,6 +1809,15 @@
       "AbilityHaste"
     ],
     "id": "6617",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/6617.png"
   },
   {
@@ -991,6 +1829,15 @@
       "AbilityHaste"
     ],
     "id": "3165",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3165.png"
   },
   {
@@ -1001,6 +1848,15 @@
       "ArmorPenetration"
     ],
     "id": "3033",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3033.png"
   },
   {
@@ -1009,6 +1865,15 @@
       "Jungle"
     ],
     "id": "1103",
+    "maps": {
+      "11": true,
+      "12": false,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/1103.png"
   },
   {
@@ -1020,6 +1885,15 @@
       "AbilityHaste"
     ],
     "id": "3115",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3115.png"
   },
   {
@@ -1030,6 +1904,15 @@
       "NonbootsMovement"
     ],
     "id": "6675",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/6675.png"
   },
   {
@@ -1041,6 +1924,15 @@
       "ArmorPenetration"
     ],
     "id": "6701",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/6701.png"
   },
   {
@@ -1050,6 +1942,15 @@
       "Damage"
     ],
     "id": "2501",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/2501.png"
   },
   {
@@ -1060,6 +1961,15 @@
       "NonbootsMovement"
     ],
     "id": "3046",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3046.png"
   },
   {
@@ -1072,6 +1982,15 @@
       "AbilityHaste"
     ],
     "id": "6698",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/6698.png"
   },
   {
@@ -1083,6 +2002,15 @@
       "AbilityHaste"
     ],
     "id": "2525",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/2525.png"
   },
   {
@@ -1091,6 +2019,15 @@
       "SpellDamage"
     ],
     "id": "3089",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3089.png"
   },
   {
@@ -1102,6 +2039,15 @@
       "Slow"
     ],
     "id": "3143",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3143.png"
   },
   {
@@ -1112,6 +2058,15 @@
       "NonbootsMovement"
     ],
     "id": "3094",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3094.png"
   },
   {
@@ -1124,6 +2079,15 @@
       "AbilityHaste"
     ],
     "id": "3074",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3074.png"
   },
   {
@@ -1135,6 +2099,15 @@
       "AbilityHaste"
     ],
     "id": "3107",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3107.png"
   },
   {
@@ -1146,7 +2119,36 @@
       "SpellVamp"
     ],
     "id": "4633",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/4633.png"
+  },
+  {
+    "name": "Rite of Ruin",
+    "tags": [
+      "CriticalStrike",
+      "SpellDamage",
+      "CooldownReduction",
+      "NonbootsMovement"
+    ],
+    "id": "123430",
+    "maps": {
+      "11": false,
+      "12": true,
+      "21": false,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/123430.png"
   },
   {
     "name": "Rod of Ages",
@@ -1158,6 +2160,15 @@
       "ManaRegen"
     ],
     "id": "6657",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/6657.png"
   },
   {
@@ -1169,6 +2180,15 @@
       "NonbootsMovement"
     ],
     "id": "3085",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3085.png"
   },
   {
@@ -1179,6 +2199,15 @@
       "Slow"
     ],
     "id": "3116",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3116.png"
   },
   {
@@ -1187,6 +2216,15 @@
       "Jungle"
     ],
     "id": "1101",
+    "maps": {
+      "11": true,
+      "12": false,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/1101.png"
   },
   {
@@ -1196,6 +2234,15 @@
       "ArmorPenetration"
     ],
     "id": "6695",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/6695.png"
   },
   {
@@ -1207,6 +2254,15 @@
       "AbilityHaste"
     ],
     "id": "6694",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/6694.png"
   },
   {
@@ -1216,6 +2272,15 @@
       "MagicPenetration"
     ],
     "id": "4645",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/4645.png"
   },
   {
@@ -1225,6 +2290,15 @@
       "Armor"
     ],
     "id": "663058",
+    "maps": {
+      "11": true,
+      "12": false,
+      "21": false,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/663058.png"
   },
   {
@@ -1238,6 +2312,15 @@
       "AbilityHaste"
     ],
     "id": "2065",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/2065.png"
   },
   {
@@ -1251,6 +2334,15 @@
       "Lane"
     ],
     "id": "3876",
+    "maps": {
+      "11": true,
+      "12": false,
+      "21": false,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3876.png"
   },
   {
@@ -1261,7 +2353,35 @@
       "AbilityHaste"
     ],
     "id": "3161",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3161.png"
+  },
+  {
+    "name": "Spectral Cutlass",
+    "tags": [
+      "Damage",
+      "NonbootsMovement",
+      "ArmorPenetration"
+    ],
+    "id": "4004",
+    "maps": {
+      "11": false,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/4004.png"
   },
   {
     "name": "Spellslinger's Shoes",
@@ -1270,6 +2390,15 @@
       "MagicPenetration"
     ],
     "id": "3175",
+    "maps": {
+      "11": true,
+      "12": false,
+      "21": false,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3175.png"
   },
   {
@@ -1282,6 +2411,15 @@
       "AbilityHaste"
     ],
     "id": "3065",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3065.png"
   },
   {
@@ -1293,7 +2431,49 @@
       "AbilityHaste"
     ],
     "id": "6616",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/6616.png"
+  },
+  {
+    "name": "Stat Bonus",
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "Damage",
+      "CriticalStrike",
+      "AttackSpeed",
+      "SpellDamage",
+      "Mana",
+      "Consumable",
+      "CooldownReduction",
+      "SpellVamp",
+      "NonbootsMovement",
+      "Tenacity",
+      "MagicPenetration",
+      "ArmorPenetration",
+      "MagicResist",
+      "AbilityHaste"
+    ],
+    "id": "6032",
+    "maps": {
+      "11": false,
+      "12": true,
+      "21": false,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/6032.png"
   },
   {
     "name": "Statikk Shiv",
@@ -1304,6 +2484,15 @@
       "NonbootsMovement"
     ],
     "id": "3087",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3087.png"
   },
   {
@@ -1314,6 +2503,15 @@
       "Tenacity"
     ],
     "id": "3053",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3053.png"
   },
   {
@@ -1325,6 +2523,15 @@
       "NonbootsMovement"
     ],
     "id": "3097",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3097.png"
   },
   {
@@ -1336,6 +2543,15 @@
       "MagicPenetration"
     ],
     "id": "4646",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/4646.png"
   },
   {
@@ -1347,6 +2563,15 @@
       "Slow"
     ],
     "id": "6631",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/6631.png"
   },
   {
@@ -1358,6 +2583,15 @@
       "AbilityHaste"
     ],
     "id": "6610",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/6610.png"
   },
   {
@@ -1369,6 +2603,15 @@
       "AbilityHaste"
     ],
     "id": "3068",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3068.png"
   },
   {
@@ -1377,6 +2620,15 @@
       "Boots"
     ],
     "id": "3170",
+    "maps": {
+      "11": true,
+      "12": false,
+      "21": false,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3170.png"
   },
   {
@@ -1388,8 +2640,17 @@
       "OnHit",
       "AbilityHaste"
     ],
-    "id": "664011",
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/664011.png"
+    "id": "124011",
+    "maps": {
+      "11": false,
+      "12": true,
+      "21": false,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/124011.png"
   },
   {
     "name": "Sword of the Divine",
@@ -1399,6 +2660,15 @@
       "SpellDamage"
     ],
     "id": "663060",
+    "maps": {
+      "11": true,
+      "12": false,
+      "21": false,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/663060.png"
   },
   {
@@ -1411,6 +2681,15 @@
       "ArmorPenetration"
     ],
     "id": "3302",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3302.png"
   },
   {
@@ -1421,6 +2700,15 @@
       "ArmorPenetration"
     ],
     "id": "6676",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/6676.png"
   },
   {
@@ -1430,6 +2718,15 @@
       "Armor"
     ],
     "id": "3075",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3075.png"
   },
   {
@@ -1441,6 +2738,15 @@
       "OnHit"
     ],
     "id": "3748",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3748.png"
   },
   {
@@ -1451,6 +2757,15 @@
       "NonbootsMovement"
     ],
     "id": "3002",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3002.png"
   },
   {
@@ -1465,6 +2780,15 @@
       "AbilityHaste"
     ],
     "id": "3078",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3078.png"
   },
   {
@@ -1477,6 +2801,15 @@
       "AbilityHaste"
     ],
     "id": "3179",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3179.png"
   },
   {
@@ -1488,13 +2821,55 @@
       "AbilityHaste"
     ],
     "id": "2502",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/2502.png"
   },
   {
     "name": "Veigar's Talisman of Ascension",
     "tags": [],
     "id": "663064",
+    "maps": {
+      "11": true,
+      "12": false,
+      "21": false,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/663064.png"
+  },
+  {
+    "name": "Void Immolation",
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "HealthRegen",
+      "Armor",
+      "Aura",
+      "CooldownReduction",
+      "MagicResist",
+      "AbilityHaste"
+    ],
+    "id": "223069",
+    "maps": {
+      "11": false,
+      "12": true,
+      "21": false,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/223069.png"
   },
   {
     "name": "Void Staff",
@@ -1503,6 +2878,15 @@
       "SpellDamage"
     ],
     "id": "3135",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3135.png"
   },
   {
@@ -1515,6 +2899,15 @@
       "AbilityHaste"
     ],
     "id": "6699",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/6699.png"
   },
   {
@@ -1524,6 +2917,15 @@
       "HealthRegen"
     ],
     "id": "3083",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3083.png"
   },
   {
@@ -1534,6 +2936,15 @@
       "AbilityHaste"
     ],
     "id": "3119",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3119.png"
   },
   {
@@ -1545,7 +2956,35 @@
       "Tenacity"
     ],
     "id": "3091",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3091.png"
+  },
+  {
+    "name": "Wooglet's Witchcap",
+    "tags": [
+      "Armor",
+      "SpellDamage",
+      "Active"
+    ],
+    "id": "228002",
+    "maps": {
+      "11": false,
+      "12": true,
+      "21": false,
+      "22": false,
+      "30": true,
+      "33": false,
+      "35": false
+    },
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/228002.png"
   },
   {
     "name": "World Atlas",
@@ -1557,6 +2996,15 @@
       "Lane"
     ],
     "id": "3865",
+    "maps": {
+      "11": true,
+      "12": false,
+      "21": false,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3865.png"
   },
   {
@@ -1568,6 +3016,15 @@
       "ArmorPenetration"
     ],
     "id": "3142",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3142.png"
   },
   {
@@ -1578,6 +3035,15 @@
       "AttackSpeed"
     ],
     "id": "3032",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3032.png"
   },
   {
@@ -1591,6 +3057,15 @@
       "Lane"
     ],
     "id": "3871",
+    "maps": {
+      "11": true,
+      "12": false,
+      "21": false,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3871.png"
   },
   {
@@ -1602,6 +3077,15 @@
       "AbilityHaste"
     ],
     "id": "3050",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3050.png"
   },
   {
@@ -1614,6 +3098,15 @@
       "Tenacity"
     ],
     "id": "663172",
+    "maps": {
+      "11": true,
+      "12": false,
+      "21": false,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": false
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/663172.png"
   },
   {
@@ -1624,6 +3117,15 @@
       "Active"
     ],
     "id": "3157",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3157.png"
   }
 ]

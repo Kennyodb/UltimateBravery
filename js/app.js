@@ -2,6 +2,9 @@
 let champions = [];
 let summonerSpells = [];
 let items = [];
+let allSummonerSpells = [];
+let allItems = [];
+let metadata = null;
 
 const itemConstraints = {
   requiredBootsCount: 1,
@@ -11,15 +14,38 @@ const itemConstraints = {
 };
 
 async function loadData() {
-  const [championsData, summonerData, itemsData] = await Promise.all([
+  const [championsData, summonerData, itemsData, metadataData] = await Promise.all([
     fetch('data/champions.json').then((response) => response.json()),
     fetch('data/summoner-spells.json').then((response) => response.json()),
-    fetch('data/items.json').then((response) => response.json())
+    fetch('data/items.json').then((response) => response.json()),
+    fetch('data/metadata.json').then((response) => response.json()).catch(() => ({ version: 'Unknown' }))
   ]);
 
   champions = championsData;
-  summonerSpells = summonerData;
-  items = itemsData;
+  allSummonerSpells = summonerData;
+  allItems = itemsData;
+  metadata = metadataData;
+
+  // Display patch version
+  if (metadata && metadata.version) {
+    document.getElementById('patchVersion').textContent = `Patch ${metadata.version}`;
+  }
+
+  // Initialize with default game mode
+  updateGameModeData();
+}
+
+function updateGameModeData() {
+  const gameMode = document.getElementById('gameMode').value;
+  const mapId = gameMode === 'ARAM' ? '12' : '11';
+
+  // Filter items by map
+  items = allItems.filter(item => item.maps && item.maps[mapId]);
+
+  // Filter summoner spells by mode
+  summonerSpells = allSummonerSpells.filter(spell =>
+    spell.modes && spell.modes.includes(gameMode)
+  );
 }
 
 // Get random element from array
@@ -219,6 +245,12 @@ rollButton.addEventListener('click', () => {
 rerollButton.addEventListener('click', () => {
   const data = roll();
   displayResults(data);
+});
+
+document.getElementById('gameMode').addEventListener('change', () => {
+  updateGameModeData();
+  // Clear results when changing game mode
+  document.getElementById('results').style.display = 'none';
 });
 
 initialize();

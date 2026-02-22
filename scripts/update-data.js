@@ -48,6 +48,7 @@ function toSummonerSpellList(spellJson, version) {
   return Object.values(data).map((spell) => ({
     name: spell.name,
     id: spell.id,
+    modes: spell.modes || [],
     icon: `https://ddragon.leagueoflegends.com/cdn/${version}/img/spell/${spell.image.full}`
   })).sort((a, b) => a.name.localeCompare(b.name));
 }
@@ -56,7 +57,7 @@ function toItemList(itemJson, version) {
   const data = itemJson && itemJson.data ? itemJson.data : {};
   const items = Object.entries(data)
     .filter(([_, item]) => item.gold && item.gold.purchasable)
-    .filter(([_, item]) => item.maps && item.maps['11'])
+    .filter(([_, item]) => item.maps && (item.maps['11'] || item.maps['12'])) // Summoner's Rift or ARAM
     .filter(([_, item]) => !item.tags || !item.tags.includes('Trinket'))
     // Filter out component items - keep only completed items
     // If item has 'into' field with items, it builds into something else (it's a component)
@@ -65,6 +66,7 @@ function toItemList(itemJson, version) {
       name: item.name,
       tags: item.tags || [],
       id: id,
+      maps: item.maps,
       icon: `https://ddragon.leagueoflegends.com/cdn/${version}/img/item/${item.image.full}`
     }));
 
