@@ -8,6 +8,7 @@ let metadata = null;
 
 const itemConstraints = {
   requiredBootsCount: 1,
+  bootsFirst: true, // Ensure boots is always the first item
   mutuallyExclusivePairs: [
     ['Manamune', 'Muramana']
   ]
@@ -97,23 +98,23 @@ function selectItemsWithConstraints(pool, count, constraints) {
   const available = [...pool];
   const selected = [];
 
-  if (constraints.requiredBootsCount) {
-    for (let i = 0; i < constraints.requiredBootsCount; i++) {
-      const bootsCandidates = available.filter(
-        (item) => isBootsItem(item) && canSelectItem(item, selected, constraints, exclusionMap)
-      );
-      if (!bootsCandidates.length) {
-        return null;
-      }
-      const pick = getRandomElement(bootsCandidates);
-      selected.push(pick);
-      available.splice(available.indexOf(pick), 1);
+  // If bootsFirst is true, select boots as the first item
+  if (constraints.bootsFirst) {
+    const bootsCandidates = available.filter(
+      (item) => isBootsItem(item) && canSelectItem(item, selected, constraints, exclusionMap)
+    );
+    if (!bootsCandidates.length) {
+      return null;
     }
+    const bootsItem = getRandomElement(bootsCandidates);
+    selected.push(bootsItem);
+    available.splice(available.indexOf(bootsItem), 1);
   }
 
+  // Select remaining items (excluding boots if we already selected one)
   while (selected.length < count) {
     const candidates = available.filter((item) =>
-      canSelectItem(item, selected, constraints, exclusionMap)
+      !isBootsItem(item) && canSelectItem(item, selected, constraints, exclusionMap)
     );
     if (!candidates.length) {
       return null;
@@ -151,9 +152,20 @@ function roll() {
 
   let selectedItems = selectItemsWithConstraints(items, 6, itemConstraints);
   if (!selectedItems) {
+    // Fallback: ensure boots is still first
     selectedItems = [];
     const availableItems = [...items];
-    for (let i = 0; i < 6; i++) {
+
+    // Select boots first
+    const bootsItems = availableItems.filter(item => isBootsItem(item));
+    if (bootsItems.length > 0) {
+      const bootsItem = getRandomElement(bootsItems);
+      selectedItems.push(bootsItem);
+      availableItems.splice(availableItems.indexOf(bootsItem), 1);
+    }
+
+    // Select remaining items
+    while (selectedItems.length < 6 && availableItems.length > 0) {
       const randomIndex = Math.floor(Math.random() * availableItems.length);
       selectedItems.push(availableItems[randomIndex]);
       availableItems.splice(randomIndex, 1);

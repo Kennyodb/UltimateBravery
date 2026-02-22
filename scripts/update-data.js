@@ -57,11 +57,18 @@ function toItemList(itemJson, version) {
   const data = itemJson && itemJson.data ? itemJson.data : {};
   const items = Object.entries(data)
     .filter(([_, item]) => item.gold && item.gold.purchasable)
-    .filter(([_, item]) => item.maps && (item.maps['11'] || item.maps['12'])) // Summoner's Rift or ARAM
+    .filter(([_, item]) => item.maps && item.maps['11']) // Exclude ARAM-only items
     .filter(([_, item]) => !item.tags || !item.tags.includes('Trinket'))
-    // Filter out component items - keep only completed items
-    // If item has 'into' field with items, it builds into something else (it's a component)
-    .filter(([_, item]) => !item.into || item.into.length === 0)
+    .filter(([_, item]) => !item.tags || !item.tags.includes('Lane'))
+    .filter(([_, item]) => !item.tags || !item.tags.includes('Consumable'))
+    .filter(([id, _]) => !id.startsWith('22') && !id.startsWith('32'))
+    // Filter out component items, but keep completed boots
+    .filter(([_, item]) => {
+      if (item.tags && item.tags.includes('Boots')) {
+        return item.gold && item.gold.total >= 900;
+      }
+      return !item.into || item.into.length === 0;
+    })
     .map(([id, item]) => ({
       name: item.name,
       tags: item.tags || [],

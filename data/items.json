@@ -97,24 +97,6 @@
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3174.png"
   },
   {
-    "name": "Atma's Reckoning",
-    "tags": [
-      "Health",
-      "CriticalStrike"
-    ],
-    "id": "3039",
-    "maps": {
-      "11": false,
-      "12": true,
-      "21": true,
-      "22": false,
-      "30": false,
-      "33": false,
-      "35": false
-    },
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3039.png"
-  },
-  {
     "name": "Axiom Arc",
     "tags": [
       "Damage",
@@ -191,6 +173,24 @@
       "35": false
     },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/2520.png"
+  },
+  {
+    "name": "Berserker's Greaves",
+    "tags": [
+      "AttackSpeed",
+      "Boots"
+    ],
+    "id": "3006",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3006.png"
   },
   {
     "name": "Black Cleaver",
@@ -277,28 +277,6 @@
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/8010.png"
   },
   {
-    "name": "Bloodsong",
-    "tags": [
-      "Health",
-      "HealthRegen",
-      "ManaRegen",
-      "Vision",
-      "GoldPer",
-      "Lane"
-    ],
-    "id": "3877",
-    "maps": {
-      "11": true,
-      "12": false,
-      "21": false,
-      "22": false,
-      "30": false,
-      "33": false,
-      "35": false
-    },
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3877.png"
-  },
-  {
     "name": "Bloodthirster",
     "tags": [
       "Damage",
@@ -317,44 +295,21 @@
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3072.png"
   },
   {
-    "name": "Cappa Juice",
+    "name": "Boots of Swiftness",
     "tags": [
-      "Damage",
-      "Consumable"
+      "Boots"
     ],
-    "id": "2141",
+    "id": "3009",
     "maps": {
       "11": true,
       "12": true,
-      "21": false,
+      "21": true,
       "22": false,
       "30": false,
       "33": false,
-      "35": false
+      "35": true
     },
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/2141.png"
-  },
-  {
-    "name": "Celestial Opposition",
-    "tags": [
-      "Health",
-      "HealthRegen",
-      "ManaRegen",
-      "Vision",
-      "GoldPer",
-      "Lane"
-    ],
-    "id": "3869",
-    "maps": {
-      "11": true,
-      "12": false,
-      "21": false,
-      "22": false,
-      "30": false,
-      "33": false,
-      "35": false
-    },
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3869.png"
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3009.png"
   },
   {
     "name": "Chainlaced Crushers",
@@ -413,26 +368,6 @@
       "35": false
     },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/663059.png"
-  },
-  {
-    "name": "Control Ward",
-    "tags": [
-      "Consumable",
-      "Lane",
-      "Stealth",
-      "Vision"
-    ],
-    "id": "2055",
-    "maps": {
-      "11": true,
-      "12": false,
-      "21": false,
-      "22": false,
-      "30": false,
-      "33": false,
-      "35": false
-    },
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/2055.png"
   },
   {
     "name": "Cosmic Drive",
@@ -531,25 +466,6 @@
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3137.png"
   },
   {
-    "name": "Cull",
-    "tags": [
-      "Damage",
-      "OnHit",
-      "Lane"
-    ],
-    "id": "1083",
-    "maps": {
-      "11": true,
-      "12": false,
-      "21": false,
-      "22": false,
-      "30": false,
-      "33": false,
-      "35": false
-    },
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/1083.png"
-  },
-  {
     "name": "Dawncore",
     "tags": [
       "SpellDamage",
@@ -630,88 +546,6 @@
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/663056.png"
   },
   {
-    "name": "Doran's Blade",
-    "tags": [
-      "Health",
-      "Damage",
-      "LifeSteal",
-      "SpellVamp",
-      "Lane"
-    ],
-    "id": "1055",
-    "maps": {
-      "11": true,
-      "12": true,
-      "21": true,
-      "22": false,
-      "30": false,
-      "33": false,
-      "35": false
-    },
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/1055.png"
-  },
-  {
-    "name": "Doran's Ring",
-    "tags": [
-      "Health",
-      "Lane",
-      "ManaRegen",
-      "SpellDamage"
-    ],
-    "id": "1056",
-    "maps": {
-      "11": true,
-      "12": true,
-      "21": true,
-      "22": false,
-      "30": false,
-      "33": false,
-      "35": false
-    },
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/1056.png"
-  },
-  {
-    "name": "Doran's Shield",
-    "tags": [
-      "Health",
-      "HealthRegen",
-      "Lane"
-    ],
-    "id": "1054",
-    "maps": {
-      "11": true,
-      "12": true,
-      "21": true,
-      "22": false,
-      "30": false,
-      "33": false,
-      "35": false
-    },
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/1054.png"
-  },
-  {
-    "name": "Dream Maker",
-    "tags": [
-      "Health",
-      "HealthRegen",
-      "ManaRegen",
-      "Vision",
-      "GoldPer",
-      "Lane"
-    ],
-    "id": "3870",
-    "maps": {
-      "11": true,
-      "12": false,
-      "21": false,
-      "22": false,
-      "30": false,
-      "33": false,
-      "35": false
-    },
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3870.png"
-  },
-  {
     "name": "Dusk and Dawn",
     "tags": [
       "Health",
@@ -790,65 +624,6 @@
       "35": true
     },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3814.png"
-  },
-  {
-    "name": "Elixir of Iron",
-    "tags": [
-      "Health",
-      "Consumable",
-      "NonbootsMovement",
-      "Tenacity"
-    ],
-    "id": "2138",
-    "maps": {
-      "11": true,
-      "12": true,
-      "21": true,
-      "22": false,
-      "30": false,
-      "33": false,
-      "35": false
-    },
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/2138.png"
-  },
-  {
-    "name": "Elixir of Sorcery",
-    "tags": [
-      "Consumable",
-      "ManaRegen",
-      "SpellDamage"
-    ],
-    "id": "2139",
-    "maps": {
-      "11": true,
-      "12": true,
-      "21": true,
-      "22": false,
-      "30": false,
-      "33": false,
-      "35": false
-    },
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/2139.png"
-  },
-  {
-    "name": "Elixir of Wrath",
-    "tags": [
-      "Consumable",
-      "Damage",
-      "LifeSteal",
-      "SpellVamp"
-    ],
-    "id": "2140",
-    "maps": {
-      "11": true,
-      "12": true,
-      "21": true,
-      "22": false,
-      "30": false,
-      "33": false,
-      "35": false
-    },
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/2140.png"
   },
   {
     "name": "Endless Hunger",
@@ -1038,35 +813,6 @@
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/663193.png"
   },
   {
-    "name": "Golden Spatula",
-    "tags": [
-      "Health",
-      "SpellBlock",
-      "HealthRegen",
-      "Armor",
-      "Damage",
-      "CriticalStrike",
-      "AttackSpeed",
-      "LifeSteal",
-      "SpellDamage",
-      "Mana",
-      "ManaRegen",
-      "CooldownReduction",
-      "NonbootsMovement"
-    ],
-    "id": "994403",
-    "maps": {
-      "11": false,
-      "12": true,
-      "21": false,
-      "22": false,
-      "30": false,
-      "33": false,
-      "35": false
-    },
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/994403.png"
-  },
-  {
     "name": "Guardian Angel",
     "tags": [
       "Armor",
@@ -1083,85 +829,6 @@
       "35": false
     },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3026.png"
-  },
-  {
-    "name": "Guardian's Blade",
-    "tags": [
-      "Health",
-      "Damage",
-      "Lane",
-      "AbilityHaste"
-    ],
-    "id": "3177",
-    "maps": {
-      "11": true,
-      "12": true,
-      "21": false,
-      "22": false,
-      "30": false,
-      "33": false,
-      "35": true
-    },
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3177.png"
-  },
-  {
-    "name": "Guardian's Hammer",
-    "tags": [
-      "Health",
-      "Damage",
-      "LifeSteal",
-      "Lane"
-    ],
-    "id": "3184",
-    "maps": {
-      "11": true,
-      "12": true,
-      "21": false,
-      "22": false,
-      "30": false,
-      "33": false,
-      "35": true
-    },
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3184.png"
-  },
-  {
-    "name": "Guardian's Horn",
-    "tags": [
-      "Health",
-      "HealthRegen",
-      "Lane"
-    ],
-    "id": "2051",
-    "maps": {
-      "11": true,
-      "12": true,
-      "21": false,
-      "22": false,
-      "30": false,
-      "33": false,
-      "35": true
-    },
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/2051.png"
-  },
-  {
-    "name": "Guardian's Orb",
-    "tags": [
-      "Health",
-      "SpellDamage",
-      "ManaRegen",
-      "Lane"
-    ],
-    "id": "3112",
-    "maps": {
-      "11": true,
-      "12": true,
-      "21": false,
-      "22": false,
-      "30": false,
-      "33": false,
-      "35": true
-    },
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3112.png"
   },
   {
     "name": "Guinsoo's Rageblade",
@@ -1218,26 +885,6 @@
       "35": false
     },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/1102.png"
-  },
-  {
-    "name": "Health Potion",
-    "tags": [
-      "HealthRegen",
-      "Consumable",
-      "Lane",
-      "Jungle"
-    ],
-    "id": "2003",
-    "maps": {
-      "11": true,
-      "12": true,
-      "21": true,
-      "22": false,
-      "30": false,
-      "33": false,
-      "35": false
-    },
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/2003.png"
   },
   {
     "name": "Heartsteel",
@@ -1477,6 +1124,24 @@
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3031.png"
   },
   {
+    "name": "Ionian Boots of Lucidity",
+    "tags": [
+      "Boots",
+      "CooldownReduction"
+    ],
+    "id": "3158",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3158.png"
+  },
+  {
     "name": "Jak'Sho, The Protean",
     "tags": [
       "Health",
@@ -1514,23 +1179,6 @@
       "35": true
     },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/2504.png"
-  },
-  {
-    "name": "Kalista's Black Spear",
-    "tags": [
-      "Consumable"
-    ],
-    "id": "3599",
-    "maps": {
-      "11": true,
-      "12": true,
-      "21": true,
-      "22": false,
-      "30": true,
-      "33": false,
-      "35": true
-    },
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3599.png"
   },
   {
     "name": "Knight's Vow",
@@ -1778,16 +1426,13 @@
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3139.png"
   },
   {
-    "name": "Mikael's Blessing",
+    "name": "Mercury's Treads",
     "tags": [
-      "Health",
-      "ManaRegen",
-      "Active",
-      "CooldownReduction",
-      "Tenacity",
-      "AbilityHaste"
+      "Boots",
+      "SpellBlock",
+      "Tenacity"
     ],
-    "id": "3222",
+    "id": "3111",
     "maps": {
       "11": true,
       "12": true,
@@ -1797,7 +1442,7 @@
       "33": false,
       "35": true
     },
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3222.png"
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3111.png"
   },
   {
     "name": "Moonstone Renewer",
@@ -1973,6 +1618,24 @@
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3046.png"
   },
   {
+    "name": "Plated Steelcaps",
+    "tags": [
+      "Armor",
+      "Boots"
+    ],
+    "id": "3047",
+    "maps": {
+      "11": true,
+      "12": true,
+      "21": true,
+      "22": false,
+      "30": false,
+      "33": false,
+      "35": true
+    },
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3047.png"
+  },
+  {
     "name": "Profane Hydra",
     "tags": [
       "Damage",
@@ -2129,26 +1792,6 @@
       "35": true
     },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/4633.png"
-  },
-  {
-    "name": "Rite of Ruin",
-    "tags": [
-      "CriticalStrike",
-      "SpellDamage",
-      "CooldownReduction",
-      "NonbootsMovement"
-    ],
-    "id": "123430",
-    "maps": {
-      "11": false,
-      "12": true,
-      "21": false,
-      "22": false,
-      "30": false,
-      "33": false,
-      "35": false
-    },
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/123430.png"
   },
   {
     "name": "Rod of Ages",
@@ -2324,26 +1967,22 @@
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/2065.png"
   },
   {
-    "name": "Solstice Sleigh",
+    "name": "Sorcerer's Shoes",
     "tags": [
-      "Health",
-      "HealthRegen",
-      "ManaRegen",
-      "Vision",
-      "GoldPer",
-      "Lane"
+      "Boots",
+      "MagicPenetration"
     ],
-    "id": "3876",
+    "id": "3020",
     "maps": {
       "11": true,
-      "12": false,
-      "21": false,
+      "12": true,
+      "21": true,
       "22": false,
       "30": false,
       "33": false,
-      "35": false
+      "35": true
     },
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3876.png"
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3020.png"
   },
   {
     "name": "Spear of Shojin",
@@ -2363,25 +2002,6 @@
       "35": true
     },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3161.png"
-  },
-  {
-    "name": "Spectral Cutlass",
-    "tags": [
-      "Damage",
-      "NonbootsMovement",
-      "ArmorPenetration"
-    ],
-    "id": "4004",
-    "maps": {
-      "11": false,
-      "12": true,
-      "21": true,
-      "22": false,
-      "30": false,
-      "33": false,
-      "35": true
-    },
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/4004.png"
   },
   {
     "name": "Spellslinger's Shoes",
@@ -2441,39 +2061,6 @@
       "35": true
     },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/6616.png"
-  },
-  {
-    "name": "Stat Bonus",
-    "tags": [
-      "Health",
-      "SpellBlock",
-      "Armor",
-      "Damage",
-      "CriticalStrike",
-      "AttackSpeed",
-      "SpellDamage",
-      "Mana",
-      "Consumable",
-      "CooldownReduction",
-      "SpellVamp",
-      "NonbootsMovement",
-      "Tenacity",
-      "MagicPenetration",
-      "ArmorPenetration",
-      "MagicResist",
-      "AbilityHaste"
-    ],
-    "id": "6032",
-    "maps": {
-      "11": false,
-      "12": true,
-      "21": false,
-      "22": false,
-      "30": false,
-      "33": false,
-      "35": false
-    },
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/6032.png"
   },
   {
     "name": "Statikk Shiv",
@@ -2640,17 +2227,17 @@
       "OnHit",
       "AbilityHaste"
     ],
-    "id": "124011",
+    "id": "664011",
     "maps": {
-      "11": false,
-      "12": true,
+      "11": true,
+      "12": false,
       "21": false,
       "22": false,
       "30": false,
       "33": false,
       "35": false
     },
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/124011.png"
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/664011.png"
   },
   {
     "name": "Sword of the Divine",
@@ -2848,30 +2435,6 @@
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/663064.png"
   },
   {
-    "name": "Void Immolation",
-    "tags": [
-      "Health",
-      "SpellBlock",
-      "HealthRegen",
-      "Armor",
-      "Aura",
-      "CooldownReduction",
-      "MagicResist",
-      "AbilityHaste"
-    ],
-    "id": "223069",
-    "maps": {
-      "11": false,
-      "12": true,
-      "21": false,
-      "22": false,
-      "30": false,
-      "33": false,
-      "35": false
-    },
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/223069.png"
-  },
-  {
     "name": "Void Staff",
     "tags": [
       "MagicPenetration",
@@ -2968,46 +2531,6 @@
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3091.png"
   },
   {
-    "name": "Wooglet's Witchcap",
-    "tags": [
-      "Armor",
-      "SpellDamage",
-      "Active"
-    ],
-    "id": "228002",
-    "maps": {
-      "11": false,
-      "12": true,
-      "21": false,
-      "22": false,
-      "30": true,
-      "33": false,
-      "35": false
-    },
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/228002.png"
-  },
-  {
-    "name": "World Atlas",
-    "tags": [
-      "Health",
-      "ManaRegen",
-      "Vision",
-      "GoldPer",
-      "Lane"
-    ],
-    "id": "3865",
-    "maps": {
-      "11": true,
-      "12": false,
-      "21": false,
-      "22": false,
-      "30": false,
-      "33": false,
-      "35": false
-    },
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3865.png"
-  },
-  {
     "name": "Youmuu's Ghostblade",
     "tags": [
       "Damage",
@@ -3045,28 +2568,6 @@
       "35": true
     },
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3032.png"
-  },
-  {
-    "name": "Zaz'Zak's Realmspike",
-    "tags": [
-      "Health",
-      "HealthRegen",
-      "ManaRegen",
-      "Vision",
-      "GoldPer",
-      "Lane"
-    ],
-    "id": "3871",
-    "maps": {
-      "11": true,
-      "12": false,
-      "21": false,
-      "22": false,
-      "30": false,
-      "33": false,
-      "35": false
-    },
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/item/3871.png"
   },
   {
     "name": "Zeke's Convergence",

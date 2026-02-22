@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="097a2d5b-1c87-4881-8b3c-41632ddb8cce" name="Changes" comment="Use icons">
+    <list default="true" id="097a2d5b-1c87-4881-8b3c-41632ddb8cce" name="Changes" comment="Filter on game mode">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/items.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/items.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/summoner-spells.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/summoner-spells.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/update-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/update-data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/standalone.html" beforeDir="false" afterPath="$PROJECT_DIR$/standalone.html" afterDir="false" />
@@ -119,7 +116,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771771127585</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Filter on game mode">
+      <option name="closed" value="true" />
+      <created>1771771725041</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1771771725041</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +145,8 @@
     <MESSAGE value="AI slop" />
     <MESSAGE value="Show ability priority instead of per-level" />
     <MESSAGE value="Use icons" />
-    <option name="LAST_COMMIT_MESSAGE" value="Use icons" />
+    <MESSAGE value="Filter on game mode" />
+    <option name="LAST_COMMIT_MESSAGE" value="Filter on game mode" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
