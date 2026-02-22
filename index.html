@@ -1,0 +1,128 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>League of Legends Ultimate Bravery</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="Roll a random League of Legends champion, build, summoner spells, and ability leveling order for the ultimate challenge!">
+
+  <meta property="og:title" content="League of Legends Ultimate Bravery">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Roll a random League of Legends champion, build, summoner spells, and ability leveling order for the ultimate challenge!">
+  <meta property="og:image" content="/icon.png">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#0a1428">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>⚔️ League of Legends Ultimate Bravery ⚔️</h1>
+      <p class="subtitle">Roll for a random champion, build, summoner spells, and ability leveling order</p>
+    </header>
+
+    <main>
+      <button id="rollBtn" class="roll-button">🎲 ROLL NOW</button>
+      <button id="rerollBtn" class="reroll-button">🔄 REROLL</button>
+
+      <div class="results" id="results" style="display: none;">
+        <!-- Champion Section -->
+        <div class="section champion-section">
+          <h2>Champion</h2>
+          <div class="champion-card">
+            <h3 id="championName"></h3>
+            <p id="championClass"></p>
+          </div>
+        </div>
+
+        <!-- Summoner Spells Section -->
+        <div class="section summoner-spells-section">
+          <h2>Summoner Spells</h2>
+          <div class="spell-grid">
+            <div class="spell-card">
+              <h4>Spell 1</h4>
+              <p id="summonerSpell1"></p>
+            </div>
+            <div class="spell-card">
+              <h4>Spell 2</h4>
+              <p id="summonerSpell2"></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Build Section -->
+        <div class="section build-section">
+          <h2>Recommended Build</h2>
+          <div class="build-items">
+            <div class="item-slot">
+              <span class="slot-label">Item 1</span>
+              <p id="item1"></p>
+            </div>
+            <div class="item-slot">
+              <span class="slot-label">Item 2</span>
+              <p id="item2"></p>
+            </div>
+            <div class="item-slot">
+              <span class="slot-label">Item 3</span>
+              <p id="item3"></p>
+            </div>
+            <div class="item-slot">
+              <span class="slot-label">Item 4</span>
+              <p id="item4"></p>
+            </div>
+            <div class="item-slot">
+              <span class="slot-label">Item 5</span>
+              <p id="item5"></p>
+            </div>
+            <div class="item-slot">
+              <span class="slot-label">Item 6</span>
+              <p id="item6"></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ability Leveling Order Section -->
+        <div class="section ability-section">
+          <h2>Ability Leveling Order</h2>
+          <div class="level-grid">
+            <div class="level-slot" id="levelSlot1">Level 1: <span id="level1"></span></div>
+            <div class="level-slot" id="levelSlot2">Level 2: <span id="level2"></span></div>
+            <div class="level-slot" id="levelSlot3">Level 3: <span id="level3"></span></div>
+            <div class="level-slot" id="levelSlot4">Level 4: <span id="level4"></span></div>
+            <div class="level-slot" id="levelSlot5">Level 5: <span id="level5"></span></div>
+            <div class="level-slot" id="levelSlot6">Level 6: <span id="level6"></span></div>
+            <div class="level-slot" id="levelSlot7">Level 7: <span id="level7"></span></div>
+            <div class="level-slot" id="levelSlot8">Level 8: <span id="level8"></span></div>
+            <div class="level-slot" id="levelSlot9">Level 9: <span id="level9"></span></div>
+            <div class="level-slot" id="levelSlot10">Level 10: <span id="level10"></span></div>
+            <div class="level-slot" id="levelSlot11">Level 11: <span id="level11"></span></div>
+            <div class="level-slot" id="levelSlot12">Level 12: <span id="level12"></span></div>
+            <div class="level-slot" id="levelSlot13">Level 13: <span id="level13"></span></div>
+            <div class="level-slot" id="levelSlot14">Level 14: <span id="level14"></span></div>
+            <div class="level-slot" id="levelSlot15">Level 15: <span id="level15"></span></div>
+            <div class="level-slot" id="levelSlot16">Level 16: <span id="level16"></span></div>
+            <div class="level-slot" id="levelSlot17">Level 17: <span id="level17"></span></div>
+            <div class="level-slot" id="levelSlot18">Level 18: <span id="level18"></span></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>League of Legends Ultimate Bravery - Accept the Challenge!</p>
+      <p>Champion data is randomly selected. May your bravery be rewarded! 🎮</p>
+    </footer>
+  </div>
+
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>

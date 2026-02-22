@@ -1,0 +1,171 @@
+# ⚔️ League of Legends Ultimate Bravery
+
+A fun and interactive web application for League of Legends players to experience the ultimate challenge! Roll a random League of Legends champion, build, summoner spells, and ability leveling order, then accept the bravery challenge!
+
+## ⚡ Quick Start
+
+### Play Instantly (No Setup)
+Open `standalone.html` in your browser.
+
+### Develop Locally
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Start the dev server:
+   ```bash
+   npm start
+   ```
+
+### Build for Production
+```bash
+npm run build
+```
+The built files will be in `dist/`.
+
+## 🎮 Features
+
+- **Random Champion Selection**: Get assigned a random League of Legends champion from the entire roster
+- **Summoner Spells**: Two different summoner spells are randomly selected for you
+- **Item Build**: A complete 6-item build is randomly generated
+- **Ability Leveling Order**: A random ability leveling sequence (Q, W, E) for all 18 levels with ultimate abilities at levels 6, 11, and 16
+- **Roll & Reroll**: Keep rolling until you get a build you're feeling brave enough to play!
+- **Responsive Design**: Beautiful, responsive design that works on desktop and mobile devices
+- **League of Legends Themed**: Dark gaming aesthetic with gold accents inspired by League of Legends UI
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone this repository or download the files
+2. Navigate to the project directory
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Development
+
+To run the development server with hot reload:
+
+```bash
+npm start
+```
+
+This will open the application in your default browser at `http://localhost:8080`
+
+### Production Build
+
+To build the project for production:
+
+```bash
+npm run build
+```
+
+The built files will be available in the `dist/` directory.
+
+## 📁 Project Structure
+
+```
+untitled/
+├── standalone.html       # All-in-one file, open directly in a browser
+├── index.html            # Main HTML file with the page structure
+├── js/
+│   └── app.js           # JavaScript logic for rolling and displaying results
+├── css/
+│   └── style.css        # Styling with League of Legends theme
+├── package.json         # Project dependencies and scripts
+├── webpack.common.js    # Webpack base configuration
+├── webpack.config.dev.js  # Webpack development configuration
+└── webpack.config.prod.js # Webpack production configuration
+```
+
+## 🎯 How to Use
+
+1. Click the **"🎲 ROLL NOW"** button to generate a random champion, summoner spells, items, and ability leveling order
+2. Review your assigned build
+3. Not feeling it? Click **"🔄 REROLL"** to get a new one
+4. Once you've found a build you like, accept the challenge and play it in a League of Legends game!
+
+## 📦 Deployment Options
+
+### GitHub Pages
+1. Build the project:
+   ```bash
+   npm run build
+   ```
+2. Push the `dist/` folder contents to your repository’s `gh-pages` branch.
+3. In GitHub repo settings, set Pages source to `gh-pages`.
+
+Your site will be available at `https://yourusername.github.io/repository-name/`.
+
+### Netlify
+1. Connect your GitHub repository.
+2. Build command: `npm run build`
+3. Publish directory: `dist`
+
+### Vercel
+1. Import your GitHub repository.
+2. Framework: None
+3. Build command: `npm run build`
+4. Output directory: `dist`
+
+### Traditional Hosting
+1. Run `npm run build`.
+2. Upload `dist/` to your web server.
+
+## 📊 Data Included
+
+- **155+ Champions**: Complete roster of League of Legends champions
+- **12 Summoner Spells**: Flash, Smite, Exhaust, Ignite, Heal, Teleport, and more
+- **60+ Items**: Wide selection of League of Legends items from various patches
+
+## 🎨 Customization
+
+### Adding More Champions
+
+Edit `js/app.js` and add champions to the `champions` array:
+
+```javascript
+{ name: 'Champion Name', class: 'Champion Title' }
+```
+
+### Adding More Items
+
+Edit `js/app.js` and add items to the `items` array:
+
+```javascript
+'Item Name'
+```
+
+### Changing Colors
+
+Edit `css/style.css` and modify the color variables:
+- `#c89b3c` - Gold (primary accent)
+- `#5b8ec6` - Blue (secondary accent)
+- `#0a1428` - Dark background
+
+## 🤝 Contributing
+
+Feel free to submit issues and enhancement requests!
+
+## 📄 License
+
+MIT (add a `LICENSE` file if you want to publish the license text).
+
+## ⚠️ Disclaimer
+
+This is a fan-made project not affiliated with Riot Games. League of Legends is a registered trademark of Riot Games, Inc.
+
+## 🎉 Enjoy!
+
+Have fun with your Ultimate Bravery challenge! Remember, the best builds are the ones you never expected!
+
+---
+
+**Need help?** Check the code comments in `js/app.js` for implementation details!

@@ -1,0 +1,29 @@
+{
+  "name": "lol-ultimate-bravery",
+  "version": "1.0.0",
+  "description": "Roll a random League of Legends champion, build, summoner spells, and ability leveling order for the ultimate bravery challenge!",
+  "private": true,
+  "keywords": [
+    "league-of-legends",
+    "lol",
+    "ultimate-bravery",
+    "random-generator",
+    "game",
+    "web-app"
+  ],
+  "license": "MIT",
+  "author": "You",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open --config webpack.config.dev.js",
+    "build": "webpack --config webpack.config.prod.js"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "html-webpack-plugin": "^5.6.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4",
+    "webpack-merge": "^5.10.0"
+  }
+}
