@@ -310,6 +310,86 @@ main {
   margin-top: 5px;
 }
 
+.priority-text-card {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.priority-text-card p {
+  color: #c89b3c;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.ability-icons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 15px;
+}
+
+.ability-icon-slot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.ability-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  border: 2px solid #c89b3c;
+}
+
+.ability-label {
+  font-size: 0.85em;
+  color: #e0e1de;
+  font-weight: bold;
+}
+
+.rune-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.rune-tree {
+  background: rgba(91, 142, 198, 0.2);
+  padding: 15px;
+  border-radius: 6px;
+  border-left: 4px solid #c89b3c;
+}
+
+.rune-tree-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #c89b3c;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.rune-tree-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.rune-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.rune-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  border: 2px solid #5b8ec6;
+  background: rgba(10, 20, 40, 0.6);
+}
+
 footer {
   text-align: center;
   margin-top: 50px;

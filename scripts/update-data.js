@@ -33,14 +33,74 @@ function getLatestVersion(versions) {
   return versions[0];
 }
 
-function toChampionList(championJson, version) {
+async function toChampionList(championJson, version, useOffline) {
   const data = championJson && championJson.data ? championJson.data : {};
-  return Object.values(data).map((champion) => ({
-    name: champion.name,
-    class: champion.title,
-    id: champion.id,
-    icon: `https://ddragon.leagueoflegends.com/cdn/${version}/img/champion/${champion.image.full}`
-  }));
+  const champions = [];
+
+  for (const champion of Object.values(data)) {
+    let spells = [];
+
+    // Try to load champion-specific JSON for detailed spell data
+    try {
+      let championData;
+      if (useOffline) {
+        const championPath = path.join(SOURCE_DIR, `${champion.id}.json`);
+        if (fs.existsSync(championPath)) {
+          championData = readJson(championPath);
+        }
+      } else {
+        const championUrl = `${DATA_DRAGON_BASE}/cdn/${version}/data/${LOCALE}/champion/${champion.id}.json`;
+        championData = await fetchJson(championUrl);
+      }
+
+      if (championData && championData.data && championData.data[champion.id]) {
+        spells = championData.data[champion.id].spells || [];
+      }
+    } catch (error) {
+      console.warn(`Could not load spell data for ${champion.name}: ${error.message}`);
+    }
+
+    const abilityMap = {
+      Q: spells[0] ? {
+        name: spells[0].name,
+        icon: `https://ddragon.leagueoflegends.com/cdn/${version}/img/spell/${spells[0].image.full}`
+      } : {
+        name: 'Q Ability',
+        icon: `https://ddragon.leagueoflegends.com/cdn/${version}/img/champion/abilities/${champion.id}_Q.png`
+      },
+      W: spells[1] ? {
+        name: spells[1].name,
+        icon: `https://ddragon.leagueoflegends.com/cdn/${version}/img/spell/${spells[1].image.full}`
+      } : {
+        name: 'W Ability',
+        icon: `https://ddragon.leagueoflegends.com/cdn/${version}/img/champion/abilities/${champion.id}_W.png`
+      },
+      E: spells[2] ? {
+        name: spells[2].name,
+        icon: `https://ddragon.leagueoflegends.com/cdn/${version}/img/spell/${spells[2].image.full}`
+      } : {
+        name: 'E Ability',
+        icon: `https://ddragon.leagueoflegends.com/cdn/${version}/img/champion/abilities/${champion.id}_E.png`
+      },
+      R: spells[3] ? {
+        name: spells[3].name,
+        icon: `https://ddragon.leagueoflegends.com/cdn/${version}/img/spell/${spells[3].image.full}`
+      } : {
+        name: 'R Ability',
+        icon: `https://ddragon.leagueoflegends.com/cdn/${version}/img/champion/abilities/${champion.id}_R.png`
+      }
+    };
+
+    champions.push({
+      name: champion.name,
+      class: champion.title,
+      id: champion.id,
+      icon: `https://ddragon.leagueoflegends.com/cdn/${version}/img/champion/${champion.image.full}`,
+      abilities: abilityMap
+    });
+  }
+
+  return champions;
 }
 
 function toSummonerSpellList(spellJson, version) {
@@ -138,10 +198,12 @@ function downloadImage(url, destPath) {
   });
 }
 
-async function downloadIcons(champions, items, summonerSpells, version) {
+async function downloadIcons(champions, items, summonerSpells, runes, version) {
   ensureDir(path.join(IMAGES_DIR, 'champions'));
   ensureDir(path.join(IMAGES_DIR, 'items'));
   ensureDir(path.join(IMAGES_DIR, 'spells'));
+  ensureDir(path.join(IMAGES_DIR, 'abilities'));
+  ensureDir(path.join(IMAGES_DIR, 'runes'));
 
   console.log('Downloading champion icons...');
   for (const champion of champions) {
@@ -151,6 +213,27 @@ async function downloadIcons(champions, items, summonerSpells, version) {
         await downloadImage(champion.icon, destPath);
       } catch (error) {
         console.warn(`Failed to download icon for ${champion.name}:`, error.message);
+      }
+    }
+
+    // Download ability icons
+    if (champion.abilities) {
+      for (const [key, ability] of Object.entries(champion.abilities)) {
+        if (ability && ability.icon) {
+          const abilityDestPath = path.join(IMAGES_DIR, 'abilities', `${champion.id}_${key}.png`);
+          if (!fs.existsSync(abilityDestPath)) {
+            try {
+              await downloadImage(ability.icon, abilityDestPath);
+            } catch (error) {
+              // If primary URL fails, try the fallback champion abilities URL
+              if (ability.icon.includes('champion/abilities')) {
+                console.warn(`Ability icon not available for ${champion.name} ${key}`);
+              } else {
+                console.warn(`Failed to download ability icon for ${champion.name} ${key}:`, error.message);
+              }
+            }
+          }
+        }
       }
     }
   }
@@ -175,6 +258,44 @@ async function downloadIcons(champions, items, summonerSpells, version) {
         await downloadImage(spell.icon, destPath);
       } catch (error) {
         console.warn(`Failed to download icon for ${spell.name}:`, error.message);
+      }
+    }
+  }
+
+  console.log('Downloading rune icons...');
+  if (Array.isArray(runes)) {
+    for (const tree of runes) {
+      if (tree.icon) {
+        const treeDestPath = path.join(IMAGES_DIR, 'runes', `${tree.id}.png`);
+        if (!fs.existsSync(treeDestPath)) {
+          try {
+            const treeIconUrl = `https://ddragon.leagueoflegends.com/cdn/img/${tree.icon}`;
+            await downloadImage(treeIconUrl, treeDestPath);
+          } catch (error) {
+            console.warn(`Failed to download rune tree icon for ${tree.name}:`, error.message);
+          }
+        }
+      }
+
+      // Download individual rune icons from slots
+      if (tree.slots && Array.isArray(tree.slots)) {
+        for (const slot of tree.slots) {
+          if (slot.runes && Array.isArray(slot.runes)) {
+            for (const rune of slot.runes) {
+              if (rune.icon) {
+                const runeDestPath = path.join(IMAGES_DIR, 'runes', `${rune.id}.png`);
+                if (!fs.existsSync(runeDestPath)) {
+                  try {
+                    const runeIconUrl = `https://ddragon.leagueoflegends.com/cdn/img/${rune.icon}`;
+                    await downloadImage(runeIconUrl, runeDestPath);
+                  } catch (error) {
+                    console.warn(`Failed to download rune icon for ${rune.name}:`, error.message);
+                  }
+                }
+              }
+            }
+          }
+        }
       }
     }
   }
@@ -271,7 +392,7 @@ async function main() {
     ? loadFromLocal()
     : await loadFromApi();
 
-  const champions = toChampionList(championsJson, latestVersion);
+  const champions = await toChampionList(championsJson, latestVersion, useOffline);
   const items = toItemList(itemsJson, latestVersion);
   const summonerSpells = toSummonerSpellList(summonersJson, latestVersion);
   const runes = toRunes(runesJson);
@@ -291,7 +412,7 @@ async function main() {
   console.log(`Data updated for version ${latestVersion}.`);
 
   if (!useOffline) {
-    await downloadIcons(champions, items, summonerSpells, latestVersion);
+    await downloadIcons(champions, items, summonerSpells, runes, latestVersion);
   } else {
     console.log('Skipping icon download in offline mode.');
   }

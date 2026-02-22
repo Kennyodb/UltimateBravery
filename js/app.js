@@ -4,7 +4,10 @@ let summonerSpells = [];
 let items = [];
 let allSummonerSpells = [];
 let allItems = [];
+let runes = [];
 let metadata = null;
+
+const RUNE_ICON_BASE = 'https://ddragon.leagueoflegends.com/cdn/img/';
 
 const itemConstraints = {
   requiredBootsCount: 1,
@@ -15,16 +18,18 @@ const itemConstraints = {
 };
 
 async function loadData() {
-  const [championsData, summonerData, itemsData, metadataData] = await Promise.all([
+  const [championsData, summonerData, itemsData, runesData, metadataData] = await Promise.all([
     fetch('data/champions.json').then((response) => response.json()),
     fetch('data/summoner-spells.json').then((response) => response.json()),
     fetch('data/items.json').then((response) => response.json()),
+    fetch('data/runes.json').then((response) => response.json()),
     fetch('data/metadata.json').then((response) => response.json()).catch(() => ({ version: 'Unknown' }))
   ]);
 
   champions = championsData;
   allSummonerSpells = summonerData;
   allItems = itemsData;
+  runes = runesData;
   metadata = metadataData;
 
   // Display patch version
@@ -127,14 +132,51 @@ function selectItemsWithConstraints(pool, count, constraints) {
   return selected;
 }
 
-// Generate ability priority (Q/W/E order)
-function generateAbilityPriorityString() {
+function generateAbilityPriorityOrder() {
   const abilities = ['Q', 'W', 'E'];
   for (let i = abilities.length - 1; i > 0; i--) {
     const swapIndex = Math.floor(Math.random() * (i + 1));
     [abilities[i], abilities[swapIndex]] = [abilities[swapIndex], abilities[i]];
   }
-  return abilities.join(' > ');
+  return abilities;
+}
+
+function generateRunePage() {
+  if (!Array.isArray(runes) || runes.length < 2) {
+    return null;
+  }
+
+  const primaryTree = getRandomElement(runes);
+  let secondaryTree = getRandomElement(runes);
+  while (secondaryTree.id === primaryTree.id) {
+    secondaryTree = getRandomElement(runes);
+  }
+
+  const primarySlots = primaryTree.slots || [];
+  const primaryRunes = primarySlots.map((slot) => getRandomElement(slot.runes || []));
+
+  const secondarySlots = (secondaryTree.slots || []).slice(1); // exclude keystone slot
+  const slotIndexes = [0, 1, 2].filter((i) => secondarySlots[i]);
+  const firstIndex = getRandomElement(slotIndexes);
+  const remainingIndexes = slotIndexes.filter((i) => i !== firstIndex);
+  const secondIndex = getRandomElement(remainingIndexes);
+
+  const secondaryRunes = [
+    getRandomElement(secondarySlots[firstIndex].runes || []),
+    getRandomElement(secondarySlots[secondIndex].runes || [])
+  ];
+
+  return {
+    primaryTree,
+    secondaryTree,
+    primaryRunes,
+    secondaryRunes
+  };
+}
+
+// Generate ability priority (Q/W/E order)
+function generateAbilityPriorityString() {
+  return generateAbilityPriorityOrder().join(' > ');
 }
 
 // Roll function
@@ -172,14 +214,18 @@ function roll() {
     }
   }
 
-  const abilityPriority = generateAbilityPriorityString();
+  const abilityPriorityOrder = generateAbilityPriorityOrder();
+  const abilityPriority = abilityPriorityOrder.join(' > ');
+  const runePage = generateRunePage();
 
   return {
     champion,
     spell1,
     spell2,
     items: selectedItems,
-    abilityPriority
+    abilityPriority,
+    abilityPriorityOrder,
+    runePage
   };
 }
 
@@ -226,6 +272,58 @@ function displayResults(data) {
   }
 
   document.getElementById('abilityPriority').textContent = data.abilityPriority;
+  if (data.champion.abilities && Array.isArray(data.abilityPriorityOrder)) {
+    data.abilityPriorityOrder.forEach((letter, index) => {
+      const ability = data.champion.abilities[letter];
+      const abilityIcon = document.getElementById(`abilityIcon${index + 1}`);
+      const abilityLabel = document.getElementById(`abilityLabel${index + 1}`);
+      if (abilityIcon && ability) {
+        abilityIcon.src = ability.icon;
+        abilityIcon.alt = ability.name;
+        abilityIcon.style.display = 'block';
+      }
+      if (abilityLabel) {
+        abilityLabel.textContent = letter;
+      }
+    });
+  }
+
+  if (data.runePage) {
+    document.getElementById('runePrimaryName').textContent = data.runePage.primaryTree.name;
+    document.getElementById('runeSecondaryName').textContent = data.runePage.secondaryTree.name;
+
+    const primaryTreeIcon = document.getElementById('runePrimaryTreeIcon');
+    if (primaryTreeIcon) {
+      primaryTreeIcon.src = `${RUNE_ICON_BASE}${data.runePage.primaryTree.icon}`;
+      primaryTreeIcon.alt = data.runePage.primaryTree.name;
+      primaryTreeIcon.style.display = 'block';
+    }
+
+    const secondaryTreeIcon = document.getElementById('runeSecondaryTreeIcon');
+    if (secondaryTreeIcon) {
+      secondaryTreeIcon.src = `${RUNE_ICON_BASE}${data.runePage.secondaryTree.icon}`;
+      secondaryTreeIcon.alt = data.runePage.secondaryTree.name;
+      secondaryTreeIcon.style.display = 'block';
+    }
+
+    data.runePage.primaryRunes.forEach((rune, index) => {
+      const runeIcon = document.getElementById(`runePrimary${index + 1}`);
+      if (runeIcon && rune) {
+        runeIcon.src = `${RUNE_ICON_BASE}${rune.icon}`;
+        runeIcon.alt = rune.name;
+        runeIcon.style.display = 'block';
+      }
+    });
+
+    data.runePage.secondaryRunes.forEach((rune, index) => {
+      const runeIcon = document.getElementById(`runeSecondary${index + 1}`);
+      if (runeIcon && rune) {
+        runeIcon.src = `${RUNE_ICON_BASE}${rune.icon}`;
+        runeIcon.alt = rune.name;
+        runeIcon.style.display = 'block';
+      }
+    });
+  }
 
   document.getElementById('results').style.display = 'block';
 }

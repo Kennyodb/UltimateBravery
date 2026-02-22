@@ -316,6 +316,68 @@
             margin-top: 5px;
         }
 
+        .priority-text-card {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .priority-text-card p {
+            color: #c89b3c;
+            font-size: 1.3em;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .ability-icons {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .ability-icon-slot {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .ability-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 6px;
+            border: 2px solid #c89b3c;
+            margin-bottom: 5px;
+        }
+
+        .rune-tree {
+            margin-bottom: 20px;
+        }
+
+        .rune-tree-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .rune-tree-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 4px;
+            border: 2px solid #c89b3c;
+            margin-right: 10px;
+        }
+
+        .rune-row {
+            display: flex;
+            gap: 10px;
+        }
+
+        .rune-icon {
+            width: 32px;
+            height: 32px;
+            border-radius: 4px;
+            border: 2px solid #c89b3c;
+        }
+
         /* Responsive Design */
         @media (max-width: 768px) {
             header h1 {
@@ -446,9 +508,49 @@
                 <!-- Ability Priority Section -->
                 <div class="section ability-section">
                     <h2>Ability Priority</h2>
-                    <div class="priority-card">
-                        <span class="slot-label">Priority</span>
+                    <div class="ability-icons">
+                        <div class="ability-icon-slot">
+                            <img id="abilityIcon1" class="ability-icon" alt="Priority 1" style="display: none;">
+                            <span id="abilityLabel1" class="ability-label"></span>
+                        </div>
+                        <div class="ability-icon-slot">
+                            <img id="abilityIcon2" class="ability-icon" alt="Priority 2" style="display: none;">
+                            <span id="abilityLabel2" class="ability-label"></span>
+                        </div>
+                        <div class="ability-icon-slot">
+                            <img id="abilityIcon3" class="ability-icon" alt="Priority 3" style="display: none;">
+                            <span id="abilityLabel3" class="ability-label"></span>
+                        </div>
+                    </div>
+                    <div class="priority-text-card">
                         <p id="abilityPriority"></p>
+                    </div>
+                </div>
+
+                <!-- Rune Page Section -->
+                <div class="section rune-section">
+                    <h2>Rune Page</h2>
+                    <div class="rune-tree">
+                        <div class="rune-tree-header">
+                            <img id="runePrimaryTreeIcon" class="rune-tree-icon" alt="Primary Tree" style="display: none;">
+                            <span id="runePrimaryName"></span>
+                        </div>
+                        <div class="rune-row">
+                            <img id="runePrimary1" class="rune-icon" alt="Primary Rune 1" style="display: none;">
+                            <img id="runePrimary2" class="rune-icon" alt="Primary Rune 2" style="display: none;">
+                            <img id="runePrimary3" class="rune-icon" alt="Primary Rune 3" style="display: none;">
+                            <img id="runePrimary4" class="rune-icon" alt="Primary Rune 4" style="display: none;">
+                        </div>
+                    </div>
+                    <div class="rune-tree">
+                        <div class="rune-tree-header">
+                            <img id="runeSecondaryTreeIcon" class="rune-tree-icon" alt="Secondary Tree" style="display: none;">
+                            <span id="runeSecondaryName"></span>
+                        </div>
+                        <div class="rune-row">
+                            <img id="runeSecondary1" class="rune-icon" alt="Secondary Rune 1" style="display: none;">
+                            <img id="runeSecondary2" class="rune-icon" alt="Secondary Rune 2" style="display: none;">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -466,7 +568,10 @@
         let items = [];
         let allSummonerSpells = [];
         let allItems = [];
+        let runes = [];
         let metadata = null;
+
+        const RUNE_ICON_BASE = 'https://ddragon.leagueoflegends.com/cdn/img/';
 
         const itemConstraints = {
             requiredBootsCount: 1,
@@ -477,16 +582,18 @@
         };
 
         async function loadData() {
-            const [championsData, summonerData, itemsData, metadataData] = await Promise.all([
+            const [championsData, summonerData, itemsData, runesData, metadataData] = await Promise.all([
                 fetch('data/champions.json').then((response) => response.json()),
                 fetch('data/summoner-spells.json').then((response) => response.json()),
                 fetch('data/items.json').then((response) => response.json()),
+                fetch('data/runes.json').then((response) => response.json()),
                 fetch('data/metadata.json').then((response) => response.json()).catch(() => ({ version: 'Unknown' }))
             ]);
 
             champions = championsData;
             allSummonerSpells = summonerData;
             allItems = itemsData;
+            runes = runesData;
             metadata = metadataData;
 
             // Display patch version
@@ -594,7 +701,40 @@
                 const swapIndex = Math.floor(Math.random() * (i + 1));
                 [abilities[i], abilities[swapIndex]] = [abilities[swapIndex], abilities[i]];
             }
-            return abilities.join(' > ');
+            return abilities;
+        }
+
+        function generateRunePage() {
+            if (!Array.isArray(runes) || runes.length < 2) {
+                return null;
+            }
+
+            const primaryTree = getRandomElement(runes);
+            let secondaryTree = getRandomElement(runes);
+            while (secondaryTree.id === primaryTree.id) {
+                secondaryTree = getRandomElement(runes);
+            }
+
+            const primarySlots = primaryTree.slots || [];
+            const primaryRunes = primarySlots.map((slot) => getRandomElement(slot.runes || []));
+
+            const secondarySlots = (secondaryTree.slots || []).slice(1);
+            const slotIndexes = [0, 1, 2].filter((i) => secondarySlots[i]);
+            const firstIndex = getRandomElement(slotIndexes);
+            const remainingIndexes = slotIndexes.filter((i) => i !== firstIndex);
+            const secondIndex = getRandomElement(remainingIndexes);
+
+            const secondaryRunes = [
+                getRandomElement(secondarySlots[firstIndex].runes || []),
+                getRandomElement(secondarySlots[secondIndex].runes || [])
+            ];
+
+            return {
+                primaryTree,
+                secondaryTree,
+                primaryRunes,
+                secondaryRunes
+            };
         }
 
         function roll() {
@@ -631,8 +771,11 @@
                 }
             }
 
-            const abilityPriority = generateAbilityPriorityString();
-            return { champion, spell1, spell2, items: selectedItems, abilityPriority };
+            const abilityPriorityOrder = generateAbilityPriorityString();
+            const abilityPriority = abilityPriorityOrder.join(' > ');
+            const runePage = generateRunePage();
+
+            return { champion, spell1, spell2, items: selectedItems, abilityPriority, abilityPriorityOrder, runePage };
         }
 
         function displayResults(data) {
@@ -676,7 +819,59 @@
                 }
             }
 
-            document.getElementById('abilityPriority').textContent = data.abilityPriority;
+            // Display ability icons
+            for (let i = 1; i <= 3; i++) {
+                const abilityIcon = document.getElementById(`abilityIcon${i}`);
+                const abilityLabel = document.getElementById(`abilityLabel${i}`);
+                if (abilityIcon && abilityLabel && data.abilityPriorityOrder) {
+                    const letter = data.abilityPriorityOrder[i - 1];
+                    const ability = data.champion.abilities[letter];
+                    if (ability) {
+                        abilityIcon.src = ability.icon;
+                        abilityIcon.alt = ability.name;
+                        abilityIcon.style.display = 'block';
+                    }
+                    abilityLabel.textContent = letter;
+                }
+            }
+
+            // Display rune page
+            if (data.runePage) {
+                document.getElementById('runePrimaryName').textContent = data.runePage.primaryTree.name;
+                document.getElementById('runeSecondaryName').textContent = data.runePage.secondaryTree.name;
+
+                const primaryTreeIcon = document.getElementById('runePrimaryTreeIcon');
+                if (primaryTreeIcon) {
+                    primaryTreeIcon.src = `${RUNE_ICON_BASE}${data.runePage.primaryTree.icon}`;
+                    primaryTreeIcon.alt = data.runePage.primaryTree.name;
+                    primaryTreeIcon.style.display = 'block';
+                }
+
+                const secondaryTreeIcon = document.getElementById('runeSecondaryTreeIcon');
+                if (secondaryTreeIcon) {
+                    secondaryTreeIcon.src = `${RUNE_ICON_BASE}${data.runePage.secondaryTree.icon}`;
+                    secondaryTreeIcon.alt = data.runePage.secondaryTree.name;
+                    secondaryTreeIcon.style.display = 'block';
+                }
+
+                data.runePage.primaryRunes.forEach((rune, index) => {
+                    const runeIcon = document.getElementById(`runePrimary${index + 1}`);
+                    if (runeIcon && rune) {
+                        runeIcon.src = `${RUNE_ICON_BASE}${rune.icon}`;
+                        runeIcon.alt = rune.name;
+                        runeIcon.style.display = 'block';
+                    }
+                });
+
+                data.runePage.secondaryRunes.forEach((rune, index) => {
+                    const runeIcon = document.getElementById(`runeSecondary${index + 1}`);
+                    if (runeIcon && rune) {
+                        runeIcon.src = `${RUNE_ICON_BASE}${rune.icon}`;
+                        runeIcon.alt = rune.name;
+                        runeIcon.style.display = 'block';
+                    }
+                });
+            }
 
             document.getElementById('results').style.display = 'grid';
             document.getElementById('rerollBtn').style.display = 'block';
