@@ -1,18 +1,92 @@
 [
-  "Barrier",
-  "Clarity",
-  "Cleanse",
-  "Exhaust",
-  "Flash",
-  "Flee",
-  "Ghost",
-  "Heal",
-  "Ignite",
-  "Mark",
-  "Placeholder",
-  "Placeholder and Attack-Smite",
-  "Poro Toss",
-  "Smite",
-  "Teleport",
-  "To the King!"
+  {
+    "name": "Barrier",
+    "id": "SummonerBarrier",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/spell/SummonerBarrier.png"
+  },
+  {
+    "name": "Clarity",
+    "id": "SummonerMana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/spell/SummonerMana.png"
+  },
+  {
+    "name": "Cleanse",
+    "id": "SummonerBoost",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/spell/SummonerBoost.png"
+  },
+  {
+    "name": "Exhaust",
+    "id": "SummonerExhaust",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/spell/SummonerExhaust.png"
+  },
+  {
+    "name": "Flash",
+    "id": "SummonerCherryFlash",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/spell/SummonerCherryFlash.png"
+  },
+  {
+    "name": "Flash",
+    "id": "SummonerFlash",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/spell/SummonerFlash.png"
+  },
+  {
+    "name": "Flee",
+    "id": "SummonerCherryHold",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/spell/SummonerCherryHold.png"
+  },
+  {
+    "name": "Ghost",
+    "id": "SummonerHaste",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/spell/SummonerHaste.png"
+  },
+  {
+    "name": "Heal",
+    "id": "SummonerHeal",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/spell/SummonerHeal.png"
+  },
+  {
+    "name": "Ignite",
+    "id": "SummonerDot",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/spell/SummonerDot.png"
+  },
+  {
+    "name": "Mark",
+    "id": "SummonerSnowURFSnowball_Mark",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/spell/SummonerSnowURFSnowball_Mark.png"
+  },
+  {
+    "name": "Mark",
+    "id": "SummonerSnowball",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/spell/SummonerSnowball.png"
+  },
+  {
+    "name": "Placeholder",
+    "id": "Summoner_UltBookPlaceholder",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/spell/Summoner_UltBookPlaceholder.png"
+  },
+  {
+    "name": "Placeholder and Attack-Smite",
+    "id": "Summoner_UltBookSmitePlaceholder",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/spell/Summoner_UltBookSmitePlaceholder.png"
+  },
+  {
+    "name": "Poro Toss",
+    "id": "SummonerPoroThrow",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/spell/SummonerPoroThrow.png"
+  },
+  {
+    "name": "Smite",
+    "id": "SummonerSmite",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/spell/SummonerSmite.png"
+  },
+  {
+    "name": "Teleport",
+    "id": "SummonerTeleport",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/spell/SummonerTeleport.png"
+  },
+  {
+    "name": "To the King!",
+    "id": "SummonerPoroRecall",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/spell/SummonerPoroRecall.png"
+  }
 ]

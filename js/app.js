@@ -154,11 +154,37 @@ function displayResults(data) {
   document.getElementById('championName').textContent = data.champion.name;
   document.getElementById('championClass').textContent = data.champion.class;
 
-  document.getElementById('summonerSpell1').textContent = data.spell1;
-  document.getElementById('summonerSpell2').textContent = data.spell2;
+  const championIcon = document.getElementById('championIcon');
+  if (championIcon && data.champion.id) {
+    championIcon.src = `images/champions/${data.champion.id}.png`;
+    championIcon.alt = data.champion.name;
+    championIcon.style.display = 'block';
+  }
+
+  document.getElementById('summonerSpell1').textContent = data.spell1.name;
+  const spell1Icon = document.getElementById('spell1Icon');
+  if (spell1Icon && data.spell1.id) {
+    spell1Icon.src = `images/spells/${data.spell1.id}.png`;
+    spell1Icon.alt = data.spell1.name;
+    spell1Icon.style.display = 'block';
+  }
+
+  document.getElementById('summonerSpell2').textContent = data.spell2.name;
+  const spell2Icon = document.getElementById('spell2Icon');
+  if (spell2Icon && data.spell2.id) {
+    spell2Icon.src = `images/spells/${data.spell2.id}.png`;
+    spell2Icon.alt = data.spell2.name;
+    spell2Icon.style.display = 'block';
+  }
 
   for (let i = 0; i < 6; i++) {
     document.getElementById(`item${i + 1}`).textContent = data.items[i].name;
+    const itemIcon = document.getElementById(`item${i + 1}Icon`);
+    if (itemIcon && data.items[i].id) {
+      itemIcon.src = `images/items/${data.items[i].id}.png`;
+      itemIcon.alt = data.items[i].name;
+      itemIcon.style.display = 'block';
+    }
   }
 
   document.getElementById('abilityPriority').textContent = data.abilityPriority;
@@ -196,4 +222,3 @@ rerollButton.addEventListener('click', () => {
 });
 
 initialize();
-

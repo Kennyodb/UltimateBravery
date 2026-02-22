@@ -1,9 +1,14 @@
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
+const { pipeline } = require('stream');
+const { promisify } = require('util');
+
+const streamPipeline = promisify(pipeline);
 
 const SOURCE_DIR = path.resolve(__dirname, '..', 'api-json');
 const OUTPUT_DIR = path.resolve(__dirname, '..', 'data');
+const IMAGES_DIR = path.resolve(__dirname, '..', 'images');
 const DATA_DRAGON_BASE = 'https://ddragon.leagueoflegends.com';
 const LOCALE = 'en_US';
 
@@ -28,29 +33,39 @@ function getLatestVersion(versions) {
   return versions[0];
 }
 
-function toChampionList(championJson) {
+function toChampionList(championJson, version) {
   const data = championJson && championJson.data ? championJson.data : {};
   return Object.values(data).map((champion) => ({
     name: champion.name,
-    class: champion.title
+    class: champion.title,
+    id: champion.id,
+    icon: `https://ddragon.leagueoflegends.com/cdn/${version}/img/champion/${champion.image.full}`
   }));
 }
 
-function toSummonerSpellList(spellJson) {
+function toSummonerSpellList(spellJson, version) {
   const data = spellJson && spellJson.data ? spellJson.data : {};
-  const names = Object.values(data).map((spell) => spell.name);
-  return Array.from(new Set(names)).sort((a, b) => a.localeCompare(b));
+  return Object.values(data).map((spell) => ({
+    name: spell.name,
+    id: spell.id,
+    icon: `https://ddragon.leagueoflegends.com/cdn/${version}/img/spell/${spell.image.full}`
+  })).sort((a, b) => a.name.localeCompare(b.name));
 }
 
-function toItemList(itemJson) {
+function toItemList(itemJson, version) {
   const data = itemJson && itemJson.data ? itemJson.data : {};
-  const items = Object.values(data)
-    .filter((item) => item.gold && item.gold.purchasable)
-    .filter((item) => item.maps && item.maps['11'])
-    .filter((item) => !item.tags || !item.tags.includes('Trinket'))
-    .map((item) => ({
+  const items = Object.entries(data)
+    .filter(([_, item]) => item.gold && item.gold.purchasable)
+    .filter(([_, item]) => item.maps && item.maps['11'])
+    .filter(([_, item]) => !item.tags || !item.tags.includes('Trinket'))
+    // Filter out component items - keep only completed items
+    // If item has 'into' field with items, it builds into something else (it's a component)
+    .filter(([_, item]) => !item.into || item.into.length === 0)
+    .map(([id, item]) => ({
       name: item.name,
-      tags: item.tags || []
+      tags: item.tags || [],
+      id: id,
+      icon: `https://ddragon.leagueoflegends.com/cdn/${version}/img/item/${item.image.full}`
     }));
 
   const seen = new Set();
@@ -97,6 +112,121 @@ function fetchJson(url) {
   });
 }
 
+function downloadImage(url, destPath) {
+  return new Promise((resolve, reject) => {
+    https
+      .get(url, (res) => {
+        if (res.statusCode && res.statusCode >= 400) {
+          reject(new Error(`Request failed (${res.statusCode}) for ${url}`));
+          return;
+        }
+        const writeStream = fs.createWriteStream(destPath);
+        streamPipeline(res, writeStream)
+          .then(resolve)
+          .catch(reject);
+      })
+      .on('error', reject);
+  });
+}
+
+async function downloadIcons(champions, items, summonerSpells, version) {
+  ensureDir(path.join(IMAGES_DIR, 'champions'));
+  ensureDir(path.join(IMAGES_DIR, 'items'));
+  ensureDir(path.join(IMAGES_DIR, 'spells'));
+
+  console.log('Downloading champion icons...');
+  for (const champion of champions) {
+    const destPath = path.join(IMAGES_DIR, 'champions', `${champion.id}.png`);
+    if (!fs.existsSync(destPath)) {
+      try {
+        await downloadImage(champion.icon, destPath);
+      } catch (error) {
+        console.warn(`Failed to download icon for ${champion.name}:`, error.message);
+      }
+    }
+  }
+
+  console.log('Downloading item icons...');
+  for (const item of items) {
+    const destPath = path.join(IMAGES_DIR, 'items', `${item.id}.png`);
+    if (!fs.existsSync(destPath)) {
+      try {
+        await downloadImage(item.icon, destPath);
+      } catch (error) {
+        console.warn(`Failed to download icon for ${item.name}:`, error.message);
+      }
+    }
+  }
+
+  console.log('Downloading summoner spell icons...');
+  for (const spell of summonerSpells) {
+    const destPath = path.join(IMAGES_DIR, 'spells', `${spell.id}.png`);
+    if (!fs.existsSync(destPath)) {
+      try {
+        await downloadImage(spell.icon, destPath);
+      } catch (error) {
+        console.warn(`Failed to download icon for ${spell.name}:`, error.message);
+      }
+    }
+  }
+
+  console.log('Icons downloaded successfully.');
+}
+
+function cleanupUnusedIcons(champions, items, summonerSpells) {
+  const validChampionIds = new Set(champions.map(c => `${c.id}.png`));
+  const validItemIds = new Set(items.map(i => `${i.id}.png`));
+  const validSpellIds = new Set(summonerSpells.map(s => `${s.id}.png`));
+
+  // Clean up champions
+  const championsDir = path.join(IMAGES_DIR, 'champions');
+  if (fs.existsSync(championsDir)) {
+    const files = fs.readdirSync(championsDir);
+    let removedCount = 0;
+    for (const file of files) {
+      if (file !== '.gitkeep' && !validChampionIds.has(file)) {
+        fs.unlinkSync(path.join(championsDir, file));
+        removedCount++;
+      }
+    }
+    if (removedCount > 0) {
+      console.log(`Removed ${removedCount} unused champion icon(s).`);
+    }
+  }
+
+  // Clean up items
+  const itemsDir = path.join(IMAGES_DIR, 'items');
+  if (fs.existsSync(itemsDir)) {
+    const files = fs.readdirSync(itemsDir);
+    let removedCount = 0;
+    for (const file of files) {
+      if (file !== '.gitkeep' && !validItemIds.has(file)) {
+        fs.unlinkSync(path.join(itemsDir, file));
+        removedCount++;
+      }
+    }
+    if (removedCount > 0) {
+      console.log(`Removed ${removedCount} unused item icon(s).`);
+    }
+  }
+
+  // Clean up spells
+  const spellsDir = path.join(IMAGES_DIR, 'spells');
+  if (fs.existsSync(spellsDir)) {
+    const files = fs.readdirSync(spellsDir);
+    let removedCount = 0;
+    for (const file of files) {
+      if (file !== '.gitkeep' && !validSpellIds.has(file)) {
+        fs.unlinkSync(path.join(spellsDir, file));
+        removedCount++;
+      }
+    }
+    if (removedCount > 0) {
+      console.log(`Removed ${removedCount} unused summoner spell icon(s).`);
+    }
+  }
+}
+
 async function loadFromApi() {
   const versions = await fetchJson(`${DATA_DRAGON_BASE}/api/versions.json`);
   const latestVersion = getLatestVersion(versions);
@@ -132,9 +262,9 @@ async function main() {
     ? loadFromLocal()
     : await loadFromApi();
 
-  const champions = toChampionList(championsJson);
-  const items = toItemList(itemsJson);
-  const summonerSpells = toSummonerSpellList(summonersJson);
+  const champions = toChampionList(championsJson, latestVersion);
+  const items = toItemList(itemsJson, latestVersion);
+  const summonerSpells = toSummonerSpellList(summonersJson, latestVersion);
   const runes = toRunes(runesJson);
 
   ensureDir(OUTPUT_DIR);
@@ -150,6 +280,12 @@ async function main() {
   });
 
   console.log(`Data updated for version ${latestVersion}.`);
+
+  if (!useOffline) {
+    await downloadIcons(champions, items, summonerSpells, latestVersion);
+  } else {
+    console.log('Skipping icon download in offline mode.');
+  }
 }
 
 main().catch((error) => {

@@ -31,11 +31,11 @@ The built files will be in `dist/`.
 
 This project pulls champion, item, and summoner spell data from Riot's Data Dragon API.
 
-- Online update (default):
+- Online update (default) - downloads data and icons:
   ```bash
   npm run update-data
   ```
-- Offline update (uses `api-json/`):
+- Offline update (uses `api-json/`) - skips icon downloads:
   ```bash
   npm run update-data:offline
   ```
@@ -47,11 +47,19 @@ Generated files:
 - `data/runes.json`
 - `data/metadata.json`
 
+Downloaded icons:
+- `images/champions/*.png` - Champion portraits
+- `images/items/*.png` - Item icons
+- `images/spells/*.png` - Summoner spell icons
+
 ## 🎮 Features
 
 - **Random Champion Selection**: Get assigned a random League of Legends champion from the entire roster
+- **Champion Icons**: Display champion portraits fetched from Data Dragon
 - **Summoner Spells**: Two different summoner spells are randomly selected for you
-- **Item Build**: A complete 6-item build is randomly generated
+- **Spell Icons**: Visual display of summoner spell icons
+- **Item Build**: A complete 6-item build is randomly generated with constraints (e.g., exactly 1 boots item)
+- **Item Icons**: See what each item looks like with official icons
 - **Ability Priority**: A random ability priority (Q > W > E) for leveling
 - **Roll & Reroll**: Keep rolling until you get a build you're feeling brave enough to play!
 - **Responsive Design**: Beautiful, responsive design that works on desktop and mobile devices
@@ -104,6 +112,10 @@ untitled/
 ├── css/
 │   └── style.css        # Styling with League of Legends theme
 ├── data/                # Generated JSON data used by the app
+├── images/              # Downloaded champion/item/spell icons
+│   ├── champions/
+│   ├── items/
+│   └── spells/
 ├── api-json/            # Cached JSON for offline data updates
 ├── scripts/
 │   └── update-data.js   # Data Dragon sync script

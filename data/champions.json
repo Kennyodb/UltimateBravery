@@ -1,690 +1,1034 @@
 [
   {
     "name": "Aatrox",
-    "class": "the Darkin Blade"
+    "class": "the Darkin Blade",
+    "id": "Aatrox",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Aatrox.png"
   },
   {
     "name": "Ahri",
-    "class": "the Nine-Tailed Fox"
+    "class": "the Nine-Tailed Fox",
+    "id": "Ahri",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Ahri.png"
   },
   {
     "name": "Akali",
-    "class": "the Rogue Assassin"
+    "class": "the Rogue Assassin",
+    "id": "Akali",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Akali.png"
   },
   {
     "name": "Akshan",
-    "class": "the Rogue Sentinel"
+    "class": "the Rogue Sentinel",
+    "id": "Akshan",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Akshan.png"
   },
   {
     "name": "Alistar",
-    "class": "the Minotaur"
+    "class": "the Minotaur",
+    "id": "Alistar",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Alistar.png"
   },
   {
     "name": "Ambessa",
-    "class": "Matriarch of War"
+    "class": "Matriarch of War",
+    "id": "Ambessa",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Ambessa.png"
   },
   {
     "name": "Amumu",
-    "class": "the Sad Mummy"
+    "class": "the Sad Mummy",
+    "id": "Amumu",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Amumu.png"
   },
   {
     "name": "Anivia",
-    "class": "the Cryophoenix"
+    "class": "the Cryophoenix",
+    "id": "Anivia",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Anivia.png"
   },
   {
     "name": "Annie",
-    "class": "the Dark Child"
+    "class": "the Dark Child",
+    "id": "Annie",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Annie.png"
   },
   {
     "name": "Aphelios",
-    "class": "the Weapon of the Faithful"
+    "class": "the Weapon of the Faithful",
+    "id": "Aphelios",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Aphelios.png"
   },
   {
     "name": "Ashe",
-    "class": "the Frost Archer"
+    "class": "the Frost Archer",
+    "id": "Ashe",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Ashe.png"
   },
   {
     "name": "Aurelion Sol",
-    "class": "The Star Forger"
+    "class": "The Star Forger",
+    "id": "AurelionSol",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/AurelionSol.png"
   },
   {
     "name": "Aurora",
-    "class": "the Witch Between Worlds"
+    "class": "the Witch Between Worlds",
+    "id": "Aurora",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Aurora.png"
   },
   {
     "name": "Azir",
-    "class": "the Emperor of the Sands"
+    "class": "the Emperor of the Sands",
+    "id": "Azir",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Azir.png"
   },
   {
     "name": "Bard",
-    "class": "the Wandering Caretaker"
+    "class": "the Wandering Caretaker",
+    "id": "Bard",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Bard.png"
   },
   {
     "name": "Bel'Veth",
-    "class": "the Empress of the Void"
+    "class": "the Empress of the Void",
+    "id": "Belveth",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Belveth.png"
   },
   {
     "name": "Blitzcrank",
-    "class": "the Great Steam Golem"
+    "class": "the Great Steam Golem",
+    "id": "Blitzcrank",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Blitzcrank.png"
   },
   {
     "name": "Brand",
-    "class": "the Burning Vengeance"
+    "class": "the Burning Vengeance",
+    "id": "Brand",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Brand.png"
   },
   {
     "name": "Braum",
-    "class": "the Heart of the Freljord"
+    "class": "the Heart of the Freljord",
+    "id": "Braum",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Braum.png"
   },
   {
     "name": "Briar",
-    "class": "the Restrained Hunger"
+    "class": "the Restrained Hunger",
+    "id": "Briar",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Briar.png"
   },
   {
     "name": "Caitlyn",
-    "class": "the Sheriff of Piltover"
+    "class": "the Sheriff of Piltover",
+    "id": "Caitlyn",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Caitlyn.png"
   },
   {
     "name": "Camille",
-    "class": "the Steel Shadow"
+    "class": "the Steel Shadow",
+    "id": "Camille",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Camille.png"
   },
   {
     "name": "Cassiopeia",
-    "class": "the Serpent's Embrace"
+    "class": "the Serpent's Embrace",
+    "id": "Cassiopeia",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Cassiopeia.png"
   },
   {
     "name": "Cho'Gath",
-    "class": "the Terror of the Void"
+    "class": "the Terror of the Void",
+    "id": "Chogath",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Chogath.png"
   },
   {
     "name": "Corki",
-    "class": "the Daring Bombardier"
+    "class": "the Daring Bombardier",
+    "id": "Corki",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Corki.png"
   },
   {
     "name": "Darius",
-    "class": "the Hand of Noxus"
+    "class": "the Hand of Noxus",
+    "id": "Darius",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Darius.png"
   },
   {
     "name": "Diana",
-    "class": "Scorn of the Moon"
+    "class": "Scorn of the Moon",
+    "id": "Diana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Diana.png"
   },
   {
     "name": "Draven",
-    "class": "the Glorious Executioner"
+    "class": "the Glorious Executioner",
+    "id": "Draven",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Draven.png"
   },
   {
     "name": "Dr. Mundo",
-    "class": "the Madman of Zaun"
+    "class": "the Madman of Zaun",
+    "id": "DrMundo",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/DrMundo.png"
   },
   {
     "name": "Ekko",
-    "class": "the Boy Who Shattered Time"
+    "class": "the Boy Who Shattered Time",
+    "id": "Ekko",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Ekko.png"
   },
   {
     "name": "Elise",
-    "class": "the Spider Queen"
+    "class": "the Spider Queen",
+    "id": "Elise",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Elise.png"
   },
   {
     "name": "Evelynn",
-    "class": "Agony's Embrace"
+    "class": "Agony's Embrace",
+    "id": "Evelynn",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Evelynn.png"
   },
   {
     "name": "Ezreal",
-    "class": "the Prodigal Explorer"
+    "class": "the Prodigal Explorer",
+    "id": "Ezreal",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Ezreal.png"
   },
   {
     "name": "Fiddlesticks",
-    "class": "the Ancient Fear"
+    "class": "the Ancient Fear",
+    "id": "Fiddlesticks",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Fiddlesticks.png"
   },
   {
     "name": "Fiora",
-    "class": "the Grand Duelist"
+    "class": "the Grand Duelist",
+    "id": "Fiora",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Fiora.png"
   },
   {
     "name": "Fizz",
-    "class": "the Tidal Trickster"
+    "class": "the Tidal Trickster",
+    "id": "Fizz",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Fizz.png"
   },
   {
     "name": "Galio",
-    "class": "the Colossus"
+    "class": "the Colossus",
+    "id": "Galio",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Galio.png"
   },
   {
     "name": "Gangplank",
-    "class": "the Saltwater Scourge"
+    "class": "the Saltwater Scourge",
+    "id": "Gangplank",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Gangplank.png"
   },
   {
     "name": "Garen",
-    "class": "The Might of Demacia"
+    "class": "The Might of Demacia",
+    "id": "Garen",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Garen.png"
   },
   {
     "name": "Gnar",
-    "class": "the Missing Link"
+    "class": "the Missing Link",
+    "id": "Gnar",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Gnar.png"
   },
   {
     "name": "Gragas",
-    "class": "the Rabble Rouser"
+    "class": "the Rabble Rouser",
+    "id": "Gragas",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Gragas.png"
   },
   {
     "name": "Graves",
-    "class": "the Outlaw"
+    "class": "the Outlaw",
+    "id": "Graves",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Graves.png"
   },
   {
     "name": "Gwen",
-    "class": "The Hallowed Seamstress"
+    "class": "The Hallowed Seamstress",
+    "id": "Gwen",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Gwen.png"
   },
   {
     "name": "Hecarim",
-    "class": "the Shadow of War"
+    "class": "the Shadow of War",
+    "id": "Hecarim",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Hecarim.png"
   },
   {
     "name": "Heimerdinger",
-    "class": "the Revered Inventor"
+    "class": "the Revered Inventor",
+    "id": "Heimerdinger",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Heimerdinger.png"
   },
   {
     "name": "Hwei",
-    "class": "the Visionary"
+    "class": "the Visionary",
+    "id": "Hwei",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Hwei.png"
   },
   {
     "name": "Illaoi",
-    "class": "the Kraken Priestess"
+    "class": "the Kraken Priestess",
+    "id": "Illaoi",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Illaoi.png"
   },
   {
     "name": "Irelia",
-    "class": "the Blade Dancer"
+    "class": "the Blade Dancer",
+    "id": "Irelia",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Irelia.png"
   },
   {
     "name": "Ivern",
-    "class": "the Green Father"
+    "class": "the Green Father",
+    "id": "Ivern",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Ivern.png"
   },
   {
     "name": "Janna",
-    "class": "the Storm's Fury"
+    "class": "the Storm's Fury",
+    "id": "Janna",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Janna.png"
   },
   {
     "name": "Jarvan IV",
-    "class": "the Exemplar of Demacia"
+    "class": "the Exemplar of Demacia",
+    "id": "JarvanIV",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/JarvanIV.png"
   },
   {
     "name": "Jax",
-    "class": "Grandmaster at Arms"
+    "class": "Grandmaster at Arms",
+    "id": "Jax",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Jax.png"
   },
   {
     "name": "Jayce",
-    "class": "the Defender of Tomorrow"
+    "class": "the Defender of Tomorrow",
+    "id": "Jayce",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Jayce.png"
   },
   {
     "name": "Jhin",
-    "class": "the Virtuoso"
+    "class": "the Virtuoso",
+    "id": "Jhin",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Jhin.png"
   },
   {
     "name": "Jinx",
-    "class": "the Loose Cannon"
+    "class": "the Loose Cannon",
+    "id": "Jinx",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Jinx.png"
   },
   {
     "name": "Kai'Sa",
-    "class": "Daughter of the Void"
+    "class": "Daughter of the Void",
+    "id": "Kaisa",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Kaisa.png"
   },
   {
     "name": "Kalista",
-    "class": "the Spear of Vengeance"
+    "class": "the Spear of Vengeance",
+    "id": "Kalista",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Kalista.png"
   },
   {
     "name": "Karma",
-    "class": "the Enlightened One"
+    "class": "the Enlightened One",
+    "id": "Karma",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Karma.png"
   },
   {
     "name": "Karthus",
-    "class": "the Deathsinger"
+    "class": "the Deathsinger",
+    "id": "Karthus",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Karthus.png"
   },
   {
     "name": "Kassadin",
-    "class": "the Void Walker"
+    "class": "the Void Walker",
+    "id": "Kassadin",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Kassadin.png"
   },
   {
     "name": "Katarina",
-    "class": "the Sinister Blade"
+    "class": "the Sinister Blade",
+    "id": "Katarina",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Katarina.png"
   },
   {
     "name": "Kayle",
-    "class": "the Righteous"
+    "class": "the Righteous",
+    "id": "Kayle",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Kayle.png"
   },
   {
     "name": "Kayn",
-    "class": "the Shadow Reaper"
+    "class": "the Shadow Reaper",
+    "id": "Kayn",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Kayn.png"
   },
   {
     "name": "Kennen",
-    "class": "the Heart of the Tempest"
+    "class": "the Heart of the Tempest",
+    "id": "Kennen",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Kennen.png"
   },
   {
     "name": "Kha'Zix",
-    "class": "the Voidreaver"
+    "class": "the Voidreaver",
+    "id": "Khazix",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Khazix.png"
   },
   {
     "name": "Kindred",
-    "class": "The Eternal Hunters"
+    "class": "The Eternal Hunters",
+    "id": "Kindred",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Kindred.png"
   },
   {
     "name": "Kled",
-    "class": "the Cantankerous Cavalier"
+    "class": "the Cantankerous Cavalier",
+    "id": "Kled",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Kled.png"
   },
   {
     "name": "Kog'Maw",
-    "class": "the Mouth of the Abyss"
+    "class": "the Mouth of the Abyss",
+    "id": "KogMaw",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/KogMaw.png"
   },
   {
     "name": "K'Sante",
-    "class": "the Pride of Nazumah"
+    "class": "the Pride of Nazumah",
+    "id": "KSante",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/KSante.png"
   },
   {
     "name": "LeBlanc",
-    "class": "the Deceiver"
+    "class": "the Deceiver",
+    "id": "Leblanc",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Leblanc.png"
   },
   {
     "name": "Lee Sin",
-    "class": "the Blind Monk"
+    "class": "the Blind Monk",
+    "id": "LeeSin",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/LeeSin.png"
   },
   {
     "name": "Leona",
-    "class": "the Radiant Dawn"
+    "class": "the Radiant Dawn",
+    "id": "Leona",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Leona.png"
   },
   {
     "name": "Lillia",
-    "class": "the Bashful Bloom"
+    "class": "the Bashful Bloom",
+    "id": "Lillia",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Lillia.png"
   },
   {
     "name": "Lissandra",
-    "class": "the Ice Witch"
+    "class": "the Ice Witch",
+    "id": "Lissandra",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Lissandra.png"
   },
   {
     "name": "Lucian",
-    "class": "the Purifier"
+    "class": "the Purifier",
+    "id": "Lucian",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Lucian.png"
   },
   {
     "name": "Lulu",
-    "class": "the Fae Sorceress"
+    "class": "the Fae Sorceress",
+    "id": "Lulu",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Lulu.png"
   },
   {
     "name": "Lux",
-    "class": "the Lady of Luminosity"
+    "class": "the Lady of Luminosity",
+    "id": "Lux",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Lux.png"
   },
   {
     "name": "Malphite",
-    "class": "Shard of the Monolith"
+    "class": "Shard of the Monolith",
+    "id": "Malphite",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Malphite.png"
   },
   {
     "name": "Malzahar",
-    "class": "the Prophet of the Void"
+    "class": "the Prophet of the Void",
+    "id": "Malzahar",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Malzahar.png"
   },
   {
     "name": "Maokai",
-    "class": "the Twisted Treant"
+    "class": "the Twisted Treant",
+    "id": "Maokai",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Maokai.png"
   },
   {
     "name": "Master Yi",
-    "class": "the Wuju Bladesman"
+    "class": "the Wuju Bladesman",
+    "id": "MasterYi",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/MasterYi.png"
   },
   {
     "name": "Mel",
-    "class": "the Soul's Reflection"
+    "class": "the Soul's Reflection",
+    "id": "Mel",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Mel.png"
   },
   {
     "name": "Milio",
-    "class": "The Gentle Flame"
+    "class": "The Gentle Flame",
+    "id": "Milio",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Milio.png"
   },
   {
     "name": "Miss Fortune",
-    "class": "the Bounty Hunter"
+    "class": "the Bounty Hunter",
+    "id": "MissFortune",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/MissFortune.png"
   },
   {
     "name": "Wukong",
-    "class": "the Monkey King"
+    "class": "the Monkey King",
+    "id": "MonkeyKing",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/MonkeyKing.png"
   },
   {
     "name": "Mordekaiser",
-    "class": "the Iron Revenant"
+    "class": "the Iron Revenant",
+    "id": "Mordekaiser",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Mordekaiser.png"
   },
   {
     "name": "Morgana",
-    "class": "the Fallen"
+    "class": "the Fallen",
+    "id": "Morgana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Morgana.png"
   },
   {
     "name": "Naafiri",
-    "class": "the Hound of a Hundred Bites"
+    "class": "the Hound of a Hundred Bites",
+    "id": "Naafiri",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Naafiri.png"
   },
   {
     "name": "Nami",
-    "class": "the Tidecaller"
+    "class": "the Tidecaller",
+    "id": "Nami",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Nami.png"
   },
   {
     "name": "Nasus",
-    "class": "the Curator of the Sands"
+    "class": "the Curator of the Sands",
+    "id": "Nasus",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Nasus.png"
   },
   {
     "name": "Nautilus",
-    "class": "the Titan of the Depths"
+    "class": "the Titan of the Depths",
+    "id": "Nautilus",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Nautilus.png"
   },
   {
     "name": "Neeko",
-    "class": "the Curious Chameleon"
+    "class": "the Curious Chameleon",
+    "id": "Neeko",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Neeko.png"
   },
   {
     "name": "Nidalee",
-    "class": "the Bestial Huntress"
+    "class": "the Bestial Huntress",
+    "id": "Nidalee",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Nidalee.png"
   },
   {
     "name": "Nilah",
-    "class": "the Joy Unbound"
+    "class": "the Joy Unbound",
+    "id": "Nilah",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Nilah.png"
   },
   {
     "name": "Nocturne",
-    "class": "the Eternal Nightmare"
+    "class": "the Eternal Nightmare",
+    "id": "Nocturne",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Nocturne.png"
   },
   {
     "name": "Nunu & Willump",
-    "class": "the Boy and His Yeti"
+    "class": "the Boy and His Yeti",
+    "id": "Nunu",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Nunu.png"
   },
   {
     "name": "Olaf",
-    "class": "the Berserker"
+    "class": "the Berserker",
+    "id": "Olaf",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Olaf.png"
   },
   {
     "name": "Orianna",
-    "class": "the Lady of Clockwork"
+    "class": "the Lady of Clockwork",
+    "id": "Orianna",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Orianna.png"
   },
   {
     "name": "Ornn",
-    "class": "The Fire below the Mountain"
+    "class": "The Fire below the Mountain",
+    "id": "Ornn",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Ornn.png"
   },
   {
     "name": "Pantheon",
-    "class": "the Unbreakable Spear"
+    "class": "the Unbreakable Spear",
+    "id": "Pantheon",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Pantheon.png"
   },
   {
     "name": "Poppy",
-    "class": "Keeper of the Hammer"
+    "class": "Keeper of the Hammer",
+    "id": "Poppy",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Poppy.png"
   },
   {
     "name": "Pyke",
-    "class": "the Bloodharbor Ripper"
+    "class": "the Bloodharbor Ripper",
+    "id": "Pyke",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Pyke.png"
   },
   {
     "name": "Qiyana",
-    "class": "Empress of the Elements"
+    "class": "Empress of the Elements",
+    "id": "Qiyana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Qiyana.png"
   },
   {
     "name": "Quinn",
-    "class": "Demacia's Wings"
+    "class": "Demacia's Wings",
+    "id": "Quinn",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Quinn.png"
   },
   {
     "name": "Rakan",
-    "class": "The Charmer"
+    "class": "The Charmer",
+    "id": "Rakan",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Rakan.png"
   },
   {
     "name": "Rammus",
-    "class": "the Armordillo"
+    "class": "the Armordillo",
+    "id": "Rammus",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Rammus.png"
   },
   {
     "name": "Rek'Sai",
-    "class": "the Void Burrower"
+    "class": "the Void Burrower",
+    "id": "RekSai",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/RekSai.png"
   },
   {
     "name": "Rell",
-    "class": "the Iron Maiden"
+    "class": "the Iron Maiden",
+    "id": "Rell",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Rell.png"
   },
   {
     "name": "Renata Glasc",
-    "class": "the Chem-Baroness"
+    "class": "the Chem-Baroness",
+    "id": "Renata",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Renata.png"
   },
   {
     "name": "Renekton",
-    "class": "the Butcher of the Sands"
+    "class": "the Butcher of the Sands",
+    "id": "Renekton",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Renekton.png"
   },
   {
     "name": "Rengar",
-    "class": "the Pridestalker"
+    "class": "the Pridestalker",
+    "id": "Rengar",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Rengar.png"
   },
   {
     "name": "Riven",
-    "class": "the Exile"
+    "class": "the Exile",
+    "id": "Riven",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Riven.png"
   },
   {
     "name": "Rumble",
-    "class": "the Mechanized Menace"
+    "class": "the Mechanized Menace",
+    "id": "Rumble",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Rumble.png"
   },
   {
     "name": "Ryze",
-    "class": "the Rune Mage"
+    "class": "the Rune Mage",
+    "id": "Ryze",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Ryze.png"
   },
   {
     "name": "Samira",
-    "class": "the Desert Rose"
+    "class": "the Desert Rose",
+    "id": "Samira",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Samira.png"
   },
   {
     "name": "Sejuani",
-    "class": "Fury of the North"
+    "class": "Fury of the North",
+    "id": "Sejuani",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Sejuani.png"
   },
   {
     "name": "Senna",
-    "class": "the Redeemer"
+    "class": "the Redeemer",
+    "id": "Senna",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Senna.png"
   },
   {
     "name": "Seraphine",
-    "class": "the Starry-Eyed Songstress"
+    "class": "the Starry-Eyed Songstress",
+    "id": "Seraphine",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Seraphine.png"
   },
   {
     "name": "Sett",
-    "class": "the Boss"
+    "class": "the Boss",
+    "id": "Sett",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Sett.png"
   },
   {
     "name": "Shaco",
-    "class": "the Demon Jester"
+    "class": "the Demon Jester",
+    "id": "Shaco",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Shaco.png"
   },
   {
     "name": "Shen",
-    "class": "the Eye of Twilight"
+    "class": "the Eye of Twilight",
+    "id": "Shen",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Shen.png"
   },
   {
     "name": "Shyvana",
-    "class": "the Half-Dragon"
+    "class": "the Half-Dragon",
+    "id": "Shyvana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Shyvana.png"
   },
   {
     "name": "Singed",
-    "class": "the Mad Chemist"
+    "class": "the Mad Chemist",
+    "id": "Singed",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Singed.png"
   },
   {
     "name": "Sion",
-    "class": "The Undead Juggernaut"
+    "class": "The Undead Juggernaut",
+    "id": "Sion",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Sion.png"
   },
   {
     "name": "Sivir",
-    "class": "the Battle Mistress"
+    "class": "the Battle Mistress",
+    "id": "Sivir",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Sivir.png"
   },
   {
     "name": "Skarner",
-    "class": "the Primordial Sovereign"
+    "class": "the Primordial Sovereign",
+    "id": "Skarner",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Skarner.png"
   },
   {
     "name": "Smolder",
-    "class": "the Fiery Fledgling"
+    "class": "the Fiery Fledgling",
+    "id": "Smolder",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Smolder.png"
   },
   {
     "name": "Sona",
-    "class": "Maven of the Strings"
+    "class": "Maven of the Strings",
+    "id": "Sona",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Sona.png"
   },
   {
     "name": "Soraka",
-    "class": "the Starchild"
+    "class": "the Starchild",
+    "id": "Soraka",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Soraka.png"
   },
   {
     "name": "Swain",
-    "class": "the Noxian Grand General"
+    "class": "the Noxian Grand General",
+    "id": "Swain",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Swain.png"
   },
   {
     "name": "Sylas",
-    "class": "the Unshackled"
+    "class": "the Unshackled",
+    "id": "Sylas",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Sylas.png"
   },
   {
     "name": "Syndra",
-    "class": "the Dark Sovereign"
+    "class": "the Dark Sovereign",
+    "id": "Syndra",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Syndra.png"
   },
   {
     "name": "Tahm Kench",
-    "class": "The River King"
+    "class": "The River King",
+    "id": "TahmKench",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/TahmKench.png"
   },
   {
     "name": "Taliyah",
-    "class": "the Stoneweaver"
+    "class": "the Stoneweaver",
+    "id": "Taliyah",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Taliyah.png"
   },
   {
     "name": "Talon",
-    "class": "the Blade's Shadow"
+    "class": "the Blade's Shadow",
+    "id": "Talon",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Talon.png"
   },
   {
     "name": "Taric",
-    "class": "the Shield of Valoran"
+    "class": "the Shield of Valoran",
+    "id": "Taric",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Taric.png"
   },
   {
     "name": "Teemo",
-    "class": "the Swift Scout"
+    "class": "the Swift Scout",
+    "id": "Teemo",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Teemo.png"
   },
   {
     "name": "Thresh",
-    "class": "the Chain Warden"
+    "class": "the Chain Warden",
+    "id": "Thresh",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Thresh.png"
   },
   {
     "name": "Tristana",
-    "class": "the Yordle Gunner"
+    "class": "the Yordle Gunner",
+    "id": "Tristana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Tristana.png"
   },
   {
     "name": "Trundle",
-    "class": "the Troll King"
+    "class": "the Troll King",
+    "id": "Trundle",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Trundle.png"
   },
   {
     "name": "Tryndamere",
-    "class": "the Barbarian King"
+    "class": "the Barbarian King",
+    "id": "Tryndamere",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Tryndamere.png"
   },
   {
     "name": "Twisted Fate",
-    "class": "the Card Master"
+    "class": "the Card Master",
+    "id": "TwistedFate",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/TwistedFate.png"
   },
   {
     "name": "Twitch",
-    "class": "the Plague Rat"
+    "class": "the Plague Rat",
+    "id": "Twitch",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Twitch.png"
   },
   {
     "name": "Udyr",
-    "class": "the Spirit Walker"
+    "class": "the Spirit Walker",
+    "id": "Udyr",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Udyr.png"
   },
   {
     "name": "Urgot",
-    "class": "the Dreadnought"
+    "class": "the Dreadnought",
+    "id": "Urgot",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Urgot.png"
   },
   {
     "name": "Varus",
-    "class": "the Arrow of Retribution"
+    "class": "the Arrow of Retribution",
+    "id": "Varus",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Varus.png"
   },
   {
     "name": "Vayne",
-    "class": "the Night Hunter"
+    "class": "the Night Hunter",
+    "id": "Vayne",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Vayne.png"
   },
   {
     "name": "Veigar",
-    "class": "the Tiny Master of Evil"
+    "class": "the Tiny Master of Evil",
+    "id": "Veigar",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Veigar.png"
   },
   {
     "name": "Vel'Koz",
-    "class": "the Eye of the Void"
+    "class": "the Eye of the Void",
+    "id": "Velkoz",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Velkoz.png"
   },
   {
     "name": "Vex",
-    "class": "the Gloomist"
+    "class": "the Gloomist",
+    "id": "Vex",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Vex.png"
   },
   {
     "name": "Vi",
-    "class": "the Piltover Enforcer"
+    "class": "the Piltover Enforcer",
+    "id": "Vi",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Vi.png"
   },
   {
     "name": "Viego",
-    "class": "The Ruined King"
+    "class": "The Ruined King",
+    "id": "Viego",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Viego.png"
   },
   {
     "name": "Viktor",
-    "class": "the Herald of the Arcane"
+    "class": "the Herald of the Arcane",
+    "id": "Viktor",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Viktor.png"
   },
   {
     "name": "Vladimir",
-    "class": "the Crimson Reaper"
+    "class": "the Crimson Reaper",
+    "id": "Vladimir",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Vladimir.png"
   },
   {
     "name": "Volibear",
-    "class": "the Relentless Storm"
+    "class": "the Relentless Storm",
+    "id": "Volibear",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Volibear.png"
   },
   {
     "name": "Warwick",
-    "class": "the Uncaged Wrath of Zaun"
+    "class": "the Uncaged Wrath of Zaun",
+    "id": "Warwick",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Warwick.png"
   },
   {
     "name": "Xayah",
-    "class": "the Rebel"
+    "class": "the Rebel",
+    "id": "Xayah",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Xayah.png"
   },
   {
     "name": "Xerath",
-    "class": "the Magus Ascendant"
+    "class": "the Magus Ascendant",
+    "id": "Xerath",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Xerath.png"
   },
   {
     "name": "Xin Zhao",
-    "class": "the Seneschal of Demacia"
+    "class": "the Seneschal of Demacia",
+    "id": "XinZhao",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/XinZhao.png"
   },
   {
     "name": "Yasuo",
-    "class": "the Unforgiven"
+    "class": "the Unforgiven",
+    "id": "Yasuo",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Yasuo.png"
   },
   {
     "name": "Yone",
-    "class": "the Unforgotten"
+    "class": "the Unforgotten",
+    "id": "Yone",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Yone.png"
   },
   {
     "name": "Yorick",
-    "class": "Shepherd of Souls"
+    "class": "Shepherd of Souls",
+    "id": "Yorick",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Yorick.png"
   },
   {
     "name": "Yunara",
-    "class": "the Unbroken Faith"
+    "class": "the Unbroken Faith",
+    "id": "Yunara",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Yunara.png"
   },
   {
     "name": "Yuumi",
-    "class": "the Magical Cat"
+    "class": "the Magical Cat",
+    "id": "Yuumi",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Yuumi.png"
   },
   {
     "name": "Zaahen",
-    "class": "The Unsundered"
+    "class": "The Unsundered",
+    "id": "Zaahen",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Zaahen.png"
   },
   {
     "name": "Zac",
-    "class": "the Secret Weapon"
+    "class": "the Secret Weapon",
+    "id": "Zac",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Zac.png"
   },
   {
     "name": "Zed",
-    "class": "the Master of Shadows"
+    "class": "the Master of Shadows",
+    "id": "Zed",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Zed.png"
   },
   {
     "name": "Zeri",
-    "class": "The Spark of Zaun"
+    "class": "The Spark of Zaun",
+    "id": "Zeri",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Zeri.png"
   },
   {
     "name": "Ziggs",
-    "class": "the Hexplosives Expert"
+    "class": "the Hexplosives Expert",
+    "id": "Ziggs",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Ziggs.png"
   },
   {
     "name": "Zilean",
-    "class": "the Chronokeeper"
+    "class": "the Chronokeeper",
+    "id": "Zilean",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Zilean.png"
   },
   {
     "name": "Zoe",
-    "class": "the Aspect of Twilight"
+    "class": "the Aspect of Twilight",
+    "id": "Zoe",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Zoe.png"
   },
   {
     "name": "Zyra",
-    "class": "Rise of the Thorns"
+    "class": "Rise of the Thorns",
+    "id": "Zyra",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Zyra.png"
   }
 ]
