@@ -1,0 +1,1810 @@
+[
+  {
+    "name": "Abyssal Mask",
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "CooldownReduction",
+      "MagicResist",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Actualizer",
+    "tags": [
+      "SpellDamage",
+      "Mana",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Aether Wisp",
+    "tags": [
+      "NonbootsMovement",
+      "SpellDamage"
+    ]
+  },
+  {
+    "name": "Amplifying Tome",
+    "tags": [
+      "SpellDamage"
+    ]
+  },
+  {
+    "name": "Archangel's Staff",
+    "tags": [
+      "SpellDamage",
+      "Mana",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Ardent Censer",
+    "tags": [
+      "AttackSpeed",
+      "SpellDamage",
+      "ManaRegen",
+      "NonbootsMovement"
+    ]
+  },
+  {
+    "name": "Armored Advance",
+    "tags": [
+      "Armor",
+      "Boots"
+    ]
+  },
+  {
+    "name": "Atma's Reckoning",
+    "tags": [
+      "Health",
+      "CriticalStrike",
+      "Lane"
+    ]
+  },
+  {
+    "name": "Axiom Arc",
+    "tags": [
+      "Damage",
+      "ArmorPenetration",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "B. F. Sword",
+    "tags": [
+      "Damage"
+    ]
+  },
+  {
+    "name": "Bami's Cinder",
+    "tags": [
+      "Health",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Bandleglass Mirror",
+    "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Bandlepipes",
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "AttackSpeed",
+      "NonbootsMovement",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Banshee's Veil",
+    "tags": [
+      "SpellBlock",
+      "SpellDamage"
+    ]
+  },
+  {
+    "name": "Bastionbreaker",
+    "tags": [
+      "Damage",
+      "ArmorPenetration",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Berserker's Greaves",
+    "tags": [
+      "AttackSpeed",
+      "Boots"
+    ]
+  },
+  {
+    "name": "Black Cleaver",
+    "tags": [
+      "Health",
+      "Damage",
+      "CooldownReduction",
+      "OnHit",
+      "NonbootsMovement",
+      "ArmorPenetration",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Blackfire Torch",
+    "tags": [
+      "SpellDamage",
+      "Mana",
+      "CooldownReduction",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Blade of The Ruined King",
+    "tags": [
+      "Damage",
+      "AttackSpeed",
+      "LifeSteal",
+      "Slow",
+      "OnHit"
+    ]
+  },
+  {
+    "name": "Blasting Wand",
+    "tags": [
+      "SpellDamage"
+    ]
+  },
+  {
+    "name": "Blighting Jewel",
+    "tags": [
+      "MagicPenetration",
+      "SpellDamage"
+    ]
+  },
+  {
+    "name": "Bloodletter's Curse",
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "MagicPenetration"
+    ]
+  },
+  {
+    "name": "Bloodsong",
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "ManaRegen",
+      "Vision",
+      "GoldPer",
+      "Lane"
+    ]
+  },
+  {
+    "name": "Bloodthirster",
+    "tags": [
+      "Damage",
+      "LifeSteal"
+    ]
+  },
+  {
+    "name": "Boots",
+    "tags": [
+      "Boots"
+    ]
+  },
+  {
+    "name": "Boots of Swiftness",
+    "tags": [
+      "Boots"
+    ]
+  },
+  {
+    "name": "Bramble Vest",
+    "tags": [
+      "Armor"
+    ]
+  },
+  {
+    "name": "Cappa Juice",
+    "tags": [
+      "Damage",
+      "Consumable"
+    ]
+  },
+  {
+    "name": "Catalyst of Aeons",
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "Mana",
+      "ManaRegen"
+    ]
+  },
+  {
+    "name": "Caulfield's Warhammer",
+    "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Celestial Opposition",
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "ManaRegen",
+      "Vision",
+      "GoldPer",
+      "Lane"
+    ]
+  },
+  {
+    "name": "Chain Vest",
+    "tags": [
+      "Armor"
+    ]
+  },
+  {
+    "name": "Chainlaced Crushers",
+    "tags": [
+      "SpellBlock",
+      "Boots",
+      "Tenacity",
+      "MagicResist"
+    ]
+  },
+  {
+    "name": "Chempunk Chainsword",
+    "tags": [
+      "Health",
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Cloak of Agility",
+    "tags": [
+      "CriticalStrike"
+    ]
+  },
+  {
+    "name": "Cloak of Starry Night",
+    "tags": [
+      "Health",
+      "SpellBlock"
+    ]
+  },
+  {
+    "name": "Cloth Armor",
+    "tags": [
+      "Armor"
+    ]
+  },
+  {
+    "name": "Control Ward",
+    "tags": [
+      "Consumable",
+      "Lane",
+      "Stealth",
+      "Vision"
+    ]
+  },
+  {
+    "name": "Cosmic Drive",
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "NonbootsMovement",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Crimson Lucidity",
+    "tags": [
+      "CooldownReduction",
+      "Boots"
+    ]
+  },
+  {
+    "name": "Crown of the Shattered Queen",
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "Mana",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Cruelty",
+    "tags": [
+      "Armor",
+      "SpellDamage",
+      "MagicResist"
+    ]
+  },
+  {
+    "name": "Cryptbloom",
+    "tags": [
+      "SpellDamage",
+      "MagicPenetration",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Crystalline Bracer",
+    "tags": [
+      "Health",
+      "HealthRegen"
+    ]
+  },
+  {
+    "name": "Cull",
+    "tags": [
+      "Damage",
+      "OnHit",
+      "Lane"
+    ]
+  },
+  {
+    "name": "Dagger",
+    "tags": [
+      "AttackSpeed"
+    ]
+  },
+  {
+    "name": "Dark Seal",
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "Lane"
+    ]
+  },
+  {
+    "name": "Dawncore",
+    "tags": [
+      "SpellDamage",
+      "ManaRegen"
+    ]
+  },
+  {
+    "name": "Dead Man's Plate",
+    "tags": [
+      "Health",
+      "Armor",
+      "Slow",
+      "NonbootsMovement"
+    ]
+  },
+  {
+    "name": "Death's Dance",
+    "tags": [
+      "Armor",
+      "Damage",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Demon King's Crown",
+    "tags": [
+      "Health",
+      "Armor",
+      "Damage",
+      "AttackSpeed",
+      "SpellDamage",
+      "MagicResist",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Doran's Blade",
+    "tags": [
+      "Health",
+      "Damage",
+      "LifeSteal",
+      "SpellVamp",
+      "Lane"
+    ]
+  },
+  {
+    "name": "Doran's Ring",
+    "tags": [
+      "Health",
+      "Lane",
+      "ManaRegen",
+      "SpellDamage"
+    ]
+  },
+  {
+    "name": "Doran's Shield",
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "Lane"
+    ]
+  },
+  {
+    "name": "Dream Maker",
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "ManaRegen",
+      "Vision",
+      "GoldPer",
+      "Lane"
+    ]
+  },
+  {
+    "name": "Dusk and Dawn",
+    "tags": [
+      "Health",
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Echoes of Helia",
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Eclipse",
+    "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Edge of Night",
+    "tags": [
+      "Health",
+      "Damage",
+      "ArmorPenetration"
+    ]
+  },
+  {
+    "name": "Elixir of Iron",
+    "tags": [
+      "Health",
+      "Consumable",
+      "NonbootsMovement",
+      "Tenacity"
+    ]
+  },
+  {
+    "name": "Elixir of Sorcery",
+    "tags": [
+      "Consumable",
+      "ManaRegen",
+      "SpellDamage"
+    ]
+  },
+  {
+    "name": "Elixir of Wrath",
+    "tags": [
+      "Consumable",
+      "Damage",
+      "LifeSteal",
+      "SpellVamp"
+    ]
+  },
+  {
+    "name": "Endless Hunger",
+    "tags": [
+      "Damage",
+      "LifeSteal",
+      "SpellVamp",
+      "Tenacity",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Essence Reaver",
+    "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ManaRegen",
+      "CooldownReduction",
+      "OnHit",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Executioner's Calling",
+    "tags": [
+      "Damage"
+    ]
+  },
+  {
+    "name": "Experimental Hexplate",
+    "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Faerie Charm",
+    "tags": [
+      "ManaRegen"
+    ]
+  },
+  {
+    "name": "Fated Ashes",
+    "tags": [
+      "SpellDamage"
+    ]
+  },
+  {
+    "name": "Fiendhunter Bolts",
+    "tags": [
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Fiendish Codex",
+    "tags": [
+      "SpellDamage",
+      "CooldownReduction",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Flesheater",
+    "tags": [
+      "Damage",
+      "SpellDamage",
+      "MagicPenetration",
+      "ArmorPenetration"
+    ]
+  },
+  {
+    "name": "Forbidden Idol",
+    "tags": [
+      "ManaRegen"
+    ]
+  },
+  {
+    "name": "Force of Nature",
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "NonbootsMovement"
+    ]
+  },
+  {
+    "name": "Frozen Heart",
+    "tags": [
+      "Armor",
+      "Mana",
+      "Aura",
+      "CooldownReduction",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Gambler's Blade",
+    "tags": [
+      "Damage",
+      "NonbootsMovement",
+      "MagicPenetration",
+      "ArmorPenetration",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Gargoyle Stoneplate",
+    "tags": [
+      "SpellBlock",
+      "Armor",
+      "Active",
+      "CooldownReduction",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Giant's Belt",
+    "tags": [
+      "Health"
+    ]
+  },
+  {
+    "name": "Glacial Buckler",
+    "tags": [
+      "Armor",
+      "Mana",
+      "CooldownReduction",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Glowing Mote",
+    "tags": [
+      "CooldownReduction"
+    ]
+  },
+  {
+    "name": "Guardian Angel",
+    "tags": [
+      "Armor",
+      "Damage"
+    ]
+  },
+  {
+    "name": "Guardian's Blade",
+    "tags": [
+      "Health",
+      "Damage",
+      "Lane",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Guardian's Hammer",
+    "tags": [
+      "Health",
+      "Damage",
+      "LifeSteal",
+      "Lane"
+    ]
+  },
+  {
+    "name": "Guardian's Horn",
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "Lane"
+    ]
+  },
+  {
+    "name": "Guardian's Orb",
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "ManaRegen",
+      "Lane"
+    ]
+  },
+  {
+    "name": "Guinsoo's Rageblade",
+    "tags": [
+      "Damage",
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit"
+    ]
+  },
+  {
+    "name": "Gunmetal Greaves",
+    "tags": [
+      "AttackSpeed",
+      "LifeSteal",
+      "NonbootsMovement"
+    ]
+  },
+  {
+    "name": "Gustwalker Hatchling",
+    "tags": [
+      "Jungle"
+    ]
+  },
+  {
+    "name": "Haunting Guise",
+    "tags": [
+      "Health",
+      "SpellDamage"
+    ]
+  },
+  {
+    "name": "Health Potion",
+    "tags": [
+      "HealthRegen",
+      "Consumable",
+      "Lane",
+      "Jungle"
+    ]
+  },
+  {
+    "name": "Hearthbound Axe",
+    "tags": [
+      "Damage",
+      "AttackSpeed"
+    ]
+  },
+  {
+    "name": "Heartsteel",
+    "tags": [
+      "Health",
+      "HealthRegen"
+    ]
+  },
+  {
+    "name": "Hexdrinker",
+    "tags": [
+      "Damage",
+      "SpellBlock"
+    ]
+  },
+  {
+    "name": "Hexoptics C44",
+    "tags": [
+      "Damage",
+      "CriticalStrike"
+    ]
+  },
+  {
+    "name": "Hextech Alternator",
+    "tags": [
+      "SpellDamage"
+    ]
+  },
+  {
+    "name": "Hextech Gunblade",
+    "tags": [
+      "Damage",
+      "LifeSteal",
+      "SpellDamage",
+      "Active",
+      "SpellVamp"
+    ]
+  },
+  {
+    "name": "Hextech Rocketbelt",
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "Active",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Hollow Radiance",
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "HealthRegen",
+      "Aura",
+      "MagicResist",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Horizon Focus",
+    "tags": [
+      "SpellDamage",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Hubris",
+    "tags": [
+      "Damage",
+      "Active",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Hullbreaker",
+    "tags": [
+      "Health",
+      "Damage",
+      "NonbootsMovement"
+    ]
+  },
+  {
+    "name": "Iceborn Gauntlet",
+    "tags": [
+      "Health",
+      "Armor",
+      "CooldownReduction",
+      "Slow",
+      "OnHit",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Immortal Shieldbow",
+    "tags": [
+      "Damage",
+      "CriticalStrike"
+    ]
+  },
+  {
+    "name": "Imperial Mandate",
+    "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Infinity Edge",
+    "tags": [
+      "CriticalStrike",
+      "Damage"
+    ]
+  },
+  {
+    "name": "Ionian Boots of Lucidity",
+    "tags": [
+      "Boots",
+      "CooldownReduction"
+    ]
+  },
+  {
+    "name": "Jak'Sho, The Protean",
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "MagicResist"
+    ]
+  },
+  {
+    "name": "Kaenic Rookern",
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "HealthRegen"
+    ]
+  },
+  {
+    "name": "Kalista's Black Spear",
+    "tags": [
+      "Consumable"
+    ]
+  },
+  {
+    "name": "Kindlegem",
+    "tags": [
+      "Health",
+      "CooldownReduction",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Knight's Vow",
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "Armor",
+      "Aura",
+      "Active",
+      "CooldownReduction",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Kraken Slayer",
+    "tags": [
+      "Damage",
+      "AttackSpeed",
+      "OnHit",
+      "NonbootsMovement"
+    ]
+  },
+  {
+    "name": "Last Whisper",
+    "tags": [
+      "ArmorPenetration",
+      "Damage"
+    ]
+  },
+  {
+    "name": "Liandry's Torment",
+    "tags": [
+      "Health",
+      "SpellDamage"
+    ]
+  },
+  {
+    "name": "Lich Bane",
+    "tags": [
+      "SpellDamage",
+      "OnHit",
+      "NonbootsMovement",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Locket of the Iron Solari",
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "Aura",
+      "Active",
+      "MagicResist",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Long Sword",
+    "tags": [
+      "Damage",
+      "Lane"
+    ]
+  },
+  {
+    "name": "Lord Dominik's Regards",
+    "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ArmorPenetration"
+    ]
+  },
+  {
+    "name": "Lost Chapter",
+    "tags": [
+      "SpellDamage",
+      "Mana",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Luden's Echo",
+    "tags": [
+      "SpellDamage",
+      "Mana",
+      "CooldownReduction",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Malignance",
+    "tags": [
+      "SpellDamage",
+      "Mana",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Manamune",
+    "tags": [
+      "Damage",
+      "Mana",
+      "CooldownReduction",
+      "OnHit",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Maw of Malmortius",
+    "tags": [
+      "SpellBlock",
+      "Damage",
+      "LifeSteal",
+      "SpellVamp",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Mejai's Soulstealer",
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "NonbootsMovement"
+    ]
+  },
+  {
+    "name": "Mercurial Scimitar",
+    "tags": [
+      "SpellBlock",
+      "Damage",
+      "LifeSteal",
+      "Active",
+      "NonbootsMovement",
+      "Tenacity"
+    ]
+  },
+  {
+    "name": "Mercury's Treads",
+    "tags": [
+      "Boots",
+      "SpellBlock",
+      "Tenacity"
+    ]
+  },
+  {
+    "name": "Mikael's Blessing",
+    "tags": [
+      "Health",
+      "ManaRegen",
+      "Active",
+      "CooldownReduction",
+      "Tenacity",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Moonstone Renewer",
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Morellonomicon",
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Mortal Reminder",
+    "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ArmorPenetration"
+    ]
+  },
+  {
+    "name": "Mosstomper Seedling",
+    "tags": [
+      "Jungle"
+    ]
+  },
+  {
+    "name": "Nashor's Tooth",
+    "tags": [
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Navori Flickerblade",
+    "tags": [
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement"
+    ]
+  },
+  {
+    "name": "Needlessly Large Rod",
+    "tags": [
+      "SpellDamage"
+    ]
+  },
+  {
+    "name": "Negatron Cloak",
+    "tags": [
+      "SpellBlock"
+    ]
+  },
+  {
+    "name": "Noonquiver",
+    "tags": [
+      "Damage",
+      "CriticalStrike"
+    ]
+  },
+  {
+    "name": "Null-Magic Mantle",
+    "tags": [
+      "SpellBlock"
+    ]
+  },
+  {
+    "name": "Oblivion Orb",
+    "tags": [
+      "SpellDamage"
+    ]
+  },
+  {
+    "name": "Opportunity",
+    "tags": [
+      "Damage",
+      "Active",
+      "NonbootsMovement",
+      "ArmorPenetration"
+    ]
+  },
+  {
+    "name": "Overlord's Bloodmail",
+    "tags": [
+      "Health",
+      "Damage"
+    ]
+  },
+  {
+    "name": "Phage",
+    "tags": [
+      "Health",
+      "Damage",
+      "NonbootsMovement"
+    ]
+  },
+  {
+    "name": "Phantom Dancer",
+    "tags": [
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement"
+    ]
+  },
+  {
+    "name": "Pickaxe",
+    "tags": [
+      "Damage"
+    ]
+  },
+  {
+    "name": "Plated Steelcaps",
+    "tags": [
+      "Armor",
+      "Boots"
+    ]
+  },
+  {
+    "name": "Profane Hydra",
+    "tags": [
+      "Damage",
+      "Active",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Protoplasm Harness",
+    "tags": [
+      "Health",
+      "NonbootsMovement",
+      "Tenacity",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Quicksilver Sash",
+    "tags": [
+      "Active",
+      "SpellBlock"
+    ]
+  },
+  {
+    "name": "Rabadon's Deathcap",
+    "tags": [
+      "SpellDamage"
+    ]
+  },
+  {
+    "name": "Randuin's Omen",
+    "tags": [
+      "Health",
+      "Armor",
+      "Active",
+      "Slow"
+    ]
+  },
+  {
+    "name": "Rapid Firecannon",
+    "tags": [
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement"
+    ]
+  },
+  {
+    "name": "Ravenous Hydra",
+    "tags": [
+      "Damage",
+      "LifeSteal",
+      "CooldownReduction",
+      "OnHit",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Rectrix",
+    "tags": [
+      "Damage",
+      "NonbootsMovement"
+    ]
+  },
+  {
+    "name": "Recurve Bow",
+    "tags": [
+      "AttackSpeed",
+      "OnHit"
+    ]
+  },
+  {
+    "name": "Redemption",
+    "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Refillable Potion",
+    "tags": [
+      "HealthRegen",
+      "Consumable",
+      "Active",
+      "Lane",
+      "Jungle"
+    ]
+  },
+  {
+    "name": "Rejuvenation Bead",
+    "tags": [
+      "HealthRegen"
+    ]
+  },
+  {
+    "name": "Riftmaker",
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "SpellVamp"
+    ]
+  },
+  {
+    "name": "Rod of Ages",
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "SpellDamage",
+      "Mana",
+      "ManaRegen"
+    ]
+  },
+  {
+    "name": "Ruby Crystal",
+    "tags": [
+      "Health"
+    ]
+  },
+  {
+    "name": "Runaan's Hurricane",
+    "tags": [
+      "CriticalStrike",
+      "AttackSpeed",
+      "OnHit",
+      "NonbootsMovement"
+    ]
+  },
+  {
+    "name": "Rylai's Crystal Scepter",
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "Slow"
+    ]
+  },
+  {
+    "name": "Sapphire Crystal",
+    "tags": [
+      "Mana"
+    ]
+  },
+  {
+    "name": "Scorchclaw Pup",
+    "tags": [
+      "Jungle"
+    ]
+  },
+  {
+    "name": "Scout's Slingshot",
+    "tags": [
+      "AttackSpeed"
+    ]
+  },
+  {
+    "name": "Seeker's Armguard",
+    "tags": [
+      "Armor",
+      "SpellDamage",
+      "Active"
+    ]
+  },
+  {
+    "name": "Serpent's Fang",
+    "tags": [
+      "Damage",
+      "ArmorPenetration"
+    ]
+  },
+  {
+    "name": "Serrated Dirk",
+    "tags": [
+      "Damage",
+      "ArmorPenetration"
+    ]
+  },
+  {
+    "name": "Serylda's Grudge",
+    "tags": [
+      "Damage",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Shadowflame",
+    "tags": [
+      "SpellDamage",
+      "MagicPenetration"
+    ]
+  },
+  {
+    "name": "Shattered Armguard",
+    "tags": []
+  },
+  {
+    "name": "Sheen",
+    "tags": [
+      "OnHit",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Shield of Molten Stone",
+    "tags": [
+      "Health",
+      "Armor"
+    ]
+  },
+  {
+    "name": "Shurelya's Battlesong",
+    "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "Active",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Solstice Sleigh",
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "ManaRegen",
+      "Vision",
+      "GoldPer",
+      "Lane"
+    ]
+  },
+  {
+    "name": "Sorcerer's Shoes",
+    "tags": [
+      "Boots",
+      "MagicPenetration"
+    ]
+  },
+  {
+    "name": "Spear of Shojin",
+    "tags": [
+      "Health",
+      "Damage",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Spectre's Cowl",
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "SpellBlock"
+    ]
+  },
+  {
+    "name": "Spellslinger's Shoes",
+    "tags": [
+      "Boots",
+      "MagicPenetration"
+    ]
+  },
+  {
+    "name": "Spirit Visage",
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "HealthRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Staff of Flowing Water",
+    "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Statikk Shiv",
+    "tags": [
+      "Damage",
+      "AttackSpeed",
+      "OnHit",
+      "NonbootsMovement"
+    ]
+  },
+  {
+    "name": "Steel Sigil",
+    "tags": [
+      "Armor",
+      "Damage"
+    ]
+  },
+  {
+    "name": "Sterak's Gage",
+    "tags": [
+      "Health",
+      "Damage",
+      "Tenacity"
+    ]
+  },
+  {
+    "name": "Stormrazor",
+    "tags": [
+      "Damage",
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement"
+    ]
+  },
+  {
+    "name": "Stormsurge",
+    "tags": [
+      "SpellDamage",
+      "GoldPer",
+      "NonbootsMovement",
+      "MagicPenetration"
+    ]
+  },
+  {
+    "name": "Stridebreaker",
+    "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "Slow"
+    ]
+  },
+  {
+    "name": "Sundered Sky",
+    "tags": [
+      "Health",
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Sunfire Aegis",
+    "tags": [
+      "Health",
+      "Armor",
+      "Aura",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Swiftmarch",
+    "tags": [
+      "Boots"
+    ]
+  },
+  {
+    "name": "Sword of Blossoming Dawn",
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "OnHit",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Sword of the Divine",
+    "tags": [
+      "Damage",
+      "CriticalStrike",
+      "SpellDamage"
+    ]
+  },
+  {
+    "name": "Tear of the Goddess",
+    "tags": [
+      "Mana",
+      "ManaRegen"
+    ]
+  },
+  {
+    "name": "Terminus",
+    "tags": [
+      "Damage",
+      "AttackSpeed",
+      "OnHit",
+      "MagicPenetration",
+      "ArmorPenetration"
+    ]
+  },
+  {
+    "name": "The Brutalizer",
+    "tags": [
+      "Damage",
+      "CooldownReduction",
+      "ArmorPenetration"
+    ]
+  },
+  {
+    "name": "The Collector",
+    "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ArmorPenetration"
+    ]
+  },
+  {
+    "name": "Thornmail",
+    "tags": [
+      "Health",
+      "Armor"
+    ]
+  },
+  {
+    "name": "Tiamat",
+    "tags": [
+      "Damage",
+      "OnHit"
+    ]
+  },
+  {
+    "name": "Titanic Hydra",
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "Damage",
+      "OnHit"
+    ]
+  },
+  {
+    "name": "Trailblazer",
+    "tags": [
+      "Health",
+      "Armor",
+      "NonbootsMovement"
+    ]
+  },
+  {
+    "name": "Trinity Force",
+    "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "CooldownReduction",
+      "OnHit",
+      "NonbootsMovement",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Tunneler",
+    "tags": [
+      "Health",
+      "Damage"
+    ]
+  },
+  {
+    "name": "Umbral Glaive",
+    "tags": [
+      "Damage",
+      "Vision",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Unending Despair",
+    "tags": [
+      "Health",
+      "Armor",
+      "CooldownReduction",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Vampiric Scepter",
+    "tags": [
+      "Damage",
+      "LifeSteal"
+    ]
+  },
+  {
+    "name": "Veigar's Talisman of Ascension",
+    "tags": []
+  },
+  {
+    "name": "Verdant Barrier",
+    "tags": [
+      "SpellBlock",
+      "SpellDamage"
+    ]
+  },
+  {
+    "name": "Void Staff",
+    "tags": [
+      "MagicPenetration",
+      "SpellDamage"
+    ]
+  },
+  {
+    "name": "Voltaic Cyclosword",
+    "tags": [
+      "Damage",
+      "Active",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Warden's Mail",
+    "tags": [
+      "Armor"
+    ]
+  },
+  {
+    "name": "Warmog's Armor",
+    "tags": [
+      "Health",
+      "HealthRegen"
+    ]
+  },
+  {
+    "name": "Whispering Circlet",
+    "tags": [
+      "Health",
+      "Mana",
+      "ManaRegen"
+    ]
+  },
+  {
+    "name": "Winged Moonplate",
+    "tags": [
+      "Health",
+      "NonbootsMovement"
+    ]
+  },
+  {
+    "name": "Winter's Approach",
+    "tags": [
+      "Health",
+      "Mana",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Wit's End",
+    "tags": [
+      "SpellBlock",
+      "AttackSpeed",
+      "OnHit",
+      "Tenacity"
+    ]
+  },
+  {
+    "name": "World Atlas",
+    "tags": [
+      "Health",
+      "ManaRegen",
+      "Vision",
+      "GoldPer",
+      "Lane"
+    ]
+  },
+  {
+    "name": "Youmuu's Ghostblade",
+    "tags": [
+      "Damage",
+      "Active",
+      "NonbootsMovement",
+      "ArmorPenetration"
+    ]
+  },
+  {
+    "name": "Yun Tal Wildarrows",
+    "tags": [
+      "Damage",
+      "CriticalStrike",
+      "AttackSpeed"
+    ]
+  },
+  {
+    "name": "Zaz'Zak's Realmspike",
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "ManaRegen",
+      "Vision",
+      "GoldPer",
+      "Lane"
+    ]
+  },
+  {
+    "name": "Zeal",
+    "tags": [
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement"
+    ]
+  },
+  {
+    "name": "Zeke's Convergence",
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "AbilityHaste"
+    ]
+  },
+  {
+    "name": "Zephyr",
+    "tags": [
+      "AttackSpeed",
+      "CooldownReduction",
+      "OnHit",
+      "NonbootsMovement",
+      "Tenacity"
+    ]
+  },
+  {
+    "name": "Zhonya's Hourglass",
+    "tags": [
+      "Armor",
+      "SpellDamage",
+      "Active"
+    ]
+  }
+]

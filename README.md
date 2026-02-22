@@ -12,7 +12,11 @@ Open `standalone.html` in your browser.
    ```bash
    npm install
    ```
-2. Start the dev server:
+2. Update data (downloads from Data Dragon):
+   ```bash
+   npm run update-data
+   ```
+3. Start the dev server:
    ```bash
    npm start
    ```
@@ -23,12 +27,32 @@ npm run build
 ```
 The built files will be in `dist/`.
 
+## 🔄 Data Updates
+
+This project pulls champion, item, and summoner spell data from Riot's Data Dragon API.
+
+- Online update (default):
+  ```bash
+  npm run update-data
+  ```
+- Offline update (uses `api-json/`):
+  ```bash
+  npm run update-data:offline
+  ```
+
+Generated files:
+- `data/champions.json`
+- `data/items.json`
+- `data/summoner-spells.json`
+- `data/runes.json`
+- `data/metadata.json`
+
 ## 🎮 Features
 
 - **Random Champion Selection**: Get assigned a random League of Legends champion from the entire roster
 - **Summoner Spells**: Two different summoner spells are randomly selected for you
 - **Item Build**: A complete 6-item build is randomly generated
-- **Ability Leveling Order**: A random ability leveling sequence (Q, W, E) for all 18 levels with ultimate abilities at levels 6, 11, and 16
+- **Ability Priority**: A random ability priority (Q > W > E) for leveling
 - **Roll & Reroll**: Keep rolling until you get a build you're feeling brave enough to play!
 - **Responsive Design**: Beautiful, responsive design that works on desktop and mobile devices
 - **League of Legends Themed**: Dark gaming aesthetic with gold accents inspired by League of Legends UI
@@ -79,6 +103,10 @@ untitled/
 │   └── app.js           # JavaScript logic for rolling and displaying results
 ├── css/
 │   └── style.css        # Styling with League of Legends theme
+├── data/                # Generated JSON data used by the app
+├── api-json/            # Cached JSON for offline data updates
+├── scripts/
+│   └── update-data.js   # Data Dragon sync script
 ├── package.json         # Project dependencies and scripts
 ├── webpack.common.js    # Webpack base configuration
 ├── webpack.config.dev.js  # Webpack development configuration
@@ -87,7 +115,7 @@ untitled/
 
 ## 🎯 How to Use
 
-1. Click the **"🎲 ROLL NOW"** button to generate a random champion, summoner spells, items, and ability leveling order
+1. Click the **"🎲 ROLL NOW"** button to generate a random champion, summoner spells, items, and ability priority
 2. Review your assigned build
 3. Not feeling it? Click **"🔄 REROLL"** to get a new one
 4. Once you've found a build you like, accept the challenge and play it in a League of Legends game!
@@ -121,26 +149,18 @@ Your site will be available at `https://yourusername.github.io/repository-name/`
 
 ## 📊 Data Included
 
-- **155+ Champions**: Complete roster of League of Legends champions
-- **12 Summoner Spells**: Flash, Smite, Exhaust, Ignite, Heal, Teleport, and more
-- **60+ Items**: Wide selection of League of Legends items from various patches
+- **150+ Champions**: Complete roster of League of Legends champions
+- **Summoner Spells**: Flash, Smite, Exhaust, Ignite, Heal, Teleport, and more
+- **Items**: Wide selection of League of Legends items from various patches
 
 ## 🎨 Customization
 
-### Adding More Champions
+### Updating Data
 
-Edit `js/app.js` and add champions to the `champions` array:
+Run the data sync script:
 
-```javascript
-{ name: 'Champion Name', class: 'Champion Title' }
-```
-
-### Adding More Items
-
-Edit `js/app.js` and add items to the `items` array:
-
-```javascript
-'Item Name'
+```bash
+npm run update-data
 ```
 
 ### Changing Colors

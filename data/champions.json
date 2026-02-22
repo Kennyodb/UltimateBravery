@@ -1,0 +1,690 @@
+[
+  {
+    "name": "Aatrox",
+    "class": "the Darkin Blade"
+  },
+  {
+    "name": "Ahri",
+    "class": "the Nine-Tailed Fox"
+  },
+  {
+    "name": "Akali",
+    "class": "the Rogue Assassin"
+  },
+  {
+    "name": "Akshan",
+    "class": "the Rogue Sentinel"
+  },
+  {
+    "name": "Alistar",
+    "class": "the Minotaur"
+  },
+  {
+    "name": "Ambessa",
+    "class": "Matriarch of War"
+  },
+  {
+    "name": "Amumu",
+    "class": "the Sad Mummy"
+  },
+  {
+    "name": "Anivia",
+    "class": "the Cryophoenix"
+  },
+  {
+    "name": "Annie",
+    "class": "the Dark Child"
+  },
+  {
+    "name": "Aphelios",
+    "class": "the Weapon of the Faithful"
+  },
+  {
+    "name": "Ashe",
+    "class": "the Frost Archer"
+  },
+  {
+    "name": "Aurelion Sol",
+    "class": "The Star Forger"
+  },
+  {
+    "name": "Aurora",
+    "class": "the Witch Between Worlds"
+  },
+  {
+    "name": "Azir",
+    "class": "the Emperor of the Sands"
+  },
+  {
+    "name": "Bard",
+    "class": "the Wandering Caretaker"
+  },
+  {
+    "name": "Bel'Veth",
+    "class": "the Empress of the Void"
+  },
+  {
+    "name": "Blitzcrank",
+    "class": "the Great Steam Golem"
+  },
+  {
+    "name": "Brand",
+    "class": "the Burning Vengeance"
+  },
+  {
+    "name": "Braum",
+    "class": "the Heart of the Freljord"
+  },
+  {
+    "name": "Briar",
+    "class": "the Restrained Hunger"
+  },
+  {
+    "name": "Caitlyn",
+    "class": "the Sheriff of Piltover"
+  },
+  {
+    "name": "Camille",
+    "class": "the Steel Shadow"
+  },
+  {
+    "name": "Cassiopeia",
+    "class": "the Serpent's Embrace"
+  },
+  {
+    "name": "Cho'Gath",
+    "class": "the Terror of the Void"
+  },
+  {
+    "name": "Corki",
+    "class": "the Daring Bombardier"
+  },
+  {
+    "name": "Darius",
+    "class": "the Hand of Noxus"
+  },
+  {
+    "name": "Diana",
+    "class": "Scorn of the Moon"
+  },
+  {
+    "name": "Draven",
+    "class": "the Glorious Executioner"
+  },
+  {
+    "name": "Dr. Mundo",
+    "class": "the Madman of Zaun"
+  },
+  {
+    "name": "Ekko",
+    "class": "the Boy Who Shattered Time"
+  },
+  {
+    "name": "Elise",
+    "class": "the Spider Queen"
+  },
+  {
+    "name": "Evelynn",
+    "class": "Agony's Embrace"
+  },
+  {
+    "name": "Ezreal",
+    "class": "the Prodigal Explorer"
+  },
+  {
+    "name": "Fiddlesticks",
+    "class": "the Ancient Fear"
+  },
+  {
+    "name": "Fiora",
+    "class": "the Grand Duelist"
+  },
+  {
+    "name": "Fizz",
+    "class": "the Tidal Trickster"
+  },
+  {
+    "name": "Galio",
+    "class": "the Colossus"
+  },
+  {
+    "name": "Gangplank",
+    "class": "the Saltwater Scourge"
+  },
+  {
+    "name": "Garen",
+    "class": "The Might of Demacia"
+  },
+  {
+    "name": "Gnar",
+    "class": "the Missing Link"
+  },
+  {
+    "name": "Gragas",
+    "class": "the Rabble Rouser"
+  },
+  {
+    "name": "Graves",
+    "class": "the Outlaw"
+  },
+  {
+    "name": "Gwen",
+    "class": "The Hallowed Seamstress"
+  },
+  {
+    "name": "Hecarim",
+    "class": "the Shadow of War"
+  },
+  {
+    "name": "Heimerdinger",
+    "class": "the Revered Inventor"
+  },
+  {
+    "name": "Hwei",
+    "class": "the Visionary"
+  },
+  {
+    "name": "Illaoi",
+    "class": "the Kraken Priestess"
+  },
+  {
+    "name": "Irelia",
+    "class": "the Blade Dancer"
+  },
+  {
+    "name": "Ivern",
+    "class": "the Green Father"
+  },
+  {
+    "name": "Janna",
+    "class": "the Storm's Fury"
+  },
+  {
+    "name": "Jarvan IV",
+    "class": "the Exemplar of Demacia"
+  },
+  {
+    "name": "Jax",
+    "class": "Grandmaster at Arms"
+  },
+  {
+    "name": "Jayce",
+    "class": "the Defender of Tomorrow"
+  },
+  {
+    "name": "Jhin",
+    "class": "the Virtuoso"
+  },
+  {
+    "name": "Jinx",
+    "class": "the Loose Cannon"
+  },
+  {
+    "name": "Kai'Sa",
+    "class": "Daughter of the Void"
+  },
+  {
+    "name": "Kalista",
+    "class": "the Spear of Vengeance"
+  },
+  {
+    "name": "Karma",
+    "class": "the Enlightened One"
+  },
+  {
+    "name": "Karthus",
+    "class": "the Deathsinger"
+  },
+  {
+    "name": "Kassadin",
+    "class": "the Void Walker"
+  },
+  {
+    "name": "Katarina",
+    "class": "the Sinister Blade"
+  },
+  {
+    "name": "Kayle",
+    "class": "the Righteous"
+  },
+  {
+    "name": "Kayn",
+    "class": "the Shadow Reaper"
+  },
+  {
+    "name": "Kennen",
+    "class": "the Heart of the Tempest"
+  },
+  {
+    "name": "Kha'Zix",
+    "class": "the Voidreaver"
+  },
+  {
+    "name": "Kindred",
+    "class": "The Eternal Hunters"
+  },
+  {
+    "name": "Kled",
+    "class": "the Cantankerous Cavalier"
+  },
+  {
+    "name": "Kog'Maw",
+    "class": "the Mouth of the Abyss"
+  },
+  {
+    "name": "K'Sante",
+    "class": "the Pride of Nazumah"
+  },
+  {
+    "name": "LeBlanc",
+    "class": "the Deceiver"
+  },
+  {
+    "name": "Lee Sin",
+    "class": "the Blind Monk"
+  },
+  {
+    "name": "Leona",
+    "class": "the Radiant Dawn"
+  },
+  {
+    "name": "Lillia",
+    "class": "the Bashful Bloom"
+  },
+  {
+    "name": "Lissandra",
+    "class": "the Ice Witch"
+  },
+  {
+    "name": "Lucian",
+    "class": "the Purifier"
+  },
+  {
+    "name": "Lulu",
+    "class": "the Fae Sorceress"
+  },
+  {
+    "name": "Lux",
+    "class": "the Lady of Luminosity"
+  },
+  {
+    "name": "Malphite",
+    "class": "Shard of the Monolith"
+  },
+  {
+    "name": "Malzahar",
+    "class": "the Prophet of the Void"
+  },
+  {
+    "name": "Maokai",
+    "class": "the Twisted Treant"
+  },
+  {
+    "name": "Master Yi",
+    "class": "the Wuju Bladesman"
+  },
+  {
+    "name": "Mel",
+    "class": "the Soul's Reflection"
+  },
+  {
+    "name": "Milio",
+    "class": "The Gentle Flame"
+  },
+  {
+    "name": "Miss Fortune",
+    "class": "the Bounty Hunter"
+  },
+  {
+    "name": "Wukong",
+    "class": "the Monkey King"
+  },
+  {
+    "name": "Mordekaiser",
+    "class": "the Iron Revenant"
+  },
+  {
+    "name": "Morgana",
+    "class": "the Fallen"
+  },
+  {
+    "name": "Naafiri",
+    "class": "the Hound of a Hundred Bites"
+  },
+  {
+    "name": "Nami",
+    "class": "the Tidecaller"
+  },
+  {
+    "name": "Nasus",
+    "class": "the Curator of the Sands"
+  },
+  {
+    "name": "Nautilus",
+    "class": "the Titan of the Depths"
+  },
+  {
+    "name": "Neeko",
+    "class": "the Curious Chameleon"
+  },
+  {
+    "name": "Nidalee",
+    "class": "the Bestial Huntress"
+  },
+  {
+    "name": "Nilah",
+    "class": "the Joy Unbound"
+  },
+  {
+    "name": "Nocturne",
+    "class": "the Eternal Nightmare"
+  },
+  {
+    "name": "Nunu & Willump",
+    "class": "the Boy and His Yeti"
+  },
+  {
+    "name": "Olaf",
+    "class": "the Berserker"
+  },
+  {
+    "name": "Orianna",
+    "class": "the Lady of Clockwork"
+  },
+  {
+    "name": "Ornn",
+    "class": "The Fire below the Mountain"
+  },
+  {
+    "name": "Pantheon",
+    "class": "the Unbreakable Spear"
+  },
+  {
+    "name": "Poppy",
+    "class": "Keeper of the Hammer"
+  },
+  {
+    "name": "Pyke",
+    "class": "the Bloodharbor Ripper"
+  },
+  {
+    "name": "Qiyana",
+    "class": "Empress of the Elements"
+  },
+  {
+    "name": "Quinn",
+    "class": "Demacia's Wings"
+  },
+  {
+    "name": "Rakan",
+    "class": "The Charmer"
+  },
+  {
+    "name": "Rammus",
+    "class": "the Armordillo"
+  },
+  {
+    "name": "Rek'Sai",
+    "class": "the Void Burrower"
+  },
+  {
+    "name": "Rell",
+    "class": "the Iron Maiden"
+  },
+  {
+    "name": "Renata Glasc",
+    "class": "the Chem-Baroness"
+  },
+  {
+    "name": "Renekton",
+    "class": "the Butcher of the Sands"
+  },
+  {
+    "name": "Rengar",
+    "class": "the Pridestalker"
+  },
+  {
+    "name": "Riven",
+    "class": "the Exile"
+  },
+  {
+    "name": "Rumble",
+    "class": "the Mechanized Menace"
+  },
+  {
+    "name": "Ryze",
+    "class": "the Rune Mage"
+  },
+  {
+    "name": "Samira",
+    "class": "the Desert Rose"
+  },
+  {
+    "name": "Sejuani",
+    "class": "Fury of the North"
+  },
+  {
+    "name": "Senna",
+    "class": "the Redeemer"
+  },
+  {
+    "name": "Seraphine",
+    "class": "the Starry-Eyed Songstress"
+  },
+  {
+    "name": "Sett",
+    "class": "the Boss"
+  },
+  {
+    "name": "Shaco",
+    "class": "the Demon Jester"
+  },
+  {
+    "name": "Shen",
+    "class": "the Eye of Twilight"
+  },
+  {
+    "name": "Shyvana",
+    "class": "the Half-Dragon"
+  },
+  {
+    "name": "Singed",
+    "class": "the Mad Chemist"
+  },
+  {
+    "name": "Sion",
+    "class": "The Undead Juggernaut"
+  },
+  {
+    "name": "Sivir",
+    "class": "the Battle Mistress"
+  },
+  {
+    "name": "Skarner",
+    "class": "the Primordial Sovereign"
+  },
+  {
+    "name": "Smolder",
+    "class": "the Fiery Fledgling"
+  },
+  {
+    "name": "Sona",
+    "class": "Maven of the Strings"
+  },
+  {
+    "name": "Soraka",
+    "class": "the Starchild"
+  },
+  {
+    "name": "Swain",
+    "class": "the Noxian Grand General"
+  },
+  {
+    "name": "Sylas",
+    "class": "the Unshackled"
+  },
+  {
+    "name": "Syndra",
+    "class": "the Dark Sovereign"
+  },
+  {
+    "name": "Tahm Kench",
+    "class": "The River King"
+  },
+  {
+    "name": "Taliyah",
+    "class": "the Stoneweaver"
+  },
+  {
+    "name": "Talon",
+    "class": "the Blade's Shadow"
+  },
+  {
+    "name": "Taric",
+    "class": "the Shield of Valoran"
+  },
+  {
+    "name": "Teemo",
+    "class": "the Swift Scout"
+  },
+  {
+    "name": "Thresh",
+    "class": "the Chain Warden"
+  },
+  {
+    "name": "Tristana",
+    "class": "the Yordle Gunner"
+  },
+  {
+    "name": "Trundle",
+    "class": "the Troll King"
+  },
+  {
+    "name": "Tryndamere",
+    "class": "the Barbarian King"
+  },
+  {
+    "name": "Twisted Fate",
+    "class": "the Card Master"
+  },
+  {
+    "name": "Twitch",
+    "class": "the Plague Rat"
+  },
+  {
+    "name": "Udyr",
+    "class": "the Spirit Walker"
+  },
+  {
+    "name": "Urgot",
+    "class": "the Dreadnought"
+  },
+  {
+    "name": "Varus",
+    "class": "the Arrow of Retribution"
+  },
+  {
+    "name": "Vayne",
+    "class": "the Night Hunter"
+  },
+  {
+    "name": "Veigar",
+    "class": "the Tiny Master of Evil"
+  },
+  {
+    "name": "Vel'Koz",
+    "class": "the Eye of the Void"
+  },
+  {
+    "name": "Vex",
+    "class": "the Gloomist"
+  },
+  {
+    "name": "Vi",
+    "class": "the Piltover Enforcer"
+  },
+  {
+    "name": "Viego",
+    "class": "The Ruined King"
+  },
+  {
+    "name": "Viktor",
+    "class": "the Herald of the Arcane"
+  },
+  {
+    "name": "Vladimir",
+    "class": "the Crimson Reaper"
+  },
+  {
+    "name": "Volibear",
+    "class": "the Relentless Storm"
+  },
+  {
+    "name": "Warwick",
+    "class": "the Uncaged Wrath of Zaun"
+  },
+  {
+    "name": "Xayah",
+    "class": "the Rebel"
+  },
+  {
+    "name": "Xerath",
+    "class": "the Magus Ascendant"
+  },
+  {
+    "name": "Xin Zhao",
+    "class": "the Seneschal of Demacia"
+  },
+  {
+    "name": "Yasuo",
+    "class": "the Unforgiven"
+  },
+  {
+    "name": "Yone",
+    "class": "the Unforgotten"
+  },
+  {
+    "name": "Yorick",
+    "class": "Shepherd of Souls"
+  },
+  {
+    "name": "Yunara",
+    "class": "the Unbroken Faith"
+  },
+  {
+    "name": "Yuumi",
+    "class": "the Magical Cat"
+  },
+  {
+    "name": "Zaahen",
+    "class": "The Unsundered"
+  },
+  {
+    "name": "Zac",
+    "class": "the Secret Weapon"
+  },
+  {
+    "name": "Zed",
+    "class": "the Master of Shadows"
+  },
+  {
+    "name": "Zeri",
+    "class": "The Spark of Zaun"
+  },
+  {
+    "name": "Ziggs",
+    "class": "the Hexplosives Expert"
+  },
+  {
+    "name": "Zilean",
+    "class": "the Chronokeeper"
+  },
+  {
+    "name": "Zoe",
+    "class": "the Aspect of Twilight"
+  },
+  {
+    "name": "Zyra",
+    "class": "Rise of the Thorns"
+  }
+]
