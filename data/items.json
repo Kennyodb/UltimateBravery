@@ -1,6 +1,7 @@
 [
   {
     "name": "Abyssal Mask",
+    "description": "<mainText><stats><attention>350</attention> Health<br><attention>45</attention> Magic Resist<br><attention>15</attention> Ability Haste</stats><br><br><passive>Unmake</passive><br>Nearby enemy champions take 12% more <magicDamage>magic damage</magicDamage>.</mainText>",
     "tags": [
       "Health",
       "SpellBlock",
@@ -23,6 +24,7 @@
   },
   {
     "name": "Actualizer",
+    "description": "<mainText><stats><attention>90</attention> Ability Power<br><attention>300</attention> Mana<br><attention>10</attention> Ability Haste</stats><br><br><active>Mana Made Real</active> (0s)<br>For 8 seconds, your mana is Empowered. While Empowered, your spells cost 100% more Mana, you gain  increased Ability damage, Shielding, and Healing, and your basic ability cooldowns progress 30% faster.</mainText>",
     "tags": [
       "SpellDamage",
       "Mana",
@@ -43,6 +45,7 @@
   },
   {
     "name": "Archangel's Staff",
+    "description": "<mainText><stats><attention>70</attention> Ability Power<br><attention>600</attention> Mana<br><attention>25</attention> Ability Haste</stats><br><br><passive>Awe</passive><br>Gain Ability Power equal to <scaleMana>1% bonus Mana.</scaleMana><br><br><passive>Manaflow</passive> (8s, max 5 charges)<br>Landing Abilities grants <scaleMana>5 max Mana</scaleMana> (doubled vs. champions).<br>Transforms into <rarityLegendary>Seraph's Embrace</rarityLegendary> at <scaleMana>360 max Mana</scaleMana>.</mainText>",
     "tags": [
       "SpellDamage",
       "Mana",
@@ -63,6 +66,7 @@
   },
   {
     "name": "Ardent Censer",
+    "description": "<mainText><stats><attention>45</attention> Ability Power<br><attention>10%</attention> Heal and Shield Power<br><attention>125%</attention> Base Mana Regen<br><attention>4%</attention> Move Speed</stats><br><br><passive>Sanctify</passive><br>Healing or Shielding an ally enhances you both for 6 seconds, granting <attackSpeed>25% Attack Speed</attackSpeed> and <magicDamage>20 magic damage</magicDamage> <OnHit>On-Hit</OnHit>.</mainText>",
     "tags": [
       "AttackSpeed",
       "SpellDamage",
@@ -84,6 +88,7 @@
   },
   {
     "name": "Armored Advance",
+    "description": "<mainText><stats><attention>35</attention> Armor<br><attention>45</attention> Move Speed</stats><br><br><passive>Plating</passive><br>Reduces incoming damage from Attacks by 10%.<br><br><passive>Noxian Endurance</passive> (0s)<br>After taking physical damage from a Champion, gain a <shield></shield> <physicalDamage>physical</physicalDamage> <shield>shield</shield> for 5 seconds.</mainText>",
     "tags": [
       "Armor",
       "Boots"
@@ -103,6 +108,7 @@
   },
   {
     "name": "Axiom Arc",
+    "description": "<mainText><stats><attention>55</attention> Attack Damage<br><attention>18</attention> Lethality<br><attention>20</attention> Ability Haste</stats><br><br><passive>Flux</passive><br>When a champion that you damaged within 3 seconds dies, refund some of your Ultimate Ability's total cooldown.</mainText>",
     "tags": [
       "Damage",
       "ArmorPenetration",
@@ -123,6 +129,7 @@
   },
   {
     "name": "Bandlepipes",
+    "description": "<mainText><stats><attention>200</attention> Health<br><attention>15</attention> Ability Haste<br><attention>20</attention> Armor<br><attention>20</attention> Magic Resist</stats><br><br><passive>Fanfare</passive><br><keyword>Slowing</keyword> or <keyword>Immobilizing</keyword> an enemy champion grants Fanfare for  seconds. Fanfare grants you <speed>20 Move Speed</speed>. While you have Fanfare, nearby allies, including yourself, gain <attackSpeed> Attack Speed</attackSpeed>.</mainText>",
     "tags": [
       "Health",
       "SpellBlock",
@@ -146,6 +153,7 @@
   },
   {
     "name": "Banshee's Veil",
+    "description": "<mainText><stats><attention>105</attention> Ability Power<br><attention>40</attention> Magic Resist</stats><br><br><passive>Annul</passive><br>Grants a Spell Shield that blocks the next enemy Ability.</mainText>",
     "tags": [
       "SpellBlock",
       "SpellDamage"
@@ -165,6 +173,7 @@
   },
   {
     "name": "Bastionbreaker",
+    "description": "<mainText><stats><attention>55</attention> Attack Damage<br><attention>22</attention> Lethality<br><attention>15</attention> Ability Haste</stats><br><br><passive>Shaped Charge</passive> (0s)<br>Dealing Ability damage to a Champion or Epic Monster deals an additional <trueDamage> true damage</trueDamage>.<br><br><passive>Sabotage</passive><br>Taking down a champion within 3 seconds of damaging them grants Sabotage for 90 seconds. While you have Sabotage, your next Attack against an Epic Monster or Turret deals an additional <trueDamage> true damage</trueDamage> over 3 seconds. </mainText>",
     "tags": [
       "Damage",
       "ArmorPenetration",
@@ -185,6 +194,7 @@
   },
   {
     "name": "Berserker's Greaves",
+    "description": "<mainText><stats><attention>25%</attention> Attack Speed<br><attention>45</attention> Move Speed</stats><br><br></mainText>",
     "tags": [
       "AttackSpeed",
       "Boots"
@@ -204,6 +214,7 @@
   },
   {
     "name": "Black Cleaver",
+    "description": "<mainText><stats><attention>40</attention> Attack Damage<br><attention>400</attention> Health<br><attention>20</attention> Ability Haste</stats><br><br><passive>Carve</passive><br>Dealing <physicalDamage>physical damage</physicalDamage> to champions reduces their <scaleArmor>Armor by 6%</scaleArmor> for 6 seconds. (stacks 5 times).<br><br><passive>Fervor</passive><br>Dealing <physicalDamage>physical damage</physicalDamage> grants <speed>20 Move Speed</speed> for 2 seconds.</mainText>",
     "tags": [
       "Health",
       "Damage",
@@ -228,6 +239,7 @@
   },
   {
     "name": "Blackfire Torch",
+    "description": "<mainText><stats><attention>80</attention> Ability Power<br><attention>600</attention> Mana<br><attention>20</attention> Ability Haste</stats><br><br><passive>Baleful Blaze</passive><br>Damaging Abilities deals <magicDamage>bonus magic damage</magicDamage> for 3 seconds.<br><br><passive>Blackfire</passive><br>For each enemy champion, epic and large monster affected by your <passive>Baleful Blaze</passive>, gain <scaleAP>4% Ability Power</scaleAP>. </mainText>",
     "tags": [
       "SpellDamage",
       "Mana",
@@ -249,6 +261,7 @@
   },
   {
     "name": "Blade of The Ruined King",
+    "description": "<mainText><stats><attention>40</attention> Attack Damage<br><attention>25%</attention> Attack Speed<br><attention>10%</attention> Life Steal</stats><br><br><passive>Mist's Edge</passive><br>Attacks deal <physicalDamage>a percentage</physicalDamage> of enemy's current Health as <physicalDamage>bonus physical damage</physicalDamage> <OnHit>On-Hit</OnHit>.<br><br><passive>Clawing Shadows</passive><br>Attacking a champion 3 times <status>Slows</status> them by 30% for 1 second.</mainText>",
     "tags": [
       "Damage",
       "AttackSpeed",
@@ -271,6 +284,7 @@
   },
   {
     "name": "Bloodletter's Curse",
+    "description": "<mainText><stats><attention>65</attention> Ability Power<br><attention>400</attention> Health<br><attention>15</attention> Ability Haste</stats><br><br><passive>Vile Decay</passive><br>Dealing <magicDamage>magic damage</magicDamage> with abilities or passives to champions reduces their <scaleMR>Magic Resist by 7.5%</scaleMR> for 6 seconds, up to 30%.</mainText>",
     "tags": [
       "Health",
       "SpellDamage",
@@ -292,6 +306,7 @@
   },
   {
     "name": "Bloodthirster",
+    "description": "<mainText><stats><attention>80</attention> Attack Damage<br><attention>15%</attention> Life Steal</stats><br><br><passive>Ichorshield</passive><br>Convert excess healing from your Lifesteal to a <shield>Shield</shield>.</mainText>",
     "tags": [
       "Damage",
       "LifeSteal"
@@ -311,6 +326,7 @@
   },
   {
     "name": "Boots of Swiftness",
+    "description": "<mainText><stats><attention>55</attention> Move Speed</stats><br><br><passive>Fleetfooted</passive><br>Reduce the effectiveness of <keyword>Slows</keyword> by 25%.</mainText>",
     "tags": [
       "Boots"
     ],
@@ -329,6 +345,7 @@
   },
   {
     "name": "Chainlaced Crushers",
+    "description": "<mainText><stats><attention>30</attention> Magic Resist<br><attention>45</attention> Move Speed<br><attention>30%</attention> Tenacity</stats><br><br><passive>Noxian Persistence</passive> (0s)<br>After taking magic damage from a Champion, gain a <shield></shield> <magicDamage>magic</magicDamage> <shield>shield</shield> for 5 seconds.</mainText>",
     "tags": [
       "SpellBlock",
       "Boots",
@@ -350,6 +367,7 @@
   },
   {
     "name": "Chempunk Chainsword",
+    "description": "<mainText><stats><attention>45</attention> Attack Damage<br><attention>450</attention> Health<br><attention>15</attention> Ability Haste</stats><br><br><passive>Hackshorn</passive><br>Dealing physical damage applies <keyword>40% Wounds</keyword> to enemy champions for 3 seconds.</mainText>",
     "tags": [
       "Health",
       "Damage",
@@ -371,6 +389,7 @@
   },
   {
     "name": "Cloak of Starry Night",
+    "description": "<mainText><stats><attention>250</attention> Health<br><attention>60</attention> Magic Resist</stats><br><br><passive>Limitless as the Stars</passive><br>Increase your <scaleMR>Magic Resist</scaleMR> by 10%. Reduce all damage you take from non-Basic Attack sources by a percentage, scaling with your <scaleMR>Magic Resist</scaleMR> up to a cap of 25%.</mainText>",
     "tags": [
       "Health",
       "SpellBlock"
@@ -390,6 +409,7 @@
   },
   {
     "name": "Cosmic Drive",
+    "description": "<mainText><stats><attention>70</attention> Ability Power<br><attention>350</attention> Health<br><attention>25</attention> Ability Haste<br><attention>4%</attention> Move Speed</stats><br><br><passive>Spelldance</passive><br>Dealing <magicDamage>magic</magicDamage> or <trueDamage>true damage</trueDamage> to champions grants <speed>Move Speed</speed> for 4 seconds. </mainText>",
     "tags": [
       "Health",
       "SpellDamage",
@@ -411,6 +431,7 @@
   },
   {
     "name": "Crimson Lucidity",
+    "description": "<mainText><stats><attention>20</attention> Ability Haste<br><attention>45</attention> Move Speed</stats><br><br><passive>Ionian Insight</passive><br>Gain 20 Summoner Spell Haste.<br><br><passive>Noxian Haste</passive><br>Empowering or protecting allies with abilities, dealing damage to enemy Champions with abilities, or casting a Summoner Spell grants <speed> Move Speed</speed> for 4 seconds.<br><br><rules>Noxian Haste can only be triggered once per Ability cast.</rules></mainText>",
     "tags": [
       "CooldownReduction",
       "Boots"
@@ -430,6 +451,7 @@
   },
   {
     "name": "Crown of the Shattered Queen",
+    "description": "<mainText><stats><attention>65</attention> Ability Power<br><attention>250</attention> Health<br><attention>600</attention> Mana<br><attention>15</attention> Ability Haste</stats><br><br><passive>Safeguard</passive><br>You are <keywordMajor>Safeguarded</keywordMajor>, reducing incoming champion damage by 40%. <keywordMajor>Safeguard</keywordMajor> persists for 3 seconds after taking champion damage. (0s). <br><br><rules>Item Cooldown is restarted when damage is taken from champions.</rules></mainText>",
     "tags": [
       "Health",
       "SpellDamage",
@@ -451,6 +473,7 @@
   },
   {
     "name": "Cruelty",
+    "description": "<mainText><stats><attention>60</attention> Ability Power<br><attention>25</attention> Armor<br><attention>25</attention> Magic Resist</stats><br><br><passive>Watch Them Fall</passive><br>On <status>Immobilize</status> or <status>Grounding</status> an enemy champion, summon a comet above them. The comet lands after 1 second, dealing additional <magicDamage> magic damage</magicDamage> in the area. This effect has a 6s cooldown per target per spell cast.</mainText>",
     "tags": [
       "Armor",
       "SpellDamage",
@@ -471,6 +494,7 @@
   },
   {
     "name": "Cryptbloom",
+    "description": "<mainText><stats><attention>75</attention> Ability Power<br><attention>30%</attention> Magic Penetration<br><attention>20</attention> Ability Haste</stats><br><br><passive>Life from Death</passive><br>When a champion that you damaged within 3 seconds dies, a nova spreads from their corpse that <healing>heals</healing>.</mainText>",
     "tags": [
       "SpellDamage",
       "MagicPenetration",
@@ -491,6 +515,7 @@
   },
   {
     "name": "Dawncore",
+    "description": "<mainText><stats><attention>45</attention> Ability Power<br><attention>16%</attention> Heal and Shield Power<br><attention>100%</attention> Base Mana Regen</stats><br><br><passive>First Light</passive><br>Gain <healing>2% Heal and Shield Power</healing> and <scaleAP>10 Ability Power</scaleAP> per 100% Base Mana Regen.</mainText>",
     "tags": [
       "SpellDamage",
       "ManaRegen"
@@ -510,6 +535,7 @@
   },
   {
     "name": "Dead Man's Plate",
+    "description": "<mainText><stats><attention>350</attention> Health<br><attention>55</attention> Armor<br><attention>4%</attention> Move Speed</stats><br><br><passive>Shipwrecker</passive><br>While moving, build up to <speed>20 bonus Move Speed</speed>. Your next Attack discharges built up Move Speed to deal <physicalDamage>bonus physical damage</physicalDamage>.<br><br><passive>Unsinkable</passive><br>Reduce the effectiveness of <keyword>Slows</keyword> by 15%.</mainText>",
     "tags": [
       "Health",
       "Armor",
@@ -531,6 +557,7 @@
   },
   {
     "name": "Death's Dance",
+    "description": "<mainText><stats><attention>60</attention> Attack Damage<br><attention>50</attention> Armor<br><attention>15</attention> Ability Haste</stats><br><br><passive>Ignore Pain</passive><br>A percentage of damage taken is dealt to you over 3 seconds instead.<br><br><passive>Defy</passive><br>When a champion that you damaged within 3 seconds dies, cleanse <passive>Ignore Pain's</passive> remaining damage and restore <healing>Health</healing> over 2 seconds.</mainText>",
     "tags": [
       "Armor",
       "Damage",
@@ -551,6 +578,7 @@
   },
   {
     "name": "Demon King's Crown",
+    "description": "<mainText><stats></stats><br><br><passive>Supremacy</passive><br>Increases your Health, Armor, Magic Resist, Attack Damage, Ability Power, Attack Speed, and Ability Haste by 20%, increased by 0% perTakedown and -3% per Death after acquiring this item.</mainText>",
     "tags": [
       "Health",
       "Armor",
@@ -575,6 +603,7 @@
   },
   {
     "name": "Dusk and Dawn",
+    "description": "<mainText><stats><attention>350</attention> Health<br><attention>70</attention> Ability Power<br><attention>20</attention> Ability Haste<br><attention>25%</attention> Attack Speed</stats><br><br><passive>Spellblade</passive> (0s)<br>After using an Ability, your next Attack deals <magicDamage> bonus magic damage</magicDamage> <OnHit>On-Hit</OnHit> and applies <OnHit>On-Hit</OnHit> effects an additional time.</mainText>",
     "tags": [
       "Health",
       "AttackSpeed",
@@ -597,6 +626,7 @@
   },
   {
     "name": "Echoes of Helia",
+    "description": "<mainText><stats><attention>35</attention> Ability Power<br><attention>200</attention> Health<br><attention>20</attention> Ability Haste<br><attention>125%</attention> Base Mana Regen</stats><br><br><passive>Soul Siphon</passive><br>Gain 35% of pre-mitigation damage dealt to champions as Soul Charges. Healing or Shielding an ally consumes all <passive>Soul Charges</passive> to restore <healing>Health</healing>.</mainText>",
     "tags": [
       "Health",
       "SpellDamage",
@@ -619,6 +649,7 @@
   },
   {
     "name": "Eclipse",
+    "description": "<mainText><stats><attention>60</attention> Attack Damage<br><attention>15</attention> Ability Haste</stats><br><br><passive>Ever Rising Moon</passive><br>Hitting a champion with 2 separate Attacks or Abilities within 2 seconds grants you a <shield>Shield</shield> for 2 seconds.</mainText>",
     "tags": [
       "Damage",
       "CooldownReduction",
@@ -639,6 +670,7 @@
   },
   {
     "name": "Edge of Night",
+    "description": "<mainText><stats><attention>50</attention> Attack Damage<br><attention>15</attention> Lethality<br><attention>250</attention> Health</stats><br><br><passive>Annul</passive><br>Grants a Spell Shield that blocks the next enemy Ability.</mainText>",
     "tags": [
       "Health",
       "Damage",
@@ -659,6 +691,7 @@
   },
   {
     "name": "Endless Hunger",
+    "description": "<mainText><stats><attention>65</attention> Attack Damage<br><attention>5%</attention> Omnivamp<br><attention>20%</attention> Tenacity</stats><br><br><passive>Famine</passive><br>Gain  Ability Haste.<br><br><passive>Feast</passive><br>When a champion that you damaged within 3 seconds dies, gain <omnivamp>15% Omnivamp</omnivamp> for 8 seconds. </mainText>",
     "tags": [
       "Damage",
       "LifeSteal",
@@ -681,6 +714,7 @@
   },
   {
     "name": "Essence Reaver",
+    "description": "<mainText><stats><attention>50</attention> Attack Damage<br><attention>20</attention> Ability Haste<br><attention>25%</attention> Critical Strike Chance</stats><br><br><passive>Spellblade</passive><br>After using an Ability, your next Attack deals <physicalDamage>bonus physical damage</physicalDamage> and grants <scaleMana>Mana</scaleMana> <OnHit>On-Hit</OnHit>.</mainText>",
     "tags": [
       "Damage",
       "CriticalStrike",
@@ -704,6 +738,7 @@
   },
   {
     "name": "Experimental Hexplate",
+    "description": "<mainText><stats><attention>40</attention> Attack Damage<br><attention>20%</attention> Attack Speed<br><attention>450</attention> Health</stats><br><br><passive>Hexcharged</passive><br>Gain 30 Ultimate Ability Haste.<br><br><passive>Overdrive</passive><br>After casting your Ultimate, gain <attackSpeed>50% Attack Speed</attackSpeed> and <speed>20% Move Speed</speed> for 8 seconds. </mainText>",
     "tags": [
       "Health",
       "Damage",
@@ -727,6 +762,7 @@
   },
   {
     "name": "Fiendhunter Bolts",
+    "description": "<mainText><stats><attention>45%</attention> Attack Speed<br><attention>25%</attention> Critical Strike Chance<br><attention>4%</attention> Move Speed</stats><br><br><passive>Night Vigil</passive><br>Gain 30 Ultimate Ability Haste.<br><br><passive>Opening Barrage</passive><br>After casting your Ultimate, your next 3 basic attacks gain <attackSpeed>50% Attack Speed</attackSpeed> and Critically Strike for 80% of your normal Critical Strike damage for 8 seconds. If an attack would already Critically Strike, instead it deals <trueDamage>15% bonus true damage</trueDamage>.</mainText>",
     "tags": [
       "CriticalStrike",
       "AttackSpeed",
@@ -748,6 +784,7 @@
   },
   {
     "name": "Flesheater",
+    "description": "<mainText><stats><attention>55</attention> Adaptive Force<br><attention>500</attention> Health</stats><br><br><passive>Hack the Meat</passive><br>Dealing damage shreds 3 <scaleArmor>Armor</scaleArmor> and <scaleMR>Magic Resist</scaleMR> for 5 seconds, stacking up to 10 times. Applying stacks has a 1 second cooldown per Ability.<br><br><passive>Cannibalize</passive><br>On Champion Takedown, Heal yourself and your ally for <healing>18% of the Target's Max Health</healing>.</mainText>",
     "tags": [
       "Damage",
       "SpellDamage",
@@ -769,6 +806,7 @@
   },
   {
     "name": "Force of Nature",
+    "description": "<mainText><stats><attention>400</attention> Health<br><attention>55</attention> Magic Resist<br><attention>4%</attention> Move Speed</stats><br><br><passive>Steadfast</passive><br>Gain <scaleMR>70 Magic Resist</scaleMR> and <speed>6% bonus Move Speed</speed> after taking magic damage from Champions 8 times.</mainText>",
     "tags": [
       "Health",
       "SpellBlock",
@@ -789,6 +827,7 @@
   },
   {
     "name": "Frozen Heart",
+    "description": "<mainText><stats><attention>75</attention> Armor<br><attention>400</attention> Mana<br><attention>20</attention> Ability Haste</stats><br><br><passive>Winter's Caress</passive><br>Reduce the <attackSpeed>Attack Speed</attackSpeed> of nearby champions by <attackSpeed>20%</attackSpeed>.</mainText>",
     "tags": [
       "Armor",
       "Mana",
@@ -811,6 +850,7 @@
   },
   {
     "name": "Gambler's Blade",
+    "description": "<mainText><stats><attention>55</attention> Adaptive Force<br><attention>10</attention> Ability Haste<br><attention>15</attention> Lethality<br><attention>15</attention> Magic Penetration<br><attention>15%</attention> Move Speed</stats><br><br><passive>Playing for Time</passive><br>Champion takedowns while using Gambler's Blade delays Doom-boss Veigar's arrival by an additional 10 seconds. Deaths while carrying the Blade accelerate it by 10 seconds. (Will not lose time past the 14:30 minute mark)<br><br><passive>Double Down</passive><br>Champion takedowns grant a stack, each granting<gold> 10 bonus gold</gold> on kill. Also take 5% increased damage per stack. Lose all stacks on death.</mainText>",
     "tags": [
       "Damage",
       "NonbootsMovement",
@@ -833,6 +873,7 @@
   },
   {
     "name": "Gargoyle Stoneplate",
+    "description": "<mainText><stats><attention>55</attention> Armor<br><attention>55</attention> Magic Resist<br><attention>10</attention> Ability Haste<br><attention>8%</attention> Move Speed</stats><br><br><active>Active -</active> <active>Unbreakable:</active> Gain a Shield that decays and grow in size.</mainText>",
     "tags": [
       "SpellBlock",
       "Armor",
@@ -855,6 +896,7 @@
   },
   {
     "name": "Guardian Angel",
+    "description": "<mainText><stats><attention>55</attention> Attack Damage<br><attention>45</attention> Armor</stats><br><br><passive>Rebirth</passive><br>Upon taking lethal damage, restores <healing>50% base Health</healing> and <scaleMana>100% max Mana</scaleMana> after 4 seconds of <keyword>Stasis</keyword>.</mainText>",
     "tags": [
       "Armor",
       "Damage"
@@ -874,6 +916,7 @@
   },
   {
     "name": "Guinsoo's Rageblade",
+    "description": "<mainText><stats><attention>30</attention> Attack Damage<br><attention>30</attention> Ability Power<br><attention>25%</attention> Attack Speed</stats><br><br><passive>Wrath</passive><br>Attacks deal <magicDamage>30 bonus magic damage <OnHit>On-Hit</OnHit></magicDamage>.<br><br><passive>Seething Strike</passive><br>Attacks grant <attackSpeed>8% Attack Speed</attackSpeed> for 3 seconds. (stacks 4 times). <br>While fully stacked, every third Attack applies <OnHit>On-Hit</OnHit> effects twice.</mainText>",
     "tags": [
       "Damage",
       "AttackSpeed",
@@ -895,6 +938,7 @@
   },
   {
     "name": "Gunmetal Greaves",
+    "description": "<mainText><stats><attention>40%</attention> Attack Speed<br><attention>45</attention> Move Speed<br><attention>5%</attention> Life Steal</stats><br><br><passive>Noxian Gait</passive><br>Attacks against Champions grant <speed>Move Speed</speed> <OnHit>On-Hit</OnHit> decaying over 2 seconds.</mainText>",
     "tags": [
       "AttackSpeed",
       "LifeSteal",
@@ -915,6 +959,7 @@
   },
   {
     "name": "Gustwalker Hatchling",
+    "description": "<mainText><stats></stats><br><br><passive>Jungle Companions</passive><br>Summon a <font color='#38A8E8'>Gustwalker</font> that assists you against monsters.<br><br><passive>Gustwalker's Gait</passive><br>The companion grows as you hunt monsters, empowering your <spellName>Smite</spellName>. When fully grown, it grants <speed>Move Speed</speed> upon entering brush, increased when killing large monsters.</mainText>",
     "tags": [
       "Jungle"
     ],
@@ -933,6 +978,7 @@
   },
   {
     "name": "Heartsteel",
+    "description": "<mainText><stats><attention>900</attention> Health<br><attention>100%</attention> Base Health Regen</stats><br><br><passive>Colossal Consumption</passive> (0s) per target<br>If an enemy champion is nearby for a few seconds, your next Attack against them deals <physicalDamage>70 plus 6%</physicalDamage> of your max Health as <physicalDamage>bonus physical damage</physicalDamage> and grants <scaleHealth>8%</scaleHealth> of the damage as <scaleHealth>max Health.</scaleHealth><br><br><passive>Goliath</passive><br>For each <scaleHealth>1000 max Health</scaleHealth>, gain 3% increased size, up to 30%. </mainText>",
     "tags": [
       "Health",
       "HealthRegen"
@@ -952,6 +998,7 @@
   },
   {
     "name": "Hexoptics C44",
+    "description": "<mainText><stats><attention>55</attention> Attack Damage<br><attention>25%</attention> Critical Strike Chance</stats><br><br><passive>Magnification</passive><br>Deal up to 10% increased damage with Attacks, based on how far away the enemy is (max damage at 500 range).<br><br><passive>Arcane Aim</passive><br>When a champion that you damaged within 3 seconds dies, gain 100 additional attack range for 8 seconds. </mainText>",
     "tags": [
       "Damage",
       "CriticalStrike"
@@ -971,6 +1018,7 @@
   },
   {
     "name": "Hextech Gunblade",
+    "description": "<mainText><stats><attention>80</attention> Ability Power<br><attention>40</attention> Attack Damage<br><attention>10%</attention> Omnivamp</stats><br><br><br><br><active>ACTIVE</active> (0s)<br><active>Lightning Bolt</active><br>Shocks the target enemy champion, dealing  magic damage and slowing them by 25% for 1.5 seconds.</mainText>",
     "tags": [
       "Damage",
       "LifeSteal",
@@ -993,6 +1041,7 @@
   },
   {
     "name": "Hextech Rocketbelt",
+    "description": "<mainText><stats><attention>70</attention> Ability Power<br><attention>300</attention> Health<br><attention>20</attention> Ability Haste</stats><br><br><active>Supersonic</active><br>Dash in target direction, unleashing missiles that deal <magicDamage>magic damage</magicDamage>.</mainText>",
     "tags": [
       "Health",
       "SpellDamage",
@@ -1016,6 +1065,7 @@
   },
   {
     "name": "Hollow Radiance",
+    "description": "<mainText><stats><attention>400</attention> Health<br><attention>40</attention> Magic Resist<br><attention>10</attention> Ability Haste<br><attention>100%</attention> Base Health Regen</stats><br><br><passive>Immolate</passive><br>After taking or dealing damage, deal <magicDamage>magic damage</magicDamage> per second to nearby enemies for 3 seconds. <br><br><passive>Desolate</passive><br>Killing an enemy deals <magicDamage>magic damage</magicDamage> around them.</mainText>",
     "tags": [
       "Health",
       "SpellBlock",
@@ -1039,6 +1089,7 @@
   },
   {
     "name": "Horizon Focus",
+    "description": "<mainText><stats><attention>75</attention> Ability Power<br><attention>25</attention> Ability Haste</stats><br><br><passive>Hypershot</passive><br>Dealing Ability damage to champions at 600 range or greater <keywordStealth>Reveals</keywordStealth> them for 6 seconds. <br><br><passive>Focus</passive><br>When <passive>Hypershot</passive> is triggered, <keywordStealth>Reveal</keywordStealth> all other enemy champions within 1400 range of them for 3 seconds.</mainText>",
     "tags": [
       "SpellDamage",
       "AbilityHaste"
@@ -1058,6 +1109,7 @@
   },
   {
     "name": "Hubris",
+    "description": "<mainText><stats><attention>60</attention> Attack Damage<br><attention>18</attention> Lethality<br><attention>10</attention> Ability Haste</stats><br><br><passive>Eminence</passive><br>When a champion that you damaged within 3 seconds dies, gain <physicalDamage>15 Attack Damage plus 2 per champion killed</physicalDamage> for 90 seconds.</mainText>",
     "tags": [
       "Damage",
       "Active",
@@ -1080,6 +1132,7 @@
   },
   {
     "name": "Hullbreaker",
+    "description": "<mainText><stats><attention>40</attention> Attack Damage<br><attention>500</attention> Health<br><attention>4%</attention> Move Speed</stats><br><br><passive>Skipper</passive><br>Every fifth Attack against champions and epic monsters deals <physicalDamage>bonus physical damage</physicalDamage>, increased against Structures.<br><br><passive>Boarding Party</passive><br>Nearby allied siege and super minions gain <scaleArmor>Armor</scaleArmor> and <scaleMR>Magic Resist</scaleMR>.</mainText>",
     "tags": [
       "Health",
       "Damage",
@@ -1100,6 +1153,7 @@
   },
   {
     "name": "Iceborn Gauntlet",
+    "description": "<mainText><stats><attention>300</attention> Health<br><attention>50</attention> Armor<br><attention>15</attention> Ability Haste</stats><br><br><passive>Spellblade</passive><br>After using an Ability, your next Attack deals <physicalDamage>bonus physical damage</physicalDamage> <OnHit>On-Hit</OnHit> and creates a frost field for 2s that <status>Slows</status>.</mainText>",
     "tags": [
       "Health",
       "Armor",
@@ -1123,6 +1177,7 @@
   },
   {
     "name": "Immortal Shieldbow",
+    "description": "<mainText><stats><attention>55</attention> Attack Damage<br><attention>25%</attention> Critical Strike Chance</stats><br><br><passive>Lifeline</passive><br>Taking damage that would reduce your Health below 30% grants a <shield>Shield</shield> for 3 seconds.</mainText>",
     "tags": [
       "Damage",
       "CriticalStrike"
@@ -1142,6 +1197,7 @@
   },
   {
     "name": "Imperial Mandate",
+    "description": "<mainText><stats><attention>60</attention> Ability Power<br><attention>20</attention> Ability Haste<br><attention>125%</attention> Base Mana Regen</stats><br><br><passive>Coordinated Fire</passive> (0s) per target<br><keyword>Slowing</keyword> or <keyword>Immobilizing</keyword> an enemy champion marks them for 5 seconds. Ally champion damage detonates the mark, dealing <magicDamage>magic damage equal to 10% of current health</magicDamage>. </mainText>",
     "tags": [
       "SpellDamage",
       "ManaRegen",
@@ -1163,6 +1219,7 @@
   },
   {
     "name": "Infinity Edge",
+    "description": "<mainText><stats><attention>75</attention> Attack Damage<br><attention>25%</attention> Critical Strike Chance<br><attention>30%</attention> Critical Strike Damage</stats><br><br></mainText>",
     "tags": [
       "CriticalStrike",
       "Damage"
@@ -1182,6 +1239,7 @@
   },
   {
     "name": "Ionian Boots of Lucidity",
+    "description": "<mainText><stats><attention>10</attention> Ability Haste<br><attention>45</attention> Move Speed</stats><br><br><passive>Ionian Insight</passive><br>Gain 10 Summoner Spell Haste.<br><br></mainText>",
     "tags": [
       "Boots",
       "CooldownReduction"
@@ -1201,6 +1259,7 @@
   },
   {
     "name": "Jak'Sho, The Protean",
+    "description": "<mainText><stats><attention>350</attention> Health<br><attention>45</attention> Armor<br><attention>45</attention> Magic Resist</stats><br><br><passive>Voidborn Resilience</passive><br>After 5 seconds of champion combat, increase your bonus <scaleArmor>Armor</scaleArmor> and <scaleMR>Magic Resist</scaleMR> by 30% until end of combat.<br><br></mainText>",
     "tags": [
       "Health",
       "SpellBlock",
@@ -1222,6 +1281,7 @@
   },
   {
     "name": "Kaenic Rookern",
+    "description": "<mainText><stats><attention>400</attention> Health<br><attention>80</attention> Magic Resist<br><attention>100%</attention> Base Health Regen</stats><br><br><passive>Magebane</passive><br>After not taking magic damage for 15 seconds, gain a <shield>magic shield</shield>. </mainText>",
     "tags": [
       "Health",
       "SpellBlock",
@@ -1242,6 +1302,7 @@
   },
   {
     "name": "Knight's Vow",
+    "description": "<mainText><stats><attention>200</attention> Health<br><attention>40</attention> Armor<br><attention>10</attention> Ability Haste<br><attention>100%</attention> Base Health Regen</stats><br><br><passive>Sacrifice</passive><br>While near your <attention>Worthy</attention> ally, take 12% of the damage they receive and <healing>heal for 10%</healing> of the damage they deal to champions.<active>Pledge</active> (0s)<br>Designate an ally as <attention>Worthy</attention>.</mainText>",
     "tags": [
       "Health",
       "HealthRegen",
@@ -1266,6 +1327,7 @@
   },
   {
     "name": "Kraken Slayer",
+    "description": "<mainText><stats><attention>45</attention> Attack Damage<br><attention>40%</attention> Attack Speed<br><attention>4%</attention> Move Speed</stats><br><br><passive>Bring It Down</passive><br>Every third Attack deals <physicalDamage>bonus physical damage</physicalDamage> <OnHit>On-Hit</OnHit>, increased based on their missing Health.</mainText>",
     "tags": [
       "Damage",
       "AttackSpeed",
@@ -1287,6 +1349,7 @@
   },
   {
     "name": "Liandry's Torment",
+    "description": "<mainText><stats><attention>60</attention> Ability Power<br><attention>300</attention> Health</stats><br><br><passive>Torment</passive><br>Damaging Abilities burn enemies for <magicDamage>2% max Health magic damage</magicDamage> per second for 3 seconds.<br><br><passive>Suffering</passive><br>For each second in combat with enemy champions, deal 2% bonus damage, up to 6%.</mainText>",
     "tags": [
       "Health",
       "SpellDamage"
@@ -1306,6 +1369,7 @@
   },
   {
     "name": "Lich Bane",
+    "description": "<mainText><stats><attention>100</attention> Ability Power<br><attention>4%</attention> Move Speed<br><attention>10</attention> Ability Haste</stats><br><br><passive>Spellblade</passive><br>After using an Ability, your next Attack deals <magicDamage>bonus magic damage</magicDamage> <OnHit>On-Hit</OnHit>.</mainText>",
     "tags": [
       "SpellDamage",
       "OnHit",
@@ -1327,6 +1391,7 @@
   },
   {
     "name": "Locket of the Iron Solari",
+    "description": "<mainText><stats><attention>200</attention> Health<br><attention>25</attention> Armor<br><attention>25</attention> Magic Resist<br><attention>10</attention> Ability Haste</stats><br><br><active>Devotion</active><br>Grant nearby allies a <shield>200 - 360 Shield</shield> that decays over 2.5 seconds.</mainText>",
     "tags": [
       "Health",
       "SpellBlock",
@@ -1351,6 +1416,7 @@
   },
   {
     "name": "Lord Dominik's Regards",
+    "description": "<mainText><stats><attention>35</attention> Attack Damage<br><attention>35%</attention> Armor Penetration<br><attention>25%</attention> Critical Strike Chance</stats><br><br><passive>Giant Slayer</passive><br>Deal up to 15% bonus damage against champions based on their bonus Health. Maximum damage bonus reached at 1500 bonus Health.</mainText>",
     "tags": [
       "Damage",
       "CriticalStrike",
@@ -1371,6 +1437,7 @@
   },
   {
     "name": "Luden's Echo",
+    "description": "<mainText><stats><attention>100</attention> Ability Power<br><attention>600</attention> Mana<br><attention>10</attention> Ability Haste</stats><br><br><passive>Echo</passive><br>Damaging Abilities fire 6 Echoes that deal <magicDamage>bonus magic damage</magicDamage> to the target and nearby enemies. Remaining Echoes fire on the primary target, dealing 20% damage.<br></mainText>",
     "tags": [
       "SpellDamage",
       "Mana",
@@ -1392,6 +1459,7 @@
   },
   {
     "name": "Malignance",
+    "description": "<mainText><stats><attention>90</attention> Ability Power<br><attention>600</attention> Mana<br><attention>15</attention> Ability Haste</stats><br><br><passive>Scorn</passive><br>Gain 20 Ultimate Ability Haste.<br><br><passive>Hatefog</passive><br>Damaging a champion with your Ultimate burns the ground beneath them for 3s, dealing <magicDamage>magic damage</magicDamage> per second and reducing their <scaleMR>Magic Resist</scaleMR>. <br></mainText>",
     "tags": [
       "SpellDamage",
       "Mana",
@@ -1412,6 +1480,7 @@
   },
   {
     "name": "Manamune",
+    "description": "<mainText><stats><attention>35</attention> Attack Damage<br><attention>500</attention> Mana<br><attention>15</attention> Ability Haste</stats><br><br><passive>Awe</passive><br>Gain <scaleAD> bonus Attack Damage</scaleAD>.<br><br><passive>Manaflow</passive> (8s, max 4 charges)<br>Landing Attacks and Abilities grants <scaleMana>3 max Mana</scaleMana> (doubled vs. champions).<br>Transforms into <rarityLegendary>Muramana</rarityLegendary> at <scaleMana>360 max Mana</scaleMana>.</mainText>",
     "tags": [
       "Damage",
       "Mana",
@@ -1434,6 +1503,7 @@
   },
   {
     "name": "Maw of Malmortius",
+    "description": "<mainText><stats><attention>60</attention> Attack Damage<br><attention>15</attention> Ability Haste<br><attention>40</attention> Magic Resist</stats><br><br><passive>Lifeline</passive><br>Taking magic damage that would reduce your Health below 30% grants a <shield>magic damage Shield</shield> for 3 seconds and <lifeSteal>10% Omnivamp</lifeSteal> until end of combat.</mainText>",
     "tags": [
       "SpellBlock",
       "Damage",
@@ -1456,6 +1526,7 @@
   },
   {
     "name": "Mejai's Soulstealer",
+    "description": "<mainText><stats><attention>20</attention> Ability Power<br><attention>100</attention> Health</stats><br><br><passive>Glory</passive><br><keyword>Takedowns</keyword> grant <passive>Glory</passive>, up to 25. 10 <passive>Glory</passive> is lost on death.<br>Gain <scaleAP>5 Ability Power</scaleAP> per <passive>Glory</passive> and <speed>10% Move Speed</speed> at 10 or higher <passive>Glory</passive>.</mainText>",
     "tags": [
       "Health",
       "SpellDamage",
@@ -1476,6 +1547,7 @@
   },
   {
     "name": "Mercurial Scimitar",
+    "description": "<mainText><stats><attention>50</attention> Attack Damage<br><attention>35</attention> Magic Resist<br><attention>10%</attention> Life Steal</stats><br><br><br><br><active>ACTIVE</active><br><active>Quicksilver</active><br>Removes all crowd control debuffs (excluding <keyword>Airborne</keyword>) and grants Move Speed.</mainText>",
     "tags": [
       "SpellBlock",
       "Damage",
@@ -1499,6 +1571,7 @@
   },
   {
     "name": "Mercury's Treads",
+    "description": "<mainText><stats><attention>20</attention> Magic Resist<br><attention>45</attention> Move Speed<br><attention>30%</attention> Tenacity</stats><br><br></mainText>",
     "tags": [
       "Boots",
       "SpellBlock",
@@ -1519,6 +1592,7 @@
   },
   {
     "name": "Moonstone Renewer",
+    "description": "<mainText><stats><attention>25</attention> Ability Power<br><attention>200</attention> Health<br><attention>20</attention> Ability Haste<br><attention>125%</attention> Base Mana Regen</stats><br><br><passive>Starlit Grace</passive><br>Healing or shielding an ally chains the effect to another ally (excluding yourself), <healing>healing 30%</healing> or <shield>shielding 35%</shield> of the original amount.</mainText>",
     "tags": [
       "Health",
       "SpellDamage",
@@ -1541,6 +1615,7 @@
   },
   {
     "name": "Morellonomicon",
+    "description": "<mainText><stats><attention>75</attention> Ability Power<br><attention>350</attention> Health<br><attention>15</attention> Ability Haste</stats><br><br><passive>Grievous Wounds</passive><br>Dealing <magicDamage>magic damage</magicDamage> to champions applies <keyword>40% Wounds</keyword> for 3 seconds.</mainText>",
     "tags": [
       "Health",
       "SpellDamage",
@@ -1562,6 +1637,7 @@
   },
   {
     "name": "Mortal Reminder",
+    "description": "<mainText><stats><attention>35</attention> Attack Damage<br><attention>30%</attention> Armor Penetration<br><attention>25%</attention> Critical Strike Chance</stats><br><br><passive>Grievous Wounds</passive><br>Dealing physical damage applies <keyword>40% Wounds</keyword> to enemy champions for 3 seconds.</mainText>",
     "tags": [
       "Damage",
       "CriticalStrike",
@@ -1582,6 +1658,7 @@
   },
   {
     "name": "Mosstomper Seedling",
+    "description": "<mainText><stats></stats><br><br><passive>Jungle Companions</passive><br>Summon a <font color='#1CA935'>Jungle Pet</font> that assists you against monsters.<br><br><passive>Mosstomper's Courage</passive><br>The companion grows as you hunt monsters, empowering your <spellName>Smite</spellName>. When fully grown, it completes your Jungle Quest. </mainText>",
     "tags": [
       "Jungle"
     ],
@@ -1600,6 +1677,7 @@
   },
   {
     "name": "Nashor's Tooth",
+    "description": "<mainText><stats><attention>80</attention> Ability Power<br><attention>50%</attention> Attack Speed<br><attention>15</attention> Ability Haste</stats><br><br><passive>Icathian Bite</passive><br>Attacks deal <magicDamage>bonus magic damage</magicDamage> <OnHit>On-Hit</OnHit>.</mainText>",
     "tags": [
       "AttackSpeed",
       "SpellDamage",
@@ -1621,6 +1699,7 @@
   },
   {
     "name": "Navori Flickerblade",
+    "description": "<mainText><stats><attention>40%</attention> Attack Speed<br><attention>25%</attention> Critical Strike Chance<br><attention>4%</attention> Move Speed</stats><br><br><passive>Transcendence</passive><br>Attacks reduce Basic Ability cooldowns by <attention>15%</attention> of their remaining cooldown.</mainText>",
     "tags": [
       "CriticalStrike",
       "AttackSpeed",
@@ -1641,6 +1720,7 @@
   },
   {
     "name": "Opportunity",
+    "description": "<mainText><stats><attention>55</attention> Attack Damage<br><attention>18</attention> Lethality</stats><br><br><passive>Preparation</passive><br>After being out of combat with Champions for 8 seconds gain <scaleLethality>Lethality</scaleLethality>. This Lethality lasts for 3 seconds after dealing damage to champions.<br><br><passive>Extraction</passive><br>When a champion that you damaged within 3 seconds dies, gain <speed>200 decaying Move Speed</speed> for 1.5 seconds.<br></mainText>",
     "tags": [
       "Damage",
       "Active",
@@ -1662,6 +1742,7 @@
   },
   {
     "name": "Overlord's Bloodmail",
+    "description": "<mainText><stats><attention>30</attention> Attack Damage<br><attention>550</attention> Health</stats><br><br><passive>Tyranny</passive><br>Gain 2.5% of your <healing>bonus Health</healing> as <scaleAD>Attack Damage</scaleAD>. <br><br><passive>Retribution</passive><br>Gain up to 12% increased <scaleAD>Attack Damage</scaleAD> based on your percent missing Health. </mainText>",
     "tags": [
       "Health",
       "Damage"
@@ -1681,6 +1762,7 @@
   },
   {
     "name": "Phantom Dancer",
+    "description": "<mainText><stats><attention>65%</attention> Attack Speed<br><attention>25%</attention> Critical Strike Chance<br><attention>10%</attention> Move Speed</stats><br><br><passive>Spectral Waltz</passive><br>Become <keyword>Ghosted</keyword>.</mainText>",
     "tags": [
       "CriticalStrike",
       "AttackSpeed",
@@ -1701,6 +1783,7 @@
   },
   {
     "name": "Plated Steelcaps",
+    "description": "<mainText><stats><attention>25</attention> Armor<br><attention>45</attention> Move Speed</stats><br><br><passive>Plating</passive><br>Reduces incoming damage from Attacks by 10%.</mainText>",
     "tags": [
       "Armor",
       "Boots"
@@ -1720,6 +1803,7 @@
   },
   {
     "name": "Profane Hydra",
+    "description": "<mainText><stats><attention>55</attention> Attack Damage<br><attention>18</attention> Lethality<br><attention>10</attention> Ability Haste</stats><br><br><passive>Cleave</passive><br>Attacks deal <physicalDamage>physical damage</physicalDamage> to nearby enemies.<br><active>Heretical Cleave</active><br>Deal <physicalDamage>physical damage</physicalDamage> around you.</mainText>",
     "tags": [
       "Damage",
       "Active",
@@ -1742,6 +1826,7 @@
   },
   {
     "name": "Protoplasm Harness",
+    "description": "<mainText><stats><attention>600</attention> Health<br><attention>20</attention> Ability Haste</stats><br><br><passive>Lifeline</passive> (0s)<br>Taking damage that would reduce your Health below 30% causes you to gain <health> maximum Health</health> for 5 seconds, then heal <health> Health</health> over the duration. While regenerating Health, you gain 15% increased Size, 10% Move Speed, and 25% Tenacity. </mainText>",
     "tags": [
       "Health",
       "NonbootsMovement",
@@ -1763,6 +1848,7 @@
   },
   {
     "name": "Rabadon's Deathcap",
+    "description": "<mainText><stats><attention>130</attention> Ability Power</stats><br><br><passive>Magical Opus</passive><br>Increases your total <scaleAP>Ability Power by 30%</scaleAP>.</mainText>",
     "tags": [
       "SpellDamage"
     ],
@@ -1781,6 +1867,7 @@
   },
   {
     "name": "Randuin's Omen",
+    "description": "<mainText><stats><attention>350</attention> Health<br><attention>75</attention> Armor</stats><br><br><passive>Resilience</passive><br>Receive 30% less damage from Critical Strikes.<br><active>Humility</active><br><keyword>Slow</keyword> nearby enemies by 70% for 2 seconds.</mainText>",
     "tags": [
       "Health",
       "Armor",
@@ -1802,6 +1889,7 @@
   },
   {
     "name": "Rapid Firecannon",
+    "description": "<mainText><stats><attention>35%</attention> Attack Speed<br><attention>25%</attention> Critical Strike Chance<br><attention>4%</attention> Move Speed</stats><br><br><passive>Sharpshooter</passive><br>Your <keyword>Energized Attack</keyword> deals <magicDamage>40 bonus magic damage</magicDamage> and gains 35% bonus Attack Range.</mainText>",
     "tags": [
       "CriticalStrike",
       "AttackSpeed",
@@ -1822,6 +1910,7 @@
   },
   {
     "name": "Ravenous Hydra",
+    "description": "<mainText><stats><attention>65</attention> Attack Damage<br><attention>15</attention> Ability Haste<br><attention>12%</attention> Life Steal</stats><br><br><passive>Cleave</passive><br>Attacks deal <physicalDamage>physical damage</physicalDamage> to nearby enemies.<active>Ravenous Crescent</active><br>Deal <physicalDamage>physical damage</physicalDamage> to enemies around you. <br>Your Life Steal applies to this damage.</mainText>",
     "tags": [
       "Damage",
       "LifeSteal",
@@ -1844,6 +1933,7 @@
   },
   {
     "name": "Redemption",
+    "description": "<mainText><stats><attention>30</attention> Ability Power<br><attention>15</attention> Ability Haste<br><attention>100%</attention> Base Mana Regen<br><attention>10%</attention> Heal and Shield Power</stats><br><br><active>Intervention</active><br>Restore <healing>150 - 350 Health</healing> to allied units and deal <trueDamage>10% max Health true damage</trueDamage> to enemy champions after 2.5 seconds.</mainText>",
     "tags": [
       "SpellDamage",
       "ManaRegen",
@@ -1865,6 +1955,7 @@
   },
   {
     "name": "Riftmaker",
+    "description": "<mainText><stats><attention>70</attention> Ability Power<br><attention>350</attention> Health<br><attention>15</attention> Ability Haste</stats><br><br><passive>Void Corruption</passive><br>For each second in combat with enemy champions, deal 2% bonus damage, up to 8%. At maximum strength, gain <omnivamp>Omnivamp</omnivamp>.<br><br><passive>Void Infusion</passive><br>Gain 2% of your <scaleHealth>bonus Health</scaleHealth> as <scaleAP>Ability Power</scaleAP>.</mainText>",
     "tags": [
       "Health",
       "SpellDamage",
@@ -1886,6 +1977,7 @@
   },
   {
     "name": "Rod of Ages",
+    "description": "<mainText><stats><attention>45</attention> Ability Power<br><attention>350</attention> Health<br><attention>500</attention> Mana</stats><br><br><passive>Timeless</passive><br>This item gains <scaleHealth>10 Health</scaleHealth>, <scaleMana>30 Mana</scaleMana> and <scaleAP>3 Ability Power</scaleAP> every 60 seconds up to 10 times. Upon reaching max stacks, gain a level.<br><br><passive>Eternity</passive><br>Taking damage from champions restores <scaleMana>10%</scaleMana> of the damage as <scaleMana>Mana</scaleMana>. <br>Casting an ability <healing>heals for 25%</healing> of Mana spent.</mainText>",
     "tags": [
       "Health",
       "HealthRegen",
@@ -1908,6 +2000,7 @@
   },
   {
     "name": "Runaan's Hurricane",
+    "description": "<mainText><stats><attention>40%</attention> Attack Speed<br><attention>25%</attention> Critical Strike Chance<br><attention>4%</attention> Move Speed</stats><br><br><passive>Wind's Fury</passive><br>Attacks fire bolts at 2 additional enemies near the target.<br>Each bolt deals <physicalDamage>physical damage</physicalDamage> and applies <OnHit>On-Hit</OnHit> effects.</mainText>",
     "tags": [
       "CriticalStrike",
       "AttackSpeed",
@@ -1929,6 +2022,7 @@
   },
   {
     "name": "Rylai's Crystal Scepter",
+    "description": "<mainText><stats><attention>65</attention> Ability Power<br><attention>400</attention> Health</stats><br><br><passive>Rimefrost</passive><br>Damaging Abilities <keyword>Slow</keyword> enemies by 30% for 1 second.</mainText>",
     "tags": [
       "Health",
       "SpellDamage",
@@ -1949,6 +2043,7 @@
   },
   {
     "name": "Scorchclaw Pup",
+    "description": "<mainText><stats></stats><br><br><passive>Jungle Companions</passive><br>Summon a <font color='#DD2E2E'>Scorchclaw</font> that assists you against monsters.<br><br><passive>Scorchclaw's Slash</passive><br>The companion grows as you hunt monsters, empowering your <spellName>Smite</spellName>. When fully grown, it periodically imbues your next Attack or Ability to burn enemies and <status>Slow</status> them. Killing large monsters readies this immediately.</mainText>",
     "tags": [
       "Jungle"
     ],
@@ -1967,6 +2062,7 @@
   },
   {
     "name": "Serpent's Fang",
+    "description": "<mainText><stats><attention>55</attention> Attack Damage<br><attention>15</attention> Lethality</stats><br><br><passive>Shield Reaver</passive><br>Damaging an enemy champion reduces Shields they gain by % for 3 seconds. <br>If they were not already affected by <passive>Shield Reaver</passive>, reduce Shields on them by %.</mainText>",
     "tags": [
       "Damage",
       "ArmorPenetration"
@@ -1986,6 +2082,7 @@
   },
   {
     "name": "Serylda's Grudge",
+    "description": "<mainText><stats><attention>45</attention> Attack Damage<br><attention>35%</attention> Armor Penetration<br><attention>15</attention> Ability Haste</stats><br><br><passive>Bitter Cold</passive><br>Damaging Abilities <status>Slow</status> enemies below 50% Health by 30% for 1 second.</mainText>",
     "tags": [
       "Damage",
       "CooldownReduction",
@@ -2007,6 +2104,7 @@
   },
   {
     "name": "Shadowflame",
+    "description": "<mainText><stats><attention>110</attention> Ability Power<br><attention>15</attention> Magic Penetration</stats><br><br><passive>Cinderbloom</passive><br><magicDamage>Magic</magicDamage> and <trueDamage>true damage</trueDamage> <attention>Critically Strikes</attention> enemies below 40% Health, dealing 20% increased damage. </mainText>",
     "tags": [
       "SpellDamage",
       "MagicPenetration"
@@ -2026,6 +2124,7 @@
   },
   {
     "name": "Shield of Molten Stone",
+    "description": "<mainText><stats><attention>250</attention> Health<br><attention>80</attention> Armor</stats><br><br><passive>Immovable as the Earth</passive><br>Increase your armor by 20%, and gain Block Chance based on your Armor.</mainText>",
     "tags": [
       "Health",
       "Armor"
@@ -2045,6 +2144,7 @@
   },
   {
     "name": "Shurelya's Battlesong",
+    "description": "<mainText><stats><attention>50</attention> Ability Power<br><attention>15</attention> Ability Haste<br><attention>4%</attention> Move Speed<br><attention>125%</attention> Base Mana Regen</stats><br><br><active>Inspiring Speech</active><br>Grant nearby allies <speed>30% Move Speed</speed> for 4 seconds.</mainText>",
     "tags": [
       "SpellDamage",
       "ManaRegen",
@@ -2068,6 +2168,7 @@
   },
   {
     "name": "Sorcerer's Shoes",
+    "description": "<mainText><stats><attention>12</attention> Magic Penetration<br><attention>45</attention> Move Speed</stats><br><br></mainText>",
     "tags": [
       "Boots",
       "MagicPenetration"
@@ -2087,6 +2188,7 @@
   },
   {
     "name": "Spear of Shojin",
+    "description": "<mainText><stats><attention>45</attention> Attack Damage<br><attention>450</attention> Health</stats><br><br><passive>Dragonforce</passive> <br>Gain 25 Basic Ability Haste.<br><br><passive>Focused Will</passive> <br>Dealing damage with Abilities increases your Champion's Ability and Passive damage by 3% for 6 seconds. (stacks 4 times).</mainText>",
     "tags": [
       "Health",
       "Damage",
@@ -2107,6 +2209,7 @@
   },
   {
     "name": "Spellslinger's Shoes",
+    "description": "<mainText><stats><attention>18</attention> Magic Penetration<br><attention>8%</attention> Magic Penetration<br><attention>45</attention> Move Speed</stats><br><br></mainText>",
     "tags": [
       "Boots",
       "MagicPenetration"
@@ -2126,6 +2229,7 @@
   },
   {
     "name": "Spirit Visage",
+    "description": "<mainText><stats><attention>400</attention> Health<br><attention>50</attention> Magic Resist<br><attention>10</attention> Ability Haste<br><attention>100%</attention> Base Health Regen</stats><br><br><passive>Boundless Vitality</passive><br>Heals and Shields on you are increased by 25%.</mainText>",
     "tags": [
       "Health",
       "SpellBlock",
@@ -2148,6 +2252,7 @@
   },
   {
     "name": "Staff of Flowing Water",
+    "description": "<mainText><stats><attention>35</attention> Ability Power<br><attention>10%</attention> Heal and Shield Power<br><attention>125%</attention> Base Mana Regen<br><attention>15</attention> Ability Haste</stats><br><br><passive>Rapids</passive><br>Healing or Shielding an ally grants you both <magicDamage>45 Ability Power</magicDamage> for 6 seconds.</mainText>",
     "tags": [
       "SpellDamage",
       "ManaRegen",
@@ -2169,6 +2274,7 @@
   },
   {
     "name": "Statikk Shiv",
+    "description": "<mainText><stats><attention>45</attention> Attack Damage<br><attention>30%</attention> Attack Speed<br><attention>4%</attention> Move Speed</stats><br><br><passive>Electrospark</passive><br>Attacks trigger chain lightning <OnHit>On-Hit</OnHit>, dealing <magicDamage>magic damage</magicDamage> with a cooldown.<br><br><passive>Electroshock</passive> <br>Takedowns within 3 seconds of damaging the target reset Electrospark's cooldown.</mainText>",
     "tags": [
       "Damage",
       "AttackSpeed",
@@ -2190,6 +2296,7 @@
   },
   {
     "name": "Sterak's Gage",
+    "description": "<mainText><stats><attention>400</attention> Health<br><attention>20%</attention> Tenacity</stats><br><br><passive>The Claws that Catch</passive><br>Gain <scaleAD>bonus Attack Damage</scaleAD>.<br><br><passive>Lifeline</passive><br>Taking damage that would reduce your Health below 30% grants a <shield>decaying Shield</shield> for 4.5 seconds.</mainText>",
     "tags": [
       "Health",
       "Damage",
@@ -2210,6 +2317,7 @@
   },
   {
     "name": "Stormrazor",
+    "description": "<mainText><stats><attention>50</attention> Attack Damage<br><attention>20%</attention> Attack Speed<br><attention>25%</attention> Critical Strike Chance</stats><br><br><passive>Energized</passive><br>Moving and Attacking generates an <keyword>Energized Attack</keyword>.<br><br><passive>Bolt</passive><br>Your <keyword>Energized Attack</keyword> applies <magicDamage> bonus magic damage</magicDamage> and grants <speed>45% Movement Speed</speed> for 1.5 seconds.<br></mainText>",
     "tags": [
       "Damage",
       "CriticalStrike",
@@ -2231,6 +2339,7 @@
   },
   {
     "name": "Stormsurge",
+    "description": "<mainText><stats><attention>90</attention> Ability Power<br><attention>15</attention> Magic Penetration<br><attention>6%</attention> Move Speed</stats><br><br><passive>Stormraider</passive><br>Dealing 25% of a champion's maximum Health within 2.5s applies <passive>Squall</passive> to them.<br><br><passive>Squall</passive><br>After 2 seconds, deal <magicDamage>magic damage</magicDamage>. If the target dies before <passive>Squall</passive> triggers, it damages nearby enemies.</mainText>",
     "tags": [
       "SpellDamage",
       "GoldPer",
@@ -2252,6 +2361,7 @@
   },
   {
     "name": "Stridebreaker",
+    "description": "<mainText><stats><attention>40</attention> Attack Damage<br><attention>25%</attention> Attack Speed<br><attention>450</attention> Health</stats><br><br><passive>Cleave</passive><br>Attacks deal <physicalDamage>physical damage</physicalDamage> to nearby enemies.<br><active>Breaking Shockwave</active><br>Deal <physicalDamage>physical damage</physicalDamage> and <status>Slow</status> nearby enemies by 35%.<br>Gain <speed>35% decaying Move Speed</speed> per champion hit for 3 seconds.</mainText>",
     "tags": [
       "Health",
       "Damage",
@@ -2273,6 +2383,7 @@
   },
   {
     "name": "Sundered Sky",
+    "description": "<mainText><stats><attention>45</attention> Attack Damage<br><attention>400</attention> Health<br><attention>10</attention> Ability Haste</stats><br><br><passive>Lightshield Strike</passive><br>Your first Attack against a champion <attention>Critically Strikes</attention> and <healing>restores Health</healing>.</mainText>",
     "tags": [
       "Health",
       "Damage",
@@ -2294,6 +2405,7 @@
   },
   {
     "name": "Sunfire Aegis",
+    "description": "<mainText><stats><attention>350</attention> Health<br><attention>50</attention> Armor<br><attention>10</attention> Ability Haste</stats><br><br><passive>Immolate</passive><br>After taking or dealing damage, deal <magicDamage>magic damage</magicDamage> per second to nearby enemies for 3 seconds. </mainText>",
     "tags": [
       "Health",
       "Armor",
@@ -2315,6 +2427,7 @@
   },
   {
     "name": "Swiftmarch",
+    "description": "<mainText><stats><attention>65</attention> Move Speed</stats><br><br><passive>Fleetfooted</passive><br>Reduce the effectiveness of <keyword>Slows</keyword> by 40%.<br><br><passive>Noxian Fervor</passive><br>Gain 5% of your <speed>Move Speed</speed> as Adaptive Force.</mainText>",
     "tags": [
       "Boots"
     ],
@@ -2333,6 +2446,7 @@
   },
   {
     "name": "Sword of Blossoming Dawn",
+    "description": "<mainText><stats><attention>35</attention> Ability Power<br><attention>150</attention> Health<br><attention>10%</attention> Heal and Shield Power<br><attention>10</attention> Ability Haste</stats><br><br><passive>Effervescence</passive><br>Gain +1% Attack Speed for every <healing>1% Heal and Shield Power</healing> you have. <br><br><passive>Peppermint</passive><br><OnHit>On-Hit</OnHit>, <healing>heal the lowest health</healing> ally champion near you for , prioritizing lower health allies.</mainText>",
     "tags": [
       "Health",
       "SpellDamage",
@@ -2355,6 +2469,7 @@
   },
   {
     "name": "Sword of the Divine",
+    "description": "<mainText><stats><attention>90</attention> Adaptive Force<br><attention>50%</attention> Critical Strike Chance</stats><br><br><passive>Excoriate</passive><br>Each Critical strike deals random <keyword>bonus Critical Strike Damage</keyword>, scaling up to 50% of your Critical Strike Chance.</mainText>",
     "tags": [
       "Damage",
       "CriticalStrike",
@@ -2375,6 +2490,7 @@
   },
   {
     "name": "Terminus",
+    "description": "<mainText><stats><attention>30</attention> Attack Damage<br><attention>35%</attention> Attack Speed</stats><br><br><passive>Shadow</passive><br>Attacks deal <magicDamage>30 bonus magic damage</magicDamage> <OnHit>On-Hit</OnHit>.<br><br><passive>Juxtaposition</passive><br>Alternate between <keywordMajor>Light</keywordMajor> and <keywordMajor>Dark</keywordMajor> Attacks against champions: <li><keywordMajor>Light</keywordMajor> Attacks grant <scaleArmor>Armor</scaleArmor> and <scaleMR>Magic Resist</scaleMR> for 5s. <li><keywordMajor>Dark</keywordMajor> Attacks grant 10% <scaleArmor>Armor Penetration</scaleArmor> and <scaleMR>Magic Penetration</scaleMR> for 5s. </mainText>",
     "tags": [
       "Damage",
       "AttackSpeed",
@@ -2397,6 +2513,7 @@
   },
   {
     "name": "The Collector",
+    "description": "<mainText><stats><attention>50</attention> Attack Damage<br><attention>10</attention> Lethality<br><attention>25%</attention> Critical Strike Chance</stats><br><br><passive>Death</passive><br>Your damage executes champions that are below 5% Health.<br><br><passive>Taxes</passive><br>Champion kills grant <gold>25 bonus gold</gold>.</mainText>",
     "tags": [
       "Damage",
       "CriticalStrike",
@@ -2417,6 +2534,7 @@
   },
   {
     "name": "Thornmail",
+    "description": "<mainText><stats><attention>150</attention> Health<br><attention>75</attention> Armor</stats><br><br><passive>Thorns</passive><br>When struck by an Attack, deal <magicDamage>magic damage</magicDamage> to the attacker and apply 40% <keyword>Wounds</keyword> for 3 seconds if they are a champion.</mainText>",
     "tags": [
       "Health",
       "Armor"
@@ -2436,6 +2554,7 @@
   },
   {
     "name": "Titanic Hydra",
+    "description": "<mainText><stats><attention>40</attention> Attack Damage<br><attention>600</attention> Health</stats><br><br><passive>Cleave</passive><br>Attacks deal <physicalDamage>physical damage</physicalDamage> on-hit and to enemies behind the target.<br><active>Titanic Crescent</active><br>Empower your next <passive>Cleave</passive> to deal <physicalDamage>bonus physical damage</physicalDamage> <OnHit>On-Hit</OnHit> and deal <physicalDamage>bonus physical damage</physicalDamage> to enemies behind the target.</mainText>",
     "tags": [
       "Health",
       "HealthRegen",
@@ -2457,6 +2576,7 @@
   },
   {
     "name": "Trailblazer",
+    "description": "<mainText><stats><attention>250</attention> Health<br><attention>40</attention> Armor<br><attention>4%</attention> Move Speed</stats><br><br><passive>Lead the Way</passive><br>While moving, build up to <speed>20 bonus Move Speed</speed>. <br>At max speed:<li>Create a trail that grants allied champions <speed>Move Speed equal to 15%</speed> of yours. <li>If you are Melee, your next Attack <keyword>Slows</keyword> the target by 50% for 1 second.<br><br></mainText>",
     "tags": [
       "Health",
       "Armor",
@@ -2477,6 +2597,7 @@
   },
   {
     "name": "Trinity Force",
+    "description": "<mainText><stats><attention>36</attention> Attack Damage<br><attention>30%</attention> Attack Speed<br><attention>333</attention> Health<br><attention>15</attention> Ability Haste</stats><br><br><passive>Spellblade</passive><br>After using an Ability, your next Attack deals <physicalDamage>bonus physical damage</physicalDamage> <OnHit>On-Hit</OnHit>.<br> <br><passive>Quicken</passive><br>Attacking grants <speed>20 Move Speed</speed> for 2 seconds.</mainText>",
     "tags": [
       "Health",
       "Damage",
@@ -2501,6 +2622,7 @@
   },
   {
     "name": "Umbral Glaive",
+    "description": "<mainText><stats><attention>60</attention> Attack Damage<br><attention>18</attention> Lethality<br><attention>15</attention> Ability Haste</stats><br><br><passive>Nightstalker</passive><br>After being unseen by enemies briefly, your next attack against a champion deals an additional <trueDamage>true damage</trueDamage>.<br><br><passive>Blackout</passive><br>When you are near enemy Stealth Wards and traps, reveal them briefly. While revealing wards, your attacks deal bonus damage to them.</mainText>",
     "tags": [
       "Damage",
       "Vision",
@@ -2523,6 +2645,7 @@
   },
   {
     "name": "Unending Despair",
+    "description": "<mainText><stats><attention>400</attention> Health<br><attention>50</attention> Armor<br><attention>15</attention> Ability Haste</stats><br><br><passive>Anguish</passive><br>Every 4 seconds while in combat with champions, deal <magicDamage>magic damage</magicDamage> to nearby enemy champions and <healing>heal for 250%</healing> of the damage dealt.</mainText>",
     "tags": [
       "Health",
       "Armor",
@@ -2544,6 +2667,7 @@
   },
   {
     "name": "Veigar's Talisman of Ascension",
+    "description": "<mainText><stats></stats><br><br>Gain 100% Extra Experience<br><br>Offers no stats, and cannot be sold...<br><br>...But will be worth it if you reach Level 30.</mainText>",
     "tags": [],
     "id": "663064",
     "maps": {
@@ -2560,6 +2684,7 @@
   },
   {
     "name": "Void Staff",
+    "description": "<mainText><stats><attention>95</attention> Ability Power<br><attention>40%</attention> Magic Penetration</stats><br><br></mainText>",
     "tags": [
       "MagicPenetration",
       "SpellDamage"
@@ -2579,6 +2704,7 @@
   },
   {
     "name": "Voltaic Cyclosword",
+    "description": "<mainText><stats><attention>55</attention> Attack Damage<br><attention>18</attention> Lethality<br><attention>10</attention> Ability Haste</stats><br><br><passive>Galvanize</passive><br>Dashes and Stealth stack <keyword>Energized</keyword> 75% faster.<br><br><passive>Firmament</passive><br>Your <keyword>Energized Attack</keyword> deals <physicalDamage>bonus physical damage</physicalDamage> and <keyword>Slows</keyword> for 0.75 seconds.</mainText>",
     "tags": [
       "Damage",
       "Active",
@@ -2601,6 +2727,7 @@
   },
   {
     "name": "Warmog's Armor",
+    "description": "<mainText><stats><attention>1000</attention> Health<br><attention>100%</attention> Base Health Regen</stats><br><br><passive>Warmog's Heart</passive> <br>If you have 2000 bonus Health and have not taken damage within 8 seconds, restore <healing></healing> Health per second.<br><br><passive>Warmog's Vitality</passive><br>Gain bonus Health equal to 12% of your Item Health (<healing>0</healing>).</mainText>",
     "tags": [
       "Health",
       "HealthRegen"
@@ -2620,6 +2747,7 @@
   },
   {
     "name": "Winter's Approach",
+    "description": "<mainText><stats><attention>550</attention> Health<br><attention>500</attention> Mana<br><attention>15</attention> Ability Haste</stats><br><br><passive>Awe</passive><br>Gain <scaleHealth> Health</scaleHealth>.<br><br><passive>Manaflow</passive> (8s, max 4 charges)<br>Landing Attacks and Abilities grant <scaleMana>3 max Mana</scaleMana> (doubled vs. champions).<br>Transforms into <rarityLegendary>Fimbulwinter</rarityLegendary> at <scaleMana>360 max Mana</scaleMana>.</mainText>",
     "tags": [
       "Health",
       "Mana",
@@ -2640,6 +2768,7 @@
   },
   {
     "name": "Wit's End",
+    "description": "<mainText><stats><attention>50%</attention> Attack Speed<br><attention>45</attention> Magic Resist<br><attention>20%</attention> Tenacity</stats><br><br><passive>Fray</passive><br>Attacks deal <magicDamage>bonus magic damage</magicDamage> <OnHit>On-Hit</OnHit>.</mainText>",
     "tags": [
       "SpellBlock",
       "AttackSpeed",
@@ -2661,6 +2790,7 @@
   },
   {
     "name": "Youmuu's Ghostblade",
+    "description": "<mainText><stats><attention>55</attention> Attack Damage<br><attention>18</attention> Lethality<br><attention>4%</attention> Move Speed</stats><br><br><passive>Haunt</passive> <br>Gain <speed> Move Speed</speed> while out of combat.<br><br><active>Wraith Step</active><br>Gain <speed>Move Speed</speed> and <keyword>Ghosting</keyword> for  seconds.</mainText>",
     "tags": [
       "Damage",
       "Active",
@@ -2682,6 +2812,7 @@
   },
   {
     "name": "Yun Tal Wildarrows",
+    "description": "<mainText><stats><attention>50</attention> Attack Damage<br><attention>40%</attention> Attack Speed<br><attention>0%</attention> Critical Strike Chance</stats><br><br><passive>Practice Makes Lethal</passive><br>On-Attack, gain Critical Strike Chance permanently up to 25%.<br><br><passive>Flurry</passive><br>On-Attacking an enemy champion, gain 30% Attack Speed for 6 seconds (30 second cooldown). <br>Attacks reduce this cooldown by 1 second, increased to 2 seconds for Critical Strikes.</mainText>",
     "tags": [
       "Damage",
       "CriticalStrike",
@@ -2702,6 +2833,7 @@
   },
   {
     "name": "Zeke's Convergence",
+    "description": "<mainText><stats><attention>300</attention> Health<br><attention>25</attention> Armor<br><attention>25</attention> Magic Resist<br><attention>10</attention> Ability Haste</stats><br><br><passive>Frostfire Tempest</passive><br>Casting your Ultimate summons a storm around you for 5 seconds. The storm deals <magicDamage>30 magic damage</magicDamage> per second to enemy champions and <keyword>Slows</keyword> them by 30%.</mainText>",
     "tags": [
       "Health",
       "SpellBlock",
@@ -2723,6 +2855,7 @@
   },
   {
     "name": "Zephyr",
+    "description": "<mainText><stats><attention>40%</attention> Attack Speed<br><attention>8%</attention> Move Speed<br><attention>25</attention> Ability Haste<br><attention>20%</attention> Tenacity</stats><br><br><passive>Like the Wind</passive><br>Gain 5% Move Speed <OnHit>On-Hit</OnHit> for 6 seconds, stacking up to 25% Move Speed.<br><br><rules>Tenacity reduces the duration of <status>Stun</status>, <status>Slow</status>, <status>Taunt</status>, <status>Fear</status>, <status>Silence</status>, <status>Blind</status>, <status>Polymorph</status> and <status>Immobilizing</status> effects. It has no effect on <status>Airborne</status> or <status>Suppression</status>.</rules></mainText>",
     "tags": [
       "AttackSpeed",
       "CooldownReduction",
@@ -2745,6 +2878,7 @@
   },
   {
     "name": "Zhonya's Hourglass",
+    "description": "<mainText><stats><attention>105</attention> Ability Power<br><attention>50</attention> Armor</stats><br><br><br><br><active>Time Stop</active><br>Enter <keyword>Stasis</keyword> for 2.5 seconds.</mainText>",
     "tags": [
       "Armor",
       "SpellDamage",

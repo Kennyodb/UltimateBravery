@@ -1,6 +1,7 @@
 [
   {
     "name": "Barrier",
+    "description": "Gain a brief Shield.",
     "id": "SummonerBarrier",
     "modes": [
       "ULTBOOK",
@@ -29,6 +30,7 @@
   },
   {
     "name": "Clarity",
+    "description": "Restores your and ally champion's Mana.",
     "id": "SummonerMana",
     "modes": [
       "KIWI",
@@ -39,6 +41,7 @@
   },
   {
     "name": "Cleanse",
+    "description": "Removes all disables (excluding suppression and airborne) and summoner spell debuffs affecting your champion and gives Tenacity.",
     "id": "SummonerBoost",
     "modes": [
       "ULTBOOK",
@@ -66,6 +69,7 @@
   },
   {
     "name": "Exhaust",
+    "description": "Slows target enemy champion and reduces their damage dealt.",
     "id": "SummonerExhaust",
     "modes": [
       "URF",
@@ -90,6 +94,7 @@
   },
   {
     "name": "Flash",
+    "description": "Teleports your champion a short distance toward your cursor's location.",
     "id": "SummonerCherryFlash",
     "modes": [
       "CHERRY"
@@ -98,6 +103,7 @@
   },
   {
     "name": "Flash",
+    "description": "Teleports you a short distance toward your cursor.",
     "id": "SummonerFlash",
     "modes": [
       "CLASSIC",
@@ -127,6 +133,7 @@
   },
   {
     "name": "Flee",
+    "description": "Gain a short burst of Move Speed, increased while running away from enemy champions.",
     "id": "SummonerCherryHold",
     "modes": [
       "CHERRY"
@@ -135,6 +142,7 @@
   },
   {
     "name": "Ghost",
+    "description": "Gain Move Speed and ignore unit collision for the duration.",
     "id": "SummonerHaste",
     "modes": [
       "ULTBOOK",
@@ -163,6 +171,7 @@
   },
   {
     "name": "Heal",
+    "description": "Restores Health and grants Move Speed to you and target allied champion.",
     "id": "SummonerHeal",
     "modes": [
       "ULTBOOK",
@@ -192,6 +201,7 @@
   },
   {
     "name": "Ignite",
+    "description": "Deals true damage over time to target enemy champion and reduces healing effects on them for the duration.",
     "id": "SummonerDot",
     "modes": [
       "ULTBOOK",
@@ -220,6 +230,7 @@
   },
   {
     "name": "Mark",
+    "description": "Throw a snowball in a straight line at your enemies. If it hits an enemy, they become marked, granting True Sight, and your champion can quickly travel to the marked target as a follow up.",
     "id": "SummonerSnowURFSnowball_Mark",
     "modes": [
       "SNOWURF"
@@ -228,6 +239,7 @@
   },
   {
     "name": "Mark",
+    "description": "Throw a snowball in a straight line at your enemies. If it hits an enemy, they become marked, granting True Sight, and your champion can quickly travel to the marked target as a follow up.",
     "id": "SummonerSnowball",
     "modes": [
       "ARAM",
@@ -239,6 +251,7 @@
   },
   {
     "name": "Placeholder",
+    "description": "This slot will be replaced by another champion's ultimate selected at the start of the game. There will be 30 seconds to select an ultimate. Be prepared!",
     "id": "Summoner_UltBookPlaceholder",
     "modes": [
       "ULTBOOK"
@@ -247,6 +260,7 @@
   },
   {
     "name": "Placeholder and Attack-Smite",
+    "description": "This slot will be replaced by another champion's ultimate and you will gain Attack-Smite. There will be 30 seconds to select an ultimate. Be prepared!",
     "id": "Summoner_UltBookSmitePlaceholder",
     "modes": [
       "ULTBOOK"
@@ -255,6 +269,7 @@
   },
   {
     "name": "Poro Toss",
+    "description": "Toss a Poro at your enemies. If it hits, you can quickly travel to your target as a follow up.",
     "id": "SummonerPoroThrow",
     "modes": [
       "KINGPORO"
@@ -263,6 +278,7 @@
   },
   {
     "name": "Smite",
+    "description": "Deals true damage to a monster or minion.",
     "id": "SummonerSmite",
     "modes": [
       "DOOMBOTSTEEMO",
@@ -279,6 +295,7 @@
   },
   {
     "name": "Teleport",
+    "description": "After a brief channel, become untargetable and travel to an allied unit. Upgrades into Unleashed Teleport, which significantly increases travel speed. ",
     "id": "SummonerTeleport",
     "modes": [
       "TUTORIAL",
@@ -300,6 +317,7 @@
   },
   {
     "name": "To the King!",
+    "description": "Quickly travel to the Poro King's side.",
     "id": "SummonerPoroRecall",
     "modes": [
       "KINGPORO"

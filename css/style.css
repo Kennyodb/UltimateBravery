@@ -322,6 +322,49 @@ main {
 }
 
 
+/* Custom tooltip */
+.custom-tooltip {
+  position: fixed;
+  z-index: 9999;
+  max-width: 280px;
+  background: rgba(5, 10, 25, 0.97);
+  border: 1px solid #c89b3c;
+  border-radius: 6px;
+  padding: 10px 14px;
+  pointer-events: none;
+  font-size: 0.82em;
+  line-height: 1.5;
+  color: #e0e1de;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.7);
+}
+
+.custom-tooltip .tt-name {
+  display: block;
+  font-weight: bold;
+  font-size: 1.05em;
+  color: #c89b3c;
+  margin-bottom: 6px;
+}
+
+.custom-tooltip .tt-desc {
+  display: block;
+}
+
+/* LoL tag colour mappings */
+.custom-tooltip .lol-attention   { color: #c8aa6e; font-weight: bold; }
+.custom-tooltip .lol-passive      { color: #c8aa6e; font-weight: bold; }
+.custom-tooltip .lol-active       { color: #c8aa6e; font-weight: bold; }
+.custom-tooltip .lol-stats        { color: #7ec8e3; display: block; margin-bottom: 4px; }
+.custom-tooltip .lol-physical     { color: #ff8c34; }
+.custom-tooltip .lol-magic        { color: #9b8fce; }
+.custom-tooltip .lol-true         { color: #f0e6d2; }
+.custom-tooltip .lol-speed        { color: #7fffb2; }
+.custom-tooltip .lol-status       { color: #e8585a; }
+.custom-tooltip .lol-rules        { color: #888; font-style: italic; display: block; margin-top: 4px; }
+.custom-tooltip .lol-onhit        { color: #d4a017; }
+.custom-tooltip .lol-scale-mana   { color: #5bc2e7; }
+.custom-tooltip .lol-keyword      { color: #48c4b7; }
+
 /* Responsive Design */
 @media (max-width: 768px) {
   header h1 {
