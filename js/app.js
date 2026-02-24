@@ -375,8 +375,6 @@ function displayResults(data) {
   }
 
   if (data.runePage) {
-    document.getElementById('runePrimaryName').textContent = data.runePage.primaryTree.name;
-    document.getElementById('runeSecondaryName').textContent = data.runePage.secondaryTree.name;
 
     const primaryTreeIcon = document.getElementById('runePrimaryTreeIcon');
     if (primaryTreeIcon) {

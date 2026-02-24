@@ -299,12 +299,17 @@ main {
   margin-bottom: 5px;
 }
 
+.rune-trees {
+  display: flex;
+  gap: 15px;
+}
+
 .rune-tree {
   background: rgba(91, 142, 198, 0.2);
   padding: 15px;
   border-radius: 6px;
   border-left: 4px solid #c89b3c;
-  margin-bottom: 15px;
+  flex: 1;
 }
 
 .rune-tree:last-child {
