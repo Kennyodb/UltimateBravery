@@ -9,6 +9,72 @@ let metadata = null;
 
 const RUNE_ICON_BASE = 'https://ddragon.leagueoflegends.com/cdn/img/';
 
+// ── Custom tooltip ────────────────────────────────────────────────────────────
+const tooltipEl = document.getElementById('tooltip');
+
+function sanitizeDesc(html) {
+  if (!html) return '';
+  return html
+    // LoL custom tags → styled spans
+    .replace(/<mainText>/gi, '').replace(/<\/mainText>/gi, '')
+    .replace(/<stats>([\s\S]*?)<\/stats>/gi, '<span class="lol-stats">$1</span>')
+    .replace(/<attention>([\s\S]*?)<\/attention>/gi, '<span class="lol-attention">$1</span>')
+    .replace(/<passive>([\s\S]*?)<\/passive>/gi, '<span class="lol-passive">$1</span>')
+    .replace(/<active>([\s\S]*?)<\/active>/gi, '<span class="lol-active">$1</span>')
+    .replace(/<physicalDamage>([\s\S]*?)<\/physicalDamage>/gi, '<span class="lol-physical">$1</span>')
+    .replace(/<magicDamage>([\s\S]*?)<\/magicDamage>/gi, '<span class="lol-magic">$1</span>')
+    .replace(/<trueDamage>([\s\S]*?)<\/trueDamage>/gi, '<span class="lol-true">$1</span>')
+    .replace(/<speed>([\s\S]*?)<\/speed>/gi, '<span class="lol-speed">$1</span>')
+    .replace(/<status>([\s\S]*?)<\/status>/gi, '<span class="lol-status">$1</span>')
+    .replace(/<rules>([\s\S]*?)<\/rules>/gi, '<span class="lol-rules">$1</span>')
+    .replace(/<OnHit>([\s\S]*?)<\/OnHit>/gi, '<span class="lol-onhit">$1</span>')
+    .replace(/<scaleMana>([\s\S]*?)<\/scaleMana>/gi, '<span class="lol-scale-mana">$1</span>')
+    // lol-uikit-tooltipped-keyword: keep inner content, style it
+    .replace(/<lol-uikit-tooltipped-keyword[^>]*>([\s\S]*?)<\/lol-uikit-tooltipped-keyword>/gi, '<span class="lol-keyword">$1</span>')
+    // Allow safe tags, strip the rest
+    .replace(/<(?!\/?(?:b|i|br|li|font|span)[^>]*>)[^>]+>/gi, '')
+    // font color → inline style
+    .replace(/<font color='([^']+)'>([\s\S]*?)<\/font>/gi, '<span style="color:$1">$2</span>');
+}
+
+function showTooltip(el, name, descHtml) {
+  const namePart = `<span class="tt-name">${name}</span>`;
+  const desc = sanitizeDesc(descHtml);
+  tooltipEl.innerHTML = desc
+    ? `${namePart}<span class="tt-desc">${desc}</span>`
+    : namePart;
+  tooltipEl.style.display = 'block';
+  moveTooltip(el.lastMouseX || 0, el.lastMouseY || 0);
+}
+
+function moveTooltip(x, y) {
+  const pad = 12;
+  const tw = tooltipEl.offsetWidth;
+  const th = tooltipEl.offsetHeight;
+  const left = (x + pad + tw > window.innerWidth) ? x - tw - pad : x + pad;
+  const top  = (y + pad + th > window.innerHeight) ? y - th - pad : y + pad;
+  tooltipEl.style.left = `${left}px`;
+  tooltipEl.style.top  = `${top}px`;
+}
+
+function attachTooltip(el, name, descHtml) {
+  el.addEventListener('mouseenter', (e) => {
+    el.lastMouseX = e.clientX;
+    el.lastMouseY = e.clientY;
+    showTooltip(el, name, descHtml);
+  });
+  el.addEventListener('mousemove', (e) => {
+    el.lastMouseX = e.clientX;
+    el.lastMouseY = e.clientY;
+    moveTooltip(e.clientX, e.clientY);
+  });
+  el.addEventListener('mouseleave', () => {
+    tooltipEl.style.display = 'none';
+  });
+}
+// ─────────────────────────────────────────────────────────────────────────────
+
+
 const itemConstraints = {
   requiredBootsCount: 1,
   bootsFirst: true, // Ensure boots is always the first item
@@ -258,8 +324,8 @@ function displayResults(data) {
   if (championIcon && data.champion.id) {
     championIcon.src = `images/champions/${data.champion.id}.png`;
     championIcon.alt = data.champion.name;
-    championIcon.title = data.champion.name;
     championIcon.style.display = 'block';
+    attachTooltip(championIcon, data.champion.name, '');
   }
 
   document.getElementById('summonerSpell1').textContent = data.spell1.name;
@@ -267,8 +333,8 @@ function displayResults(data) {
   if (spell1Icon && data.spell1.id) {
     spell1Icon.src = `images/spells/${data.spell1.id}.png`;
     spell1Icon.alt = data.spell1.name;
-    spell1Icon.title = data.spell1.name;
     spell1Icon.style.display = 'block';
+    attachTooltip(spell1Icon, data.spell1.name, data.spell1.description);
   }
 
   document.getElementById('summonerSpell2').textContent = data.spell2.name;
@@ -276,8 +342,8 @@ function displayResults(data) {
   if (spell2Icon && data.spell2.id) {
     spell2Icon.src = `images/spells/${data.spell2.id}.png`;
     spell2Icon.alt = data.spell2.name;
-    spell2Icon.title = data.spell2.name;
     spell2Icon.style.display = 'block';
+    attachTooltip(spell2Icon, data.spell2.name, data.spell2.description);
   }
 
   for (let i = 0; i < 6; i++) {
@@ -286,8 +352,8 @@ function displayResults(data) {
     if (itemIcon && data.items[i].id) {
       itemIcon.src = `images/items/${data.items[i].id}.png`;
       itemIcon.alt = data.items[i].name;
-      itemIcon.title = data.items[i].name;
       itemIcon.style.display = 'block';
+      attachTooltip(itemIcon, data.items[i].name, data.items[i].description);
     }
   }
 
@@ -299,8 +365,8 @@ function displayResults(data) {
       if (abilityIcon && ability) {
         abilityIcon.src = ability.icon;
         abilityIcon.alt = ability.name;
-        abilityIcon.title = `${letter}: ${ability.name}`;
         abilityIcon.style.display = 'block';
+        attachTooltip(abilityIcon, `${letter}: ${ability.name}`, ability.description || '');
       }
       if (abilityLabel) {
         abilityLabel.textContent = letter;
@@ -316,16 +382,16 @@ function displayResults(data) {
     if (primaryTreeIcon) {
       primaryTreeIcon.src = `${RUNE_ICON_BASE}${data.runePage.primaryTree.icon}`;
       primaryTreeIcon.alt = data.runePage.primaryTree.name;
-      primaryTreeIcon.title = data.runePage.primaryTree.name;
       primaryTreeIcon.style.display = 'block';
+      attachTooltip(primaryTreeIcon, data.runePage.primaryTree.name, '');
     }
 
     const secondaryTreeIcon = document.getElementById('runeSecondaryTreeIcon');
     if (secondaryTreeIcon) {
       secondaryTreeIcon.src = `${RUNE_ICON_BASE}${data.runePage.secondaryTree.icon}`;
       secondaryTreeIcon.alt = data.runePage.secondaryTree.name;
-      secondaryTreeIcon.title = data.runePage.secondaryTree.name;
       secondaryTreeIcon.style.display = 'block';
+      attachTooltip(secondaryTreeIcon, data.runePage.secondaryTree.name, '');
     }
 
     data.runePage.primaryRunes.forEach((rune, index) => {
@@ -333,8 +399,8 @@ function displayResults(data) {
       if (runeIcon && rune) {
         runeIcon.src = `${RUNE_ICON_BASE}${rune.icon}`;
         runeIcon.alt = rune.name;
-        runeIcon.title = rune.name;
         runeIcon.style.display = 'block';
+        attachTooltip(runeIcon, rune.name, rune.shortDesc || '');
       }
     });
 
@@ -343,8 +409,8 @@ function displayResults(data) {
       if (runeIcon && rune) {
         runeIcon.src = `${RUNE_ICON_BASE}${rune.icon}`;
         runeIcon.alt = rune.name;
-        runeIcon.title = rune.name;
         runeIcon.style.display = 'block';
+        attachTooltip(runeIcon, rune.name, rune.shortDesc || '');
       }
     });
   }

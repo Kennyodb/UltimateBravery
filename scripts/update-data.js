@@ -97,6 +97,7 @@ function toSummonerSpellList(spellJson, version) {
   const data = spellJson && spellJson.data ? spellJson.data : {};
   return Object.values(data).map((spell) => ({
     name: spell.name,
+    description: spell.description || '',
     id: spell.id,
     modes: spell.modes || [],
     icon: `https://ddragon.leagueoflegends.com/cdn/${version}/img/spell/${spell.image.full}`
@@ -126,6 +127,7 @@ function toItemList(itemJson, version) {
     })
     .map(([id, item]) => ({
       name: item.name,
+      description: item.description || item.plaintext || '',
       tags: item.tags || [],
       id: id,
       maps: item.maps,
