@@ -218,13 +218,6 @@ main {
   display: block;
 }
 
-.spell-card h4 {
-  color: #c89b3c;
-  margin-bottom: 10px;
-  font-size: 0.9em;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
 
 .spell-card p {
   font-size: 1.1em;
@@ -259,13 +252,6 @@ main {
   margin: 8px auto;
 }
 
-.slot-label {
-  font-size: 0.8em;
-  color: #c89b3c;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-bottom: 8px;
-}
 
 .item-slot p {
   font-size: 0.95em;
@@ -335,18 +321,6 @@ main {
   border: 2px solid #c89b3c;
 }
 
-footer {
-  text-align: center;
-  margin-top: 50px;
-  padding-top: 30px;
-  border-top: 2px solid #c89b3c;
-  color: #a8925f;
-  font-size: 0.95em;
-}
-
-footer p {
-  margin: 10px 0;
-}
 
 /* Responsive Design */
 @media (max-width: 768px) {
