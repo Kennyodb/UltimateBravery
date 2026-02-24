@@ -211,7 +211,6 @@ function roll() {
   }
 
   const abilityPriorityOrder = generateAbilityPriorityOrder();
-  const abilityPriority = abilityPriorityOrder.join(' > ');
   const runePage = generateRunePage();
 
   return {
@@ -219,7 +218,6 @@ function roll() {
     spell1,
     spell2,
     items: selectedItems,
-    abilityPriority,
     abilityPriorityOrder,
     runePage
   };
@@ -267,7 +265,6 @@ function displayResults(data) {
     }
   }
 
-  document.getElementById('abilityPriority').textContent = data.abilityPriority;
   if (data.champion.abilities && Array.isArray(data.abilityPriorityOrder)) {
     data.abilityPriorityOrder.forEach((letter, index) => {
       const ability = data.champion.abilities[letter];
@@ -322,15 +319,12 @@ function displayResults(data) {
   }
 
   document.getElementById('results').style.display = 'grid';
-  document.getElementById('rerollBtn').style.display = 'block';
 }
 
 const rollButton = document.getElementById('rollBtn');
-const rerollButton = document.getElementById('rerollBtn');
 
 function setButtonsEnabled(isEnabled) {
   rollButton.disabled = !isEnabled;
-  rerollButton.disabled = !isEnabled;
 }
 
 async function initialize() {
@@ -345,11 +339,6 @@ async function initialize() {
 
 // Event listeners
 rollButton.addEventListener('click', () => {
-  const data = roll();
-  displayResults(data);
-});
-
-rerollButton.addEventListener('click', () => {
   const data = roll();
   displayResults(data);
 });

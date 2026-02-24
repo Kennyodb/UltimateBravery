@@ -100,7 +100,7 @@ main {
   gap: 30px;
 }
 
-.roll-button, .reroll-button {
+.roll-button {
   font-size: 1.3em;
   padding: 20px 50px;
   border: none;
@@ -111,9 +111,6 @@ main {
   text-transform: uppercase;
   letter-spacing: 2px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
-}
-
-.roll-button {
   background: linear-gradient(135deg, #c89b3c 0%, #d4af37 100%);
   color: #0a1428;
 }
@@ -125,22 +122,6 @@ main {
 }
 
 .roll-button:active {
-  transform: translateY(-1px);
-}
-
-.reroll-button {
-  background: linear-gradient(135deg, #5b8ec6 0%, #4a7aa8 100%);
-  color: #e0e1de;
-  margin-top: 10px;
-}
-
-.reroll-button:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 30px rgba(91, 142, 198, 0.6);
-  background: linear-gradient(135deg, #6a9ad8 0%, #5b8ec6 100%);
-}
-
-.reroll-button:active {
   transform: translateY(-1px);
 }
 
@@ -295,41 +276,19 @@ main {
   word-break: break-word;
 }
 
-.priority-card {
-  background: rgba(91, 142, 198, 0.2);
-  padding: 15px;
-  border-radius: 6px;
-  border-left: 4px solid #c89b3c;
-  text-align: center;
-  min-height: 100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.priority-card p {
-  color: #c89b3c;
-  font-size: 1.3em;
-  font-weight: bold;
-  margin-top: 5px;
-}
-
-.priority-text-card {
-  text-align: center;
-  margin-top: 15px;
-}
-
-.priority-text-card p {
-  color: #c89b3c;
-  font-size: 1.3em;
-  font-weight: bold;
-  margin: 0;
-}
-
 .ability-icons {
   display: flex;
+  align-items: center;
   gap: 10px;
   margin-bottom: 15px;
+}
+
+.ability-separator {
+  color: #c89b3c;
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 20px;
 }
 
 .ability-icon-slot {
@@ -412,7 +371,7 @@ footer p {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .roll-button, .reroll-button {
+  .roll-button {
     padding: 15px 40px;
     font-size: 1em;
   }
