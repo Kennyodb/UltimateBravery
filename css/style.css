@@ -31,8 +31,8 @@ body {
 
 header {
   text-align: center;
-  margin-bottom: 40px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
   border-bottom: 2px solid #c89b3c;
 }
 
@@ -45,7 +45,7 @@ header h1 {
 }
 
 .subtitle {
-  font-size: 1.2em;
+  font-size: 1.1em;
   color: #a8925f;
   font-style: italic;
 }
@@ -53,16 +53,22 @@ header h1 {
 .patch-version {
   font-size: 0.9em;
   color: #5b8ec6;
-  margin-top: 10px;
   font-weight: bold;
+  white-space: nowrap;
 }
 
-.game-mode-selector {
-  margin-top: 20px;
+.roll-row {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 24px;
+  width: 100%;
+}
+
+.game-mode-selector {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .game-mode-selector label {
@@ -299,12 +305,17 @@ main {
   margin-bottom: 5px;
 }
 
+.rune-trees {
+  display: flex;
+  gap: 15px;
+}
+
 .rune-tree {
   background: rgba(91, 142, 198, 0.2);
   padding: 15px;
   border-radius: 6px;
   border-left: 4px solid #c89b3c;
-  margin-bottom: 15px;
+  flex: 1;
 }
 
 .rune-tree:last-child {
