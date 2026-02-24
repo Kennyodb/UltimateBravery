@@ -4,8 +4,6 @@ A fun and interactive web application for League of Legends players to experienc
 
 ## ⚡ Quick Start
 
-### Play Instantly (No Setup)
-Open `standalone.html` in your browser.
 
 ### Develop Locally
 1. Install dependencies:
@@ -105,7 +103,6 @@ The built files will be available in the `dist/` directory.
 
 ```
 untitled/
-├── standalone.html       # All-in-one file, open directly in a browser
 ├── index.html            # Main HTML file with the page structure
 ├── js/
 │   └── app.js           # JavaScript logic for rolling and displaying results

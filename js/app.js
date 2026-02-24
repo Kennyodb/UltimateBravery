@@ -174,10 +174,6 @@ function generateRunePage() {
   };
 }
 
-// Generate ability priority (Q/W/E order)
-function generateAbilityPriorityString() {
-  return generateAbilityPriorityOrder().join(' > ');
-}
 
 // Roll function
 function roll() {
@@ -325,7 +321,8 @@ function displayResults(data) {
     });
   }
 
-  document.getElementById('results').style.display = 'block';
+  document.getElementById('results').style.display = 'grid';
+  document.getElementById('rerollBtn').style.display = 'block';
 }
 
 const rollButton = document.getElementById('rollBtn');
