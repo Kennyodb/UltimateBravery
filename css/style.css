@@ -100,7 +100,7 @@ main {
   gap: 30px;
 }
 
-.roll-button, .reroll-button {
+.roll-button {
   font-size: 1.3em;
   padding: 20px 50px;
   border: none;
@@ -111,9 +111,6 @@ main {
   text-transform: uppercase;
   letter-spacing: 2px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
-}
-
-.roll-button {
   background: linear-gradient(135deg, #c89b3c 0%, #d4af37 100%);
   color: #0a1428;
 }
@@ -128,26 +125,10 @@ main {
   transform: translateY(-1px);
 }
 
-.reroll-button {
-  background: linear-gradient(135deg, #5b8ec6 0%, #4a7aa8 100%);
-  color: #e0e1de;
-  margin-top: 10px;
-}
-
-.reroll-button:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 30px rgba(91, 142, 198, 0.6);
-  background: linear-gradient(135deg, #6a9ad8 0%, #5b8ec6 100%);
-}
-
-.reroll-button:active {
-  transform: translateY(-1px);
-}
-
 .results {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   margin-top: 30px;
 }
@@ -295,103 +276,63 @@ main {
   word-break: break-word;
 }
 
-.priority-card {
-  background: rgba(91, 142, 198, 0.2);
-  padding: 15px;
-  border-radius: 6px;
-  border-left: 4px solid #c89b3c;
-  text-align: center;
-  min-height: 100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.priority-card p {
-  color: #c89b3c;
-  font-size: 1.3em;
-  font-weight: bold;
-  margin-top: 5px;
-}
-
-.priority-text-card {
-  text-align: center;
-  margin-top: 15px;
-}
-
-.priority-text-card p {
-  color: #c89b3c;
-  font-size: 1.3em;
-  font-weight: bold;
-  margin: 0;
-}
-
 .ability-icons {
   display: flex;
-  justify-content: center;
-  gap: 16px;
+  align-items: center;
+  gap: 10px;
   margin-bottom: 15px;
+}
+
+.ability-separator {
+  color: #c89b3c;
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 20px;
 }
 
 .ability-icon-slot {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 6px;
 }
 
 .ability-icon {
   width: 48px;
   height: 48px;
-  border-radius: 8px;
+  border-radius: 6px;
   border: 2px solid #c89b3c;
-}
-
-.ability-label {
-  font-size: 0.85em;
-  color: #e0e1de;
-  font-weight: bold;
-}
-
-.rune-section {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
+  margin-bottom: 5px;
 }
 
 .rune-tree {
-  background: rgba(91, 142, 198, 0.2);
-  padding: 15px;
-  border-radius: 6px;
-  border-left: 4px solid #c89b3c;
+  margin-bottom: 20px;
 }
 
 .rune-tree-header {
   display: flex;
   align-items: center;
-  gap: 10px;
-  color: #c89b3c;
-  font-weight: bold;
   margin-bottom: 10px;
 }
 
 .rune-tree-icon {
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  border: 2px solid #c89b3c;
+  margin-right: 10px;
 }
 
 .rune-row {
   display: flex;
   gap: 10px;
-  flex-wrap: wrap;
 }
 
 .rune-icon {
-  width: 40px;
-  height: 40px;
-  border-radius: 6px;
-  border: 2px solid #5b8ec6;
-  background: rgba(10, 20, 40, 0.6);
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  border: 2px solid #c89b3c;
 }
 
 footer {
@@ -417,12 +358,22 @@ footer p {
     grid-template-columns: 1fr;
   }
 
+  .champion-section,
+  .build-section {
+    grid-column: 1;
+  }
+
   .spell-grid {
     grid-template-columns: 1fr;
   }
 
-    .build-items {
+  .build-items {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .roll-button {
+    padding: 15px 40px;
+    font-size: 1em;
   }
 }
 
@@ -435,209 +386,11 @@ footer p {
     font-size: 1.8em;
   }
 
-    .build-items {
+  .build-items {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .spell-grid {
     grid-template-columns: 1fr;
-  }
-}
-
-/*
- * Remove the gap between audio, canvas, iframes,
- * images, videos and the bottom of their containers:
- * https://github.com/h5bp/html5-boilerplate/issues/440
- */
-
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
-  vertical-align: middle;
-}
-
-/*
- * Remove default fieldset styles.
- */
-
-fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
-
-/*
- * Allow only vertical resizing of textareas.
- */
-
-textarea {
-  resize: vertical;
-}
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-
-/*
- * Hide visually and from screen readers
- */
-
-.hidden,
-[hidden] {
-  display: none !important;
-}
-
-/*
- * Hide only visually, but have it available for screen readers:
- * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
- *
- * 1. For long content, line feeds are not interpreted as spaces and small width
- *    causes content to wrap 1 word per line:
- *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
- */
-
-.visually-hidden {
-  border: 0;
-  clip: rect(0, 0, 0, 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  /* 1 */
-}
-
-/*
- * Extends the .visually-hidden class to allow the element
- * to be focusable when navigated to via the keyboard:
- * https://www.drupal.org/node/897638
- */
-
-.visually-hidden.focusable:active,
-.visually-hidden.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  white-space: inherit;
-  width: auto;
-}
-
-/*
- * Hide visually and from screen readers, but maintain layout
- */
-
-.invisible {
-  visibility: hidden;
-}
-
-/*
- * Clearfix: contain floats
- *
- * The use of `table` rather than `block` is only necessary if using
- * `::before` to contain the top-margins of child elements.
- */
-
-.clearfix::before,
-.clearfix::after {
-  content: "";
-  display: table;
-}
-
-.clearfix::after {
-  clear: both;
-}
-
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
-
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
-}
-
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
-   https://www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
-
-@media print {
-  *,
-  *::before,
-  *::after {
-    background: #fff !important;
-    color: #000 !important;
-    /* Black prints faster */
-    box-shadow: none !important;
-    text-shadow: none !important;
-  }
-
-  a,
-  a:visited {
-    text-decoration: underline;
-  }
-
-  a[href]::after {
-    content: " (" attr(href) ")";
-  }
-
-  abbr[title]::after {
-    content: " (" attr(title) ")";
-  }
-
-  /*
-   * Don't show links that are fragment identifiers,
-   * or use the `javascript:` pseudo protocol
-   */
-  a[href^="#"]::after,
-  a[href^="javascript:"]::after {
-    content: "";
-  }
-
-  pre {
-    white-space: pre-wrap !important;
-  }
-
-  pre,
-  blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid;
-  }
-
-  tr,
-  img {
-    page-break-inside: avoid;
-  }
-
-  p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3;
-  }
-
-  h2,
-  h3 {
-    page-break-after: avoid;
   }
 }
