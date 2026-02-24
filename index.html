@@ -26,18 +26,20 @@
     <header>
       <h1>⚔️ League of Legends Ultimate Bravery ⚔️</h1>
       <p class="subtitle">Roll for a random champion, build, summoner spells, and ability leveling order</p>
-      <p class="patch-version" id="patchVersion">Loading...</p>
-      <div class="game-mode-selector">
-        <label for="gameMode">Game Mode:</label>
-        <select id="gameMode">
-          <option value="ARAM">ARAM (Howling Abyss)</option>
-          <option value="CLASSIC">Summoner's Rift</option>
-        </select>
-      </div>
     </header>
 
     <main>
-      <button id="rollBtn" class="roll-button">🎲 ROLL NOW</button>
+      <div class="roll-row">
+        <div class="game-mode-selector">
+          <label for="gameMode">Game Mode:</label>
+          <select id="gameMode">
+            <option value="ARAM">ARAM (Howling Abyss)</option>
+            <option value="CLASSIC">Summoner's Rift</option>
+          </select>
+        </div>
+        <button id="rollBtn" class="roll-button">🎲 ROLL NOW</button>
+        <p class="patch-version" id="patchVersion">Loading...</p>
+      </div>
 
       <div class="results" id="results" style="display: none;">
         <!-- Champion Section -->
