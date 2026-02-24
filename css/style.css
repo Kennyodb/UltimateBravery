@@ -245,9 +245,9 @@ main {
 }
 
 .item-icon {
-  width: 48px;
-  height: 48px;
-  border-radius: 6px;
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
   border: 2px solid #c89b3c;
   margin: 8px auto;
 }
@@ -266,7 +266,15 @@ main {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-bottom: 15px;
+}
+
+.ability-box {
+  background: rgba(91, 142, 198, 0.2);
+  padding: 15px;
+  border-radius: 6px;
+  border-left: 4px solid #c89b3c;
+  display: flex;
+  justify-content: center;
 }
 
 .ability-separator {
@@ -284,15 +292,23 @@ main {
 }
 
 .ability-icon {
-  width: 48px;
-  height: 48px;
-  border-radius: 6px;
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
   border: 2px solid #c89b3c;
   margin-bottom: 5px;
 }
 
 .rune-tree {
-  margin-bottom: 20px;
+  background: rgba(91, 142, 198, 0.2);
+  padding: 15px;
+  border-radius: 6px;
+  border-left: 4px solid #c89b3c;
+  margin-bottom: 15px;
+}
+
+.rune-tree:last-child {
+  margin-bottom: 0;
 }
 
 .rune-tree-header {
