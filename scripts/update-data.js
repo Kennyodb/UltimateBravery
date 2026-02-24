@@ -68,10 +68,12 @@ async function toChampionList(championJson, version, useOffline) {
       abilityMap[key] = spell
         ? {
             name: spell.name,
+            description: spell.description || '',
             icon: `${DATA_DRAGON_BASE}/cdn/${version}/img/spell/${spell.image.full}`
           }
         : {
             name: key,
+            description: '',
             icon: `${DATA_DRAGON_BASE}/cdn/${version}/img/spell/${champion.id}${key}.png`
           };
     }
