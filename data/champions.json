@@ -3,6 +3,7 @@
     "name": "Aatrox",
     "class": "the Darkin Blade",
     "id": "Aatrox",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Aatrox.png",
     "abilities": {
       "Q": {
@@ -27,6 +28,7 @@
     "name": "Ahri",
     "class": "the Nine-Tailed Fox",
     "id": "Ahri",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Ahri.png",
     "abilities": {
       "Q": {
@@ -51,6 +53,7 @@
     "name": "Akali",
     "class": "the Rogue Assassin",
     "id": "Akali",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Akali.png",
     "abilities": {
       "Q": {
@@ -75,6 +78,7 @@
     "name": "Akshan",
     "class": "the Rogue Sentinel",
     "id": "Akshan",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Akshan.png",
     "abilities": {
       "Q": {
@@ -99,6 +103,7 @@
     "name": "Alistar",
     "class": "the Minotaur",
     "id": "Alistar",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Alistar.png",
     "abilities": {
       "Q": {
@@ -123,6 +128,7 @@
     "name": "Ambessa",
     "class": "Matriarch of War",
     "id": "Ambessa",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Ambessa.png",
     "abilities": {
       "Q": {
@@ -147,6 +153,7 @@
     "name": "Amumu",
     "class": "the Sad Mummy",
     "id": "Amumu",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Amumu.png",
     "abilities": {
       "Q": {
@@ -171,6 +178,7 @@
     "name": "Anivia",
     "class": "the Cryophoenix",
     "id": "Anivia",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Anivia.png",
     "abilities": {
       "Q": {
@@ -195,6 +203,7 @@
     "name": "Annie",
     "class": "the Dark Child",
     "id": "Annie",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Annie.png",
     "abilities": {
       "Q": {
@@ -219,6 +228,7 @@
     "name": "Aphelios",
     "class": "the Weapon of the Faithful",
     "id": "Aphelios",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Aphelios.png",
     "abilities": {
       "Q": {
@@ -243,6 +253,7 @@
     "name": "Ashe",
     "class": "the Frost Archer",
     "id": "Ashe",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Ashe.png",
     "abilities": {
       "Q": {
@@ -267,6 +278,7 @@
     "name": "Aurelion Sol",
     "class": "The Star Forger",
     "id": "AurelionSol",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/AurelionSol.png",
     "abilities": {
       "Q": {
@@ -291,6 +303,7 @@
     "name": "Aurora",
     "class": "the Witch Between Worlds",
     "id": "Aurora",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Aurora.png",
     "abilities": {
       "Q": {
@@ -315,6 +328,7 @@
     "name": "Azir",
     "class": "the Emperor of the Sands",
     "id": "Azir",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Azir.png",
     "abilities": {
       "Q": {
@@ -339,6 +353,7 @@
     "name": "Bard",
     "class": "the Wandering Caretaker",
     "id": "Bard",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Bard.png",
     "abilities": {
       "Q": {
@@ -363,6 +378,7 @@
     "name": "Bel'Veth",
     "class": "the Empress of the Void",
     "id": "Belveth",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Belveth.png",
     "abilities": {
       "Q": {
@@ -387,6 +403,7 @@
     "name": "Blitzcrank",
     "class": "the Great Steam Golem",
     "id": "Blitzcrank",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Blitzcrank.png",
     "abilities": {
       "Q": {
@@ -411,6 +428,7 @@
     "name": "Brand",
     "class": "the Burning Vengeance",
     "id": "Brand",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Brand.png",
     "abilities": {
       "Q": {
@@ -435,6 +453,7 @@
     "name": "Braum",
     "class": "the Heart of the Freljord",
     "id": "Braum",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Braum.png",
     "abilities": {
       "Q": {
@@ -459,6 +478,7 @@
     "name": "Briar",
     "class": "the Restrained Hunger",
     "id": "Briar",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Briar.png",
     "abilities": {
       "Q": {
@@ -483,6 +503,7 @@
     "name": "Caitlyn",
     "class": "the Sheriff of Piltover",
     "id": "Caitlyn",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Caitlyn.png",
     "abilities": {
       "Q": {
@@ -507,6 +528,7 @@
     "name": "Camille",
     "class": "the Steel Shadow",
     "id": "Camille",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Camille.png",
     "abilities": {
       "Q": {
@@ -531,6 +553,7 @@
     "name": "Cassiopeia",
     "class": "the Serpent's Embrace",
     "id": "Cassiopeia",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Cassiopeia.png",
     "abilities": {
       "Q": {
@@ -555,6 +578,7 @@
     "name": "Cho'Gath",
     "class": "the Terror of the Void",
     "id": "Chogath",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Chogath.png",
     "abilities": {
       "Q": {
@@ -579,6 +603,7 @@
     "name": "Corki",
     "class": "the Daring Bombardier",
     "id": "Corki",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Corki.png",
     "abilities": {
       "Q": {
@@ -603,6 +628,7 @@
     "name": "Darius",
     "class": "the Hand of Noxus",
     "id": "Darius",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Darius.png",
     "abilities": {
       "Q": {
@@ -627,6 +653,7 @@
     "name": "Diana",
     "class": "Scorn of the Moon",
     "id": "Diana",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Diana.png",
     "abilities": {
       "Q": {
@@ -651,6 +678,7 @@
     "name": "Draven",
     "class": "the Glorious Executioner",
     "id": "Draven",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Draven.png",
     "abilities": {
       "Q": {
@@ -675,6 +703,7 @@
     "name": "Dr. Mundo",
     "class": "the Madman of Zaun",
     "id": "DrMundo",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/DrMundo.png",
     "abilities": {
       "Q": {
@@ -699,6 +728,7 @@
     "name": "Ekko",
     "class": "the Boy Who Shattered Time",
     "id": "Ekko",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Ekko.png",
     "abilities": {
       "Q": {
@@ -723,6 +753,7 @@
     "name": "Elise",
     "class": "the Spider Queen",
     "id": "Elise",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Elise.png",
     "abilities": {
       "Q": {
@@ -747,6 +778,7 @@
     "name": "Evelynn",
     "class": "Agony's Embrace",
     "id": "Evelynn",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Evelynn.png",
     "abilities": {
       "Q": {
@@ -771,6 +803,7 @@
     "name": "Ezreal",
     "class": "the Prodigal Explorer",
     "id": "Ezreal",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Ezreal.png",
     "abilities": {
       "Q": {
@@ -795,6 +828,7 @@
     "name": "Fiddlesticks",
     "class": "the Ancient Fear",
     "id": "Fiddlesticks",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Fiddlesticks.png",
     "abilities": {
       "Q": {
@@ -819,6 +853,7 @@
     "name": "Fiora",
     "class": "the Grand Duelist",
     "id": "Fiora",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Fiora.png",
     "abilities": {
       "Q": {
@@ -843,6 +878,7 @@
     "name": "Fizz",
     "class": "the Tidal Trickster",
     "id": "Fizz",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Fizz.png",
     "abilities": {
       "Q": {
@@ -867,6 +903,7 @@
     "name": "Galio",
     "class": "the Colossus",
     "id": "Galio",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Galio.png",
     "abilities": {
       "Q": {
@@ -891,6 +928,7 @@
     "name": "Gangplank",
     "class": "the Saltwater Scourge",
     "id": "Gangplank",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Gangplank.png",
     "abilities": {
       "Q": {
@@ -915,6 +953,7 @@
     "name": "Garen",
     "class": "The Might of Demacia",
     "id": "Garen",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Garen.png",
     "abilities": {
       "Q": {
@@ -939,6 +978,7 @@
     "name": "Gnar",
     "class": "the Missing Link",
     "id": "Gnar",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Gnar.png",
     "abilities": {
       "Q": {
@@ -963,6 +1003,7 @@
     "name": "Gragas",
     "class": "the Rabble Rouser",
     "id": "Gragas",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Gragas.png",
     "abilities": {
       "Q": {
@@ -987,6 +1028,7 @@
     "name": "Graves",
     "class": "the Outlaw",
     "id": "Graves",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Graves.png",
     "abilities": {
       "Q": {
@@ -1011,6 +1053,7 @@
     "name": "Gwen",
     "class": "The Hallowed Seamstress",
     "id": "Gwen",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Gwen.png",
     "abilities": {
       "Q": {
@@ -1035,6 +1078,7 @@
     "name": "Hecarim",
     "class": "the Shadow of War",
     "id": "Hecarim",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Hecarim.png",
     "abilities": {
       "Q": {
@@ -1059,6 +1103,7 @@
     "name": "Heimerdinger",
     "class": "the Revered Inventor",
     "id": "Heimerdinger",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Heimerdinger.png",
     "abilities": {
       "Q": {
@@ -1083,6 +1128,7 @@
     "name": "Hwei",
     "class": "the Visionary",
     "id": "Hwei",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Hwei.png",
     "abilities": {
       "Q": {
@@ -1107,6 +1153,7 @@
     "name": "Illaoi",
     "class": "the Kraken Priestess",
     "id": "Illaoi",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Illaoi.png",
     "abilities": {
       "Q": {
@@ -1131,6 +1178,7 @@
     "name": "Irelia",
     "class": "the Blade Dancer",
     "id": "Irelia",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Irelia.png",
     "abilities": {
       "Q": {
@@ -1155,6 +1203,7 @@
     "name": "Ivern",
     "class": "the Green Father",
     "id": "Ivern",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Ivern.png",
     "abilities": {
       "Q": {
@@ -1179,6 +1228,7 @@
     "name": "Janna",
     "class": "the Storm's Fury",
     "id": "Janna",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Janna.png",
     "abilities": {
       "Q": {
@@ -1203,6 +1253,7 @@
     "name": "Jarvan IV",
     "class": "the Exemplar of Demacia",
     "id": "JarvanIV",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/JarvanIV.png",
     "abilities": {
       "Q": {
@@ -1227,6 +1278,7 @@
     "name": "Jax",
     "class": "Grandmaster at Arms",
     "id": "Jax",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Jax.png",
     "abilities": {
       "Q": {
@@ -1251,6 +1303,7 @@
     "name": "Jayce",
     "class": "the Defender of Tomorrow",
     "id": "Jayce",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Jayce.png",
     "abilities": {
       "Q": {
@@ -1275,6 +1328,7 @@
     "name": "Jhin",
     "class": "the Virtuoso",
     "id": "Jhin",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Jhin.png",
     "abilities": {
       "Q": {
@@ -1299,6 +1353,7 @@
     "name": "Jinx",
     "class": "the Loose Cannon",
     "id": "Jinx",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Jinx.png",
     "abilities": {
       "Q": {
@@ -1323,6 +1378,7 @@
     "name": "Kai'Sa",
     "class": "Daughter of the Void",
     "id": "Kaisa",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Kaisa.png",
     "abilities": {
       "Q": {
@@ -1347,6 +1403,7 @@
     "name": "Kalista",
     "class": "the Spear of Vengeance",
     "id": "Kalista",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Kalista.png",
     "abilities": {
       "Q": {
@@ -1371,6 +1428,7 @@
     "name": "Karma",
     "class": "the Enlightened One",
     "id": "Karma",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Karma.png",
     "abilities": {
       "Q": {
@@ -1395,6 +1453,7 @@
     "name": "Karthus",
     "class": "the Deathsinger",
     "id": "Karthus",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Karthus.png",
     "abilities": {
       "Q": {
@@ -1419,6 +1478,7 @@
     "name": "Kassadin",
     "class": "the Void Walker",
     "id": "Kassadin",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Kassadin.png",
     "abilities": {
       "Q": {
@@ -1443,6 +1503,7 @@
     "name": "Katarina",
     "class": "the Sinister Blade",
     "id": "Katarina",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Katarina.png",
     "abilities": {
       "Q": {
@@ -1467,6 +1528,7 @@
     "name": "Kayle",
     "class": "the Righteous",
     "id": "Kayle",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Kayle.png",
     "abilities": {
       "Q": {
@@ -1491,6 +1553,7 @@
     "name": "Kayn",
     "class": "the Shadow Reaper",
     "id": "Kayn",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Kayn.png",
     "abilities": {
       "Q": {
@@ -1515,6 +1578,7 @@
     "name": "Kennen",
     "class": "the Heart of the Tempest",
     "id": "Kennen",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Kennen.png",
     "abilities": {
       "Q": {
@@ -1539,6 +1603,7 @@
     "name": "Kha'Zix",
     "class": "the Voidreaver",
     "id": "Khazix",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Khazix.png",
     "abilities": {
       "Q": {
@@ -1563,6 +1628,7 @@
     "name": "Kindred",
     "class": "The Eternal Hunters",
     "id": "Kindred",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Kindred.png",
     "abilities": {
       "Q": {
@@ -1587,6 +1653,7 @@
     "name": "Kled",
     "class": "the Cantankerous Cavalier",
     "id": "Kled",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Kled.png",
     "abilities": {
       "Q": {
@@ -1611,6 +1678,7 @@
     "name": "Kog'Maw",
     "class": "the Mouth of the Abyss",
     "id": "KogMaw",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/KogMaw.png",
     "abilities": {
       "Q": {
@@ -1635,6 +1703,7 @@
     "name": "K'Sante",
     "class": "the Pride of Nazumah",
     "id": "KSante",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/KSante.png",
     "abilities": {
       "Q": {
@@ -1659,6 +1728,7 @@
     "name": "LeBlanc",
     "class": "the Deceiver",
     "id": "Leblanc",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Leblanc.png",
     "abilities": {
       "Q": {
@@ -1683,6 +1753,7 @@
     "name": "Lee Sin",
     "class": "the Blind Monk",
     "id": "LeeSin",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/LeeSin.png",
     "abilities": {
       "Q": {
@@ -1707,6 +1778,7 @@
     "name": "Leona",
     "class": "the Radiant Dawn",
     "id": "Leona",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Leona.png",
     "abilities": {
       "Q": {
@@ -1731,6 +1803,7 @@
     "name": "Lillia",
     "class": "the Bashful Bloom",
     "id": "Lillia",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Lillia.png",
     "abilities": {
       "Q": {
@@ -1755,6 +1828,7 @@
     "name": "Lissandra",
     "class": "the Ice Witch",
     "id": "Lissandra",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Lissandra.png",
     "abilities": {
       "Q": {
@@ -1779,6 +1853,7 @@
     "name": "Lucian",
     "class": "the Purifier",
     "id": "Lucian",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Lucian.png",
     "abilities": {
       "Q": {
@@ -1803,6 +1878,7 @@
     "name": "Lulu",
     "class": "the Fae Sorceress",
     "id": "Lulu",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Lulu.png",
     "abilities": {
       "Q": {
@@ -1827,6 +1903,7 @@
     "name": "Lux",
     "class": "the Lady of Luminosity",
     "id": "Lux",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Lux.png",
     "abilities": {
       "Q": {
@@ -1851,6 +1928,7 @@
     "name": "Malphite",
     "class": "Shard of the Monolith",
     "id": "Malphite",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Malphite.png",
     "abilities": {
       "Q": {
@@ -1875,6 +1953,7 @@
     "name": "Malzahar",
     "class": "the Prophet of the Void",
     "id": "Malzahar",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Malzahar.png",
     "abilities": {
       "Q": {
@@ -1899,6 +1978,7 @@
     "name": "Maokai",
     "class": "the Twisted Treant",
     "id": "Maokai",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Maokai.png",
     "abilities": {
       "Q": {
@@ -1923,6 +2003,7 @@
     "name": "Master Yi",
     "class": "the Wuju Bladesman",
     "id": "MasterYi",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/MasterYi.png",
     "abilities": {
       "Q": {
@@ -1947,6 +2028,7 @@
     "name": "Mel",
     "class": "the Soul's Reflection",
     "id": "Mel",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Mel.png",
     "abilities": {
       "Q": {
@@ -1971,6 +2053,7 @@
     "name": "Milio",
     "class": "The Gentle Flame",
     "id": "Milio",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Milio.png",
     "abilities": {
       "Q": {
@@ -1995,6 +2078,7 @@
     "name": "Miss Fortune",
     "class": "the Bounty Hunter",
     "id": "MissFortune",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/MissFortune.png",
     "abilities": {
       "Q": {
@@ -2019,6 +2103,7 @@
     "name": "Wukong",
     "class": "the Monkey King",
     "id": "MonkeyKing",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/MonkeyKing.png",
     "abilities": {
       "Q": {
@@ -2043,6 +2128,7 @@
     "name": "Mordekaiser",
     "class": "the Iron Revenant",
     "id": "Mordekaiser",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Mordekaiser.png",
     "abilities": {
       "Q": {
@@ -2067,6 +2153,7 @@
     "name": "Morgana",
     "class": "the Fallen",
     "id": "Morgana",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Morgana.png",
     "abilities": {
       "Q": {
@@ -2091,6 +2178,7 @@
     "name": "Naafiri",
     "class": "the Hound of a Hundred Bites",
     "id": "Naafiri",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Naafiri.png",
     "abilities": {
       "Q": {
@@ -2115,6 +2203,7 @@
     "name": "Nami",
     "class": "the Tidecaller",
     "id": "Nami",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Nami.png",
     "abilities": {
       "Q": {
@@ -2139,6 +2228,7 @@
     "name": "Nasus",
     "class": "the Curator of the Sands",
     "id": "Nasus",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Nasus.png",
     "abilities": {
       "Q": {
@@ -2163,6 +2253,7 @@
     "name": "Nautilus",
     "class": "the Titan of the Depths",
     "id": "Nautilus",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Nautilus.png",
     "abilities": {
       "Q": {
@@ -2187,6 +2278,7 @@
     "name": "Neeko",
     "class": "the Curious Chameleon",
     "id": "Neeko",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Neeko.png",
     "abilities": {
       "Q": {
@@ -2211,6 +2303,7 @@
     "name": "Nidalee",
     "class": "the Bestial Huntress",
     "id": "Nidalee",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Nidalee.png",
     "abilities": {
       "Q": {
@@ -2235,6 +2328,7 @@
     "name": "Nilah",
     "class": "the Joy Unbound",
     "id": "Nilah",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Nilah.png",
     "abilities": {
       "Q": {
@@ -2259,6 +2353,7 @@
     "name": "Nocturne",
     "class": "the Eternal Nightmare",
     "id": "Nocturne",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Nocturne.png",
     "abilities": {
       "Q": {
@@ -2283,6 +2378,7 @@
     "name": "Nunu & Willump",
     "class": "the Boy and His Yeti",
     "id": "Nunu",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Nunu.png",
     "abilities": {
       "Q": {
@@ -2307,6 +2403,7 @@
     "name": "Olaf",
     "class": "the Berserker",
     "id": "Olaf",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Olaf.png",
     "abilities": {
       "Q": {
@@ -2331,6 +2428,7 @@
     "name": "Orianna",
     "class": "the Lady of Clockwork",
     "id": "Orianna",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Orianna.png",
     "abilities": {
       "Q": {
@@ -2355,6 +2453,7 @@
     "name": "Ornn",
     "class": "The Fire below the Mountain",
     "id": "Ornn",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Ornn.png",
     "abilities": {
       "Q": {
@@ -2379,6 +2478,7 @@
     "name": "Pantheon",
     "class": "the Unbreakable Spear",
     "id": "Pantheon",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Pantheon.png",
     "abilities": {
       "Q": {
@@ -2403,6 +2503,7 @@
     "name": "Poppy",
     "class": "Keeper of the Hammer",
     "id": "Poppy",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Poppy.png",
     "abilities": {
       "Q": {
@@ -2427,6 +2528,7 @@
     "name": "Pyke",
     "class": "the Bloodharbor Ripper",
     "id": "Pyke",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Pyke.png",
     "abilities": {
       "Q": {
@@ -2451,6 +2553,7 @@
     "name": "Qiyana",
     "class": "Empress of the Elements",
     "id": "Qiyana",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Qiyana.png",
     "abilities": {
       "Q": {
@@ -2475,6 +2578,7 @@
     "name": "Quinn",
     "class": "Demacia's Wings",
     "id": "Quinn",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Quinn.png",
     "abilities": {
       "Q": {
@@ -2499,6 +2603,7 @@
     "name": "Rakan",
     "class": "The Charmer",
     "id": "Rakan",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Rakan.png",
     "abilities": {
       "Q": {
@@ -2523,6 +2628,7 @@
     "name": "Rammus",
     "class": "the Armordillo",
     "id": "Rammus",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Rammus.png",
     "abilities": {
       "Q": {
@@ -2547,6 +2653,7 @@
     "name": "Rek'Sai",
     "class": "the Void Burrower",
     "id": "RekSai",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/RekSai.png",
     "abilities": {
       "Q": {
@@ -2571,6 +2678,7 @@
     "name": "Rell",
     "class": "the Iron Maiden",
     "id": "Rell",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Rell.png",
     "abilities": {
       "Q": {
@@ -2595,6 +2703,7 @@
     "name": "Renata Glasc",
     "class": "the Chem-Baroness",
     "id": "Renata",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Renata.png",
     "abilities": {
       "Q": {
@@ -2619,6 +2728,7 @@
     "name": "Renekton",
     "class": "the Butcher of the Sands",
     "id": "Renekton",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Renekton.png",
     "abilities": {
       "Q": {
@@ -2643,6 +2753,7 @@
     "name": "Rengar",
     "class": "the Pridestalker",
     "id": "Rengar",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Rengar.png",
     "abilities": {
       "Q": {
@@ -2667,6 +2778,7 @@
     "name": "Riven",
     "class": "the Exile",
     "id": "Riven",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Riven.png",
     "abilities": {
       "Q": {
@@ -2691,6 +2803,7 @@
     "name": "Rumble",
     "class": "the Mechanized Menace",
     "id": "Rumble",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Rumble.png",
     "abilities": {
       "Q": {
@@ -2715,6 +2828,7 @@
     "name": "Ryze",
     "class": "the Rune Mage",
     "id": "Ryze",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Ryze.png",
     "abilities": {
       "Q": {
@@ -2739,6 +2853,7 @@
     "name": "Samira",
     "class": "the Desert Rose",
     "id": "Samira",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Samira.png",
     "abilities": {
       "Q": {
@@ -2763,6 +2878,7 @@
     "name": "Sejuani",
     "class": "Fury of the North",
     "id": "Sejuani",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Sejuani.png",
     "abilities": {
       "Q": {
@@ -2787,6 +2903,7 @@
     "name": "Senna",
     "class": "the Redeemer",
     "id": "Senna",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Senna.png",
     "abilities": {
       "Q": {
@@ -2811,6 +2928,7 @@
     "name": "Seraphine",
     "class": "the Starry-Eyed Songstress",
     "id": "Seraphine",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Seraphine.png",
     "abilities": {
       "Q": {
@@ -2835,6 +2953,7 @@
     "name": "Sett",
     "class": "the Boss",
     "id": "Sett",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Sett.png",
     "abilities": {
       "Q": {
@@ -2859,6 +2978,7 @@
     "name": "Shaco",
     "class": "the Demon Jester",
     "id": "Shaco",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Shaco.png",
     "abilities": {
       "Q": {
@@ -2883,6 +3003,7 @@
     "name": "Shen",
     "class": "the Eye of Twilight",
     "id": "Shen",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Shen.png",
     "abilities": {
       "Q": {
@@ -2907,6 +3028,7 @@
     "name": "Shyvana",
     "class": "the Half-Dragon",
     "id": "Shyvana",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Shyvana.png",
     "abilities": {
       "Q": {
@@ -2931,6 +3053,7 @@
     "name": "Singed",
     "class": "the Mad Chemist",
     "id": "Singed",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Singed.png",
     "abilities": {
       "Q": {
@@ -2955,6 +3078,7 @@
     "name": "Sion",
     "class": "The Undead Juggernaut",
     "id": "Sion",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Sion.png",
     "abilities": {
       "Q": {
@@ -2979,6 +3103,7 @@
     "name": "Sivir",
     "class": "the Battle Mistress",
     "id": "Sivir",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Sivir.png",
     "abilities": {
       "Q": {
@@ -3003,6 +3128,7 @@
     "name": "Skarner",
     "class": "the Primordial Sovereign",
     "id": "Skarner",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Skarner.png",
     "abilities": {
       "Q": {
@@ -3027,6 +3153,7 @@
     "name": "Smolder",
     "class": "the Fiery Fledgling",
     "id": "Smolder",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Smolder.png",
     "abilities": {
       "Q": {
@@ -3051,6 +3178,7 @@
     "name": "Sona",
     "class": "Maven of the Strings",
     "id": "Sona",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Sona.png",
     "abilities": {
       "Q": {
@@ -3075,6 +3203,7 @@
     "name": "Soraka",
     "class": "the Starchild",
     "id": "Soraka",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Soraka.png",
     "abilities": {
       "Q": {
@@ -3099,6 +3228,7 @@
     "name": "Swain",
     "class": "the Noxian Grand General",
     "id": "Swain",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Swain.png",
     "abilities": {
       "Q": {
@@ -3123,6 +3253,7 @@
     "name": "Sylas",
     "class": "the Unshackled",
     "id": "Sylas",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Sylas.png",
     "abilities": {
       "Q": {
@@ -3147,6 +3278,7 @@
     "name": "Syndra",
     "class": "the Dark Sovereign",
     "id": "Syndra",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Syndra.png",
     "abilities": {
       "Q": {
@@ -3171,6 +3303,7 @@
     "name": "Tahm Kench",
     "class": "The River King",
     "id": "TahmKench",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/TahmKench.png",
     "abilities": {
       "Q": {
@@ -3195,6 +3328,7 @@
     "name": "Taliyah",
     "class": "the Stoneweaver",
     "id": "Taliyah",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Taliyah.png",
     "abilities": {
       "Q": {
@@ -3219,6 +3353,7 @@
     "name": "Talon",
     "class": "the Blade's Shadow",
     "id": "Talon",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Talon.png",
     "abilities": {
       "Q": {
@@ -3243,6 +3378,7 @@
     "name": "Taric",
     "class": "the Shield of Valoran",
     "id": "Taric",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Taric.png",
     "abilities": {
       "Q": {
@@ -3267,6 +3403,7 @@
     "name": "Teemo",
     "class": "the Swift Scout",
     "id": "Teemo",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Teemo.png",
     "abilities": {
       "Q": {
@@ -3291,6 +3428,7 @@
     "name": "Thresh",
     "class": "the Chain Warden",
     "id": "Thresh",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Thresh.png",
     "abilities": {
       "Q": {
@@ -3315,6 +3453,7 @@
     "name": "Tristana",
     "class": "the Yordle Gunner",
     "id": "Tristana",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Tristana.png",
     "abilities": {
       "Q": {
@@ -3339,6 +3478,7 @@
     "name": "Trundle",
     "class": "the Troll King",
     "id": "Trundle",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Trundle.png",
     "abilities": {
       "Q": {
@@ -3363,6 +3503,7 @@
     "name": "Tryndamere",
     "class": "the Barbarian King",
     "id": "Tryndamere",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Tryndamere.png",
     "abilities": {
       "Q": {
@@ -3387,6 +3528,7 @@
     "name": "Twisted Fate",
     "class": "the Card Master",
     "id": "TwistedFate",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/TwistedFate.png",
     "abilities": {
       "Q": {
@@ -3411,6 +3553,7 @@
     "name": "Twitch",
     "class": "the Plague Rat",
     "id": "Twitch",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Twitch.png",
     "abilities": {
       "Q": {
@@ -3435,6 +3578,7 @@
     "name": "Udyr",
     "class": "the Spirit Walker",
     "id": "Udyr",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Udyr.png",
     "abilities": {
       "Q": {
@@ -3459,6 +3603,7 @@
     "name": "Urgot",
     "class": "the Dreadnought",
     "id": "Urgot",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Urgot.png",
     "abilities": {
       "Q": {
@@ -3483,6 +3628,7 @@
     "name": "Varus",
     "class": "the Arrow of Retribution",
     "id": "Varus",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Varus.png",
     "abilities": {
       "Q": {
@@ -3507,6 +3653,7 @@
     "name": "Vayne",
     "class": "the Night Hunter",
     "id": "Vayne",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Vayne.png",
     "abilities": {
       "Q": {
@@ -3531,6 +3678,7 @@
     "name": "Veigar",
     "class": "the Tiny Master of Evil",
     "id": "Veigar",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Veigar.png",
     "abilities": {
       "Q": {
@@ -3555,6 +3703,7 @@
     "name": "Vel'Koz",
     "class": "the Eye of the Void",
     "id": "Velkoz",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Velkoz.png",
     "abilities": {
       "Q": {
@@ -3579,6 +3728,7 @@
     "name": "Vex",
     "class": "the Gloomist",
     "id": "Vex",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Vex.png",
     "abilities": {
       "Q": {
@@ -3603,6 +3753,7 @@
     "name": "Vi",
     "class": "the Piltover Enforcer",
     "id": "Vi",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Vi.png",
     "abilities": {
       "Q": {
@@ -3627,6 +3778,7 @@
     "name": "Viego",
     "class": "The Ruined King",
     "id": "Viego",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Viego.png",
     "abilities": {
       "Q": {
@@ -3651,6 +3803,7 @@
     "name": "Viktor",
     "class": "the Herald of the Arcane",
     "id": "Viktor",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Viktor.png",
     "abilities": {
       "Q": {
@@ -3675,6 +3828,7 @@
     "name": "Vladimir",
     "class": "the Crimson Reaper",
     "id": "Vladimir",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Vladimir.png",
     "abilities": {
       "Q": {
@@ -3699,6 +3853,7 @@
     "name": "Volibear",
     "class": "the Relentless Storm",
     "id": "Volibear",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Volibear.png",
     "abilities": {
       "Q": {
@@ -3723,6 +3878,7 @@
     "name": "Warwick",
     "class": "the Uncaged Wrath of Zaun",
     "id": "Warwick",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Warwick.png",
     "abilities": {
       "Q": {
@@ -3747,6 +3903,7 @@
     "name": "Xayah",
     "class": "the Rebel",
     "id": "Xayah",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Xayah.png",
     "abilities": {
       "Q": {
@@ -3771,6 +3928,7 @@
     "name": "Xerath",
     "class": "the Magus Ascendant",
     "id": "Xerath",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Xerath.png",
     "abilities": {
       "Q": {
@@ -3795,6 +3953,7 @@
     "name": "Xin Zhao",
     "class": "the Seneschal of Demacia",
     "id": "XinZhao",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/XinZhao.png",
     "abilities": {
       "Q": {
@@ -3819,6 +3978,7 @@
     "name": "Yasuo",
     "class": "the Unforgiven",
     "id": "Yasuo",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Yasuo.png",
     "abilities": {
       "Q": {
@@ -3843,6 +4003,7 @@
     "name": "Yone",
     "class": "the Unforgotten",
     "id": "Yone",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Yone.png",
     "abilities": {
       "Q": {
@@ -3867,6 +4028,7 @@
     "name": "Yorick",
     "class": "Shepherd of Souls",
     "id": "Yorick",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Yorick.png",
     "abilities": {
       "Q": {
@@ -3891,6 +4053,7 @@
     "name": "Yunara",
     "class": "the Unbroken Faith",
     "id": "Yunara",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Yunara.png",
     "abilities": {
       "Q": {
@@ -3915,6 +4078,7 @@
     "name": "Yuumi",
     "class": "the Magical Cat",
     "id": "Yuumi",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Yuumi.png",
     "abilities": {
       "Q": {
@@ -3939,6 +4103,7 @@
     "name": "Zaahen",
     "class": "The Unsundered",
     "id": "Zaahen",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Zaahen.png",
     "abilities": {
       "Q": {
@@ -3963,6 +4128,7 @@
     "name": "Zac",
     "class": "the Secret Weapon",
     "id": "Zac",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Zac.png",
     "abilities": {
       "Q": {
@@ -3987,6 +4153,7 @@
     "name": "Zed",
     "class": "the Master of Shadows",
     "id": "Zed",
+    "ranged": false,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Zed.png",
     "abilities": {
       "Q": {
@@ -4011,6 +4178,7 @@
     "name": "Zeri",
     "class": "The Spark of Zaun",
     "id": "Zeri",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Zeri.png",
     "abilities": {
       "Q": {
@@ -4035,6 +4203,7 @@
     "name": "Ziggs",
     "class": "the Hexplosives Expert",
     "id": "Ziggs",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Ziggs.png",
     "abilities": {
       "Q": {
@@ -4059,6 +4228,7 @@
     "name": "Zilean",
     "class": "the Chronokeeper",
     "id": "Zilean",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Zilean.png",
     "abilities": {
       "Q": {
@@ -4083,6 +4253,7 @@
     "name": "Zoe",
     "class": "the Aspect of Twilight",
     "id": "Zoe",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Zoe.png",
     "abilities": {
       "Q": {
@@ -4107,6 +4278,7 @@
     "name": "Zyra",
     "class": "Rise of the Thorns",
     "id": "Zyra",
+    "ranged": true,
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.4.1/img/champion/Zyra.png",
     "abilities": {
       "Q": {
