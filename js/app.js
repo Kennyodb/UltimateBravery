@@ -12,6 +12,10 @@ const RUNE_ICON_BASE = 'https://ddragon.leagueoflegends.com/cdn/img/';
 const itemConstraints = {
   requiredBootsCount: 1,
   bootsFirst: true, // Ensure boots is always the first item
+  mutuallyExclusiveGroups: [
+    // Only one Hydra item allowed
+    ['Ravenous Hydra', 'Titanic Hydra', 'Profane Hydra'],
+  ],
   mutuallyExclusivePairs: [
     ['Manamune', 'Muramana']
   ]
@@ -59,18 +63,27 @@ function getRandomElement(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
 
-function buildMutualExclusionMap(pairs) {
+function buildMutualExclusionMap(pairs, groups) {
   const map = new Map();
-  for (const [first, second] of pairs) {
-    if (!map.has(first)) {
-      map.set(first, new Set());
-    }
-    if (!map.has(second)) {
-      map.set(second, new Set());
-    }
+
+  // Handle pairs
+  for (const [first, second] of (pairs || [])) {
+    if (!map.has(first)) map.set(first, new Set());
+    if (!map.has(second)) map.set(second, new Set());
     map.get(first).add(second);
     map.get(second).add(first);
   }
+
+  // Handle groups: every member excludes every other member
+  for (const group of (groups || [])) {
+    for (const member of group) {
+      if (!map.has(member)) map.set(member, new Set());
+      for (const other of group) {
+        if (other !== member) map.get(member).add(other);
+      }
+    }
+  }
+
   return map;
 }
 
@@ -78,12 +91,17 @@ function isBootsItem(item) {
   return Array.isArray(item.tags) && item.tags.includes('Boots');
 }
 
-function canSelectItem(item, selected, constraints, exclusionMap) {
+function canSelectItem(item, selected, constraints, exclusionMap, champion) {
   if (constraints.requiredBootsCount !== undefined) {
     const bootsCount = selected.filter(isBootsItem).length;
     if (isBootsItem(item) && bootsCount >= constraints.requiredBootsCount) {
       return false;
     }
+  }
+
+  // Exclude ranged-only items for melee champions
+  if (item.rangedOnly && champion && !champion.ranged) {
+    return false;
   }
 
   const exclusions = exclusionMap.get(item.name);
@@ -98,15 +116,18 @@ function canSelectItem(item, selected, constraints, exclusionMap) {
   return true;
 }
 
-function selectItemsWithConstraints(pool, count, constraints) {
-  const exclusionMap = buildMutualExclusionMap(constraints.mutuallyExclusivePairs || []);
+function selectItemsWithConstraints(pool, count, constraints, champion) {
+  const exclusionMap = buildMutualExclusionMap(
+    constraints.mutuallyExclusivePairs || [],
+    constraints.mutuallyExclusiveGroups || []
+  );
   const available = [...pool];
   const selected = [];
 
   // If bootsFirst is true, select boots as the first item
   if (constraints.bootsFirst) {
     const bootsCandidates = available.filter(
-      (item) => isBootsItem(item) && canSelectItem(item, selected, constraints, exclusionMap)
+      (item) => isBootsItem(item) && canSelectItem(item, selected, constraints, exclusionMap, champion)
     );
     if (!bootsCandidates.length) {
       return null;
@@ -119,7 +140,7 @@ function selectItemsWithConstraints(pool, count, constraints) {
   // Select remaining items (excluding boots if we already selected one)
   while (selected.length < count) {
     const candidates = available.filter((item) =>
-      !isBootsItem(item) && canSelectItem(item, selected, constraints, exclusionMap)
+      !isBootsItem(item) && canSelectItem(item, selected, constraints, exclusionMap, champion)
     );
     if (!candidates.length) {
       return null;
@@ -188,11 +209,11 @@ function roll() {
     spell2 = getRandomElement(summonerSpells);
   }
 
-  let selectedItems = selectItemsWithConstraints(items, 6, itemConstraints);
+  let selectedItems = selectItemsWithConstraints(items, 6, itemConstraints, champion);
   if (!selectedItems) {
-    // Fallback: ensure boots is still first
+    // Fallback: ignore mutual exclusion but still respect rangedOnly and boots
     selectedItems = [];
-    const availableItems = [...items];
+    const availableItems = items.filter(item => !item.rangedOnly || champion.ranged);
 
     // Select boots first
     const bootsItems = availableItems.filter(item => isBootsItem(item));
@@ -203,10 +224,11 @@ function roll() {
     }
 
     // Select remaining items
-    while (selectedItems.length < 6 && availableItems.length > 0) {
-      const randomIndex = Math.floor(Math.random() * availableItems.length);
-      selectedItems.push(availableItems[randomIndex]);
-      availableItems.splice(randomIndex, 1);
+    const nonBoots = availableItems.filter(item => !isBootsItem(item));
+    while (selectedItems.length < 6 && nonBoots.length > 0) {
+      const randomIndex = Math.floor(Math.random() * nonBoots.length);
+      selectedItems.push(nonBoots[randomIndex]);
+      nonBoots.splice(randomIndex, 1);
     }
   }
 
@@ -236,6 +258,7 @@ function displayResults(data) {
   if (championIcon && data.champion.id) {
     championIcon.src = `images/champions/${data.champion.id}.png`;
     championIcon.alt = data.champion.name;
+    championIcon.title = data.champion.name;
     championIcon.style.display = 'block';
   }
 
@@ -244,6 +267,7 @@ function displayResults(data) {
   if (spell1Icon && data.spell1.id) {
     spell1Icon.src = `images/spells/${data.spell1.id}.png`;
     spell1Icon.alt = data.spell1.name;
+    spell1Icon.title = data.spell1.name;
     spell1Icon.style.display = 'block';
   }
 
@@ -252,6 +276,7 @@ function displayResults(data) {
   if (spell2Icon && data.spell2.id) {
     spell2Icon.src = `images/spells/${data.spell2.id}.png`;
     spell2Icon.alt = data.spell2.name;
+    spell2Icon.title = data.spell2.name;
     spell2Icon.style.display = 'block';
   }
 
@@ -261,6 +286,7 @@ function displayResults(data) {
     if (itemIcon && data.items[i].id) {
       itemIcon.src = `images/items/${data.items[i].id}.png`;
       itemIcon.alt = data.items[i].name;
+      itemIcon.title = data.items[i].name;
       itemIcon.style.display = 'block';
     }
   }
@@ -273,6 +299,7 @@ function displayResults(data) {
       if (abilityIcon && ability) {
         abilityIcon.src = ability.icon;
         abilityIcon.alt = ability.name;
+        abilityIcon.title = `${letter}: ${ability.name}`;
         abilityIcon.style.display = 'block';
       }
       if (abilityLabel) {
@@ -289,6 +316,7 @@ function displayResults(data) {
     if (primaryTreeIcon) {
       primaryTreeIcon.src = `${RUNE_ICON_BASE}${data.runePage.primaryTree.icon}`;
       primaryTreeIcon.alt = data.runePage.primaryTree.name;
+      primaryTreeIcon.title = data.runePage.primaryTree.name;
       primaryTreeIcon.style.display = 'block';
     }
 
@@ -296,6 +324,7 @@ function displayResults(data) {
     if (secondaryTreeIcon) {
       secondaryTreeIcon.src = `${RUNE_ICON_BASE}${data.runePage.secondaryTree.icon}`;
       secondaryTreeIcon.alt = data.runePage.secondaryTree.name;
+      secondaryTreeIcon.title = data.runePage.secondaryTree.name;
       secondaryTreeIcon.style.display = 'block';
     }
 
@@ -304,6 +333,7 @@ function displayResults(data) {
       if (runeIcon && rune) {
         runeIcon.src = `${RUNE_ICON_BASE}${rune.icon}`;
         runeIcon.alt = rune.name;
+        runeIcon.title = rune.name;
         runeIcon.style.display = 'block';
       }
     });
@@ -313,6 +343,7 @@ function displayResults(data) {
       if (runeIcon && rune) {
         runeIcon.src = `${RUNE_ICON_BASE}${rune.icon}`;
         runeIcon.alt = rune.name;
+        runeIcon.title = rune.name;
         runeIcon.style.display = 'block';
       }
     });

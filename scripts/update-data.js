@@ -60,41 +60,31 @@ async function toChampionList(championJson, version, useOffline) {
       console.warn(`Could not load spell data for ${champion.name}: ${error.message}`);
     }
 
-    const abilityMap = {
-      Q: spells[0] ? {
-        name: spells[0].name,
-        icon: `https://ddragon.leagueoflegends.com/cdn/${version}/img/spell/${spells[0].image.full}`
-      } : {
-        name: 'Q Ability',
-        icon: `https://ddragon.leagueoflegends.com/cdn/${version}/img/champion/abilities/${champion.id}_Q.png`
-      },
-      W: spells[1] ? {
-        name: spells[1].name,
-        icon: `https://ddragon.leagueoflegends.com/cdn/${version}/img/spell/${spells[1].image.full}`
-      } : {
-        name: 'W Ability',
-        icon: `https://ddragon.leagueoflegends.com/cdn/${version}/img/champion/abilities/${champion.id}_W.png`
-      },
-      E: spells[2] ? {
-        name: spells[2].name,
-        icon: `https://ddragon.leagueoflegends.com/cdn/${version}/img/spell/${spells[2].image.full}`
-      } : {
-        name: 'E Ability',
-        icon: `https://ddragon.leagueoflegends.com/cdn/${version}/img/champion/abilities/${champion.id}_E.png`
-      },
-      R: spells[3] ? {
-        name: spells[3].name,
-        icon: `https://ddragon.leagueoflegends.com/cdn/${version}/img/spell/${spells[3].image.full}`
-      } : {
-        name: 'R Ability',
-        icon: `https://ddragon.leagueoflegends.com/cdn/${version}/img/champion/abilities/${champion.id}_R.png`
-      }
-    };
+    const keys = ['Q', 'W', 'E', 'R'];
+    const abilityMap = {};
+    for (let i = 0; i < keys.length; i++) {
+      const key = keys[i];
+      const spell = spells[i];
+      abilityMap[key] = spell
+        ? {
+            name: spell.name,
+            icon: `${DATA_DRAGON_BASE}/cdn/${version}/img/spell/${spell.image.full}`
+          }
+        : {
+            name: key,
+            icon: `${DATA_DRAGON_BASE}/cdn/${version}/img/spell/${champion.id}${key}.png`
+          };
+    }
+
+    // Determine melee/ranged from attack range (>175 = ranged)
+    const attackRange = champion.stats && champion.stats.attackrange ? champion.stats.attackrange : 175;
+    const ranged = attackRange > 175;
 
     champions.push({
       name: champion.name,
       class: champion.title,
       id: champion.id,
+      ranged,
       icon: `https://ddragon.leagueoflegends.com/cdn/${version}/img/champion/${champion.image.full}`,
       abilities: abilityMap
     });
@@ -114,6 +104,11 @@ function toSummonerSpellList(spellJson, version) {
 }
 
 function toItemList(itemJson, version) {
+  // Items that are only usable/meaningful on ranged champions
+  const rangedOnlyIds = new Set([
+    '3085', // Runaan's Hurricane
+  ]);
+
   const data = itemJson && itemJson.data ? itemJson.data : {};
   const items = Object.entries(data)
     .filter(([_, item]) => item.gold && item.gold.purchasable)
@@ -134,6 +129,7 @@ function toItemList(itemJson, version) {
       tags: item.tags || [],
       id: id,
       maps: item.maps,
+      rangedOnly: rangedOnlyIds.has(id),
       icon: `https://ddragon.leagueoflegends.com/cdn/${version}/img/item/${item.image.full}`
     }));
 
