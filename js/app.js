@@ -366,7 +366,7 @@ function displayResults(data) {
         abilityIcon.src = ability.icon;
         abilityIcon.alt = ability.name;
         abilityIcon.style.display = 'block';
-        attachTooltip(abilityIcon, `${letter}: ${ability.name}`, ability.description || '');
+        attachTooltip(abilityIcon, ability.name, ability.description || '');
       }
       if (abilityLabel) {
         abilityLabel.textContent = letter;
